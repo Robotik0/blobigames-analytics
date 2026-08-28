@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -14,8 +14,14 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
+env:
+  START_DATE: "2026-03-13"
+  TZ_NAME: "Europe/Zurich"
+  SHORT_API: "https://api.short.io"
+  STATS_API: "https://statistics.short.io"
+
 jobs:
-  deploy:
+  archive-and-deploy:
     runs-on: ubuntu-latest
 
     environment:
@@ -26,13 +32,161 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download latest analytics
+      - name: Download complete current export
+        env:
+          SHORTIO_API_KEY: ${{ secrets.SHORTIO_API_KEY }}
         run: |
+          test -n "$SHORTIO_API_KEY" || {
+            echo "SHORTIO_API_KEY GitHub secret is missing."
+            exit 1
+          }
+
           mkdir -p public
 
-          curl -L --fail \
+          curl -L --fail --retry 3 \
             "https://shortioapikey.help-blobigames.workers.dev/data" \
             -o public/full-data.json
+
+      - name: Build daily historical archive
+        env:
+          SHORTIO_API_KEY: ${{ secrets.SHORTIO_API_KEY }}
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import time
+          from datetime import date, datetime, timedelta, timezone
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          from zoneinfo import ZoneInfo
+
+          START = date.fromisoformat(os.environ["START_DATE"])
+          TZ = ZoneInfo(os.environ["TZ_NAME"])
+          API_KEY = os.environ["SHORTIO_API_KEY"]
+          STATS_API = os.environ["STATS_API"]
+
+          DOMAINS = [
+              {
+                  "hostname": "blobigames.short.gy",
+                  "id": 1691392,
+                  "createdAt": "2026-03-13T18:40:58.000Z"
+              },
+              {
+                  "hostname": "referral-blobigames.short.gy",
+                  "id": 1710291,
+                  "createdAt": "2026-03-25T14:56:58.000Z"
+              }
+          ]
+
+          out_dir = Path("public/data")
+          out_dir.mkdir(parents=True, exist_ok=True)
+
+          today = datetime.now(TZ).date()
+
+          def iso_z(dt):
+              return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+
+          def fetch_stats(domain_id, start_dt, end_dt):
+              url = f"{STATS_API}/statistics/domain/{domain_id}"
+              body = {
+                  "period": "custom",
+                  "startDate": iso_z(start_dt),
+                  "endDate": iso_z(end_dt),
+                  "clicksChartInterval": "hour",
+                  "tz": os.environ["TZ_NAME"],
+                  "skipTops": False
+              }
+
+              payload = json.dumps(body).encode("utf-8")
+
+              last_error = None
+              for attempt in range(3):
+                  try:
+                      req = Request(
+                          url,
+                          data=payload,
+                          method="POST",
+                          headers={
+                              "Authorization": API_KEY,
+                              "Accept": "application/json",
+                              "Content-Type": "application/json"
+                          }
+                      )
+
+                      with urlopen(req, timeout=60) as response:
+                          return json.loads(response.read().decode("utf-8"))
+                  except Exception as exc:
+                      last_error = exc
+                      time.sleep(2 ** attempt)
+
+              raise RuntimeError(
+                  f"Statistics request failed for domain {domain_id}: {last_error}"
+              )
+
+          # Backfill every missing day. Re-fetch today and yesterday on every run
+          # so partially completed days are corrected automatically.
+          d = START
+          while d <= today:
+              output_file = out_dir / f"{d.isoformat()}.json"
+              must_refresh = (
+                  d == today or
+                  d == today - timedelta(days=1) or
+                  not output_file.exists()
+              )
+
+              if must_refresh:
+                  day_start = datetime(d.year, d.month, d.day, tzinfo=TZ)
+                  day_end = day_start + timedelta(days=1)
+
+                  daily = {
+                      "date": d.isoformat(),
+                      "timezone": os.environ["TZ_NAME"],
+                      "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+                      "requestedRange": {
+                          "startDate": iso_z(day_start),
+                          "endDate": iso_z(day_end - timedelta(milliseconds=1))
+                      },
+                      "domains": {}
+                  }
+
+                  for domain in DOMAINS:
+                      print(f"Fetching {d} / {domain['hostname']}")
+                      stats = fetch_stats(
+                          domain["id"],
+                          day_start,
+                          day_end - timedelta(milliseconds=1)
+                      )
+
+                      daily["domains"][domain["hostname"]] = {
+                          "id": domain["id"],
+                          "hostname": domain["hostname"],
+                          "createdAt": domain["createdAt"],
+                          "statistics": stats
+                      }
+
+                      time.sleep(0.25)
+
+                  output_file.write_text(
+                      json.dumps(daily, ensure_ascii=False, indent=2),
+                      encoding="utf-8"
+                  )
+
+              d += timedelta(days=1)
+
+          # Machine-readable date index.
+          files = sorted(p.stem for p in out_dir.glob("????-??-??.json"))
+          index = {
+              "startDate": files[0] if files else None,
+              "endDate": files[-1] if files else None,
+              "dates": files,
+              "timezone": os.environ["TZ_NAME"],
+              "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+          }
+          (out_dir / "index.json").write_text(
+              json.dumps(index, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+          PY
 
       - name: Generate readable HTML
         run: |
@@ -42,20 +196,11 @@ jobs:
           from pathlib import Path
 
           data = json.loads(
-              Path("public/full-data.json").read_text(
-                  encoding="utf-8"
-              )
+              Path("public/full-data.json").read_text(encoding="utf-8")
           )
 
-          pretty = json.dumps(
-              data,
-              indent=2,
-              ensure_ascii=False
-          )
-
-          generated = escape(
-              data.get("generatedAt", "Unknown")
-          )
+          pretty = json.dumps(data, indent=2, ensure_ascii=False)
+          generated = escape(data.get("generatedAt", "Unknown"))
 
           html = f"""<!DOCTYPE html>
           <html lang="en">
@@ -63,52 +208,27 @@ jobs:
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width,initial-scale=1">
             <title>Blobigames Analytics</title>
-            <style>
-              body {{
-                font-family: Arial, sans-serif;
-                margin: 30px;
-                background: #ffffff;
-                color: #111111;
-              }}
-
-              h1 {{
-                margin-bottom: 5px;
-              }}
-
-              p {{
-                color: #555555;
-              }}
-
-              pre {{
-                white-space: pre-wrap;
-                word-break: break-word;
-                font-family: monospace;
-                font-size: 13px;
-                line-height: 1.45;
-              }}
-            </style>
           </head>
           <body>
             <h1>Blobigames Short.io Analytics</h1>
-            <p>Complete dataset for both Blobigames domains.</p>
+            <p>Complete current dataset for both Blobigames domains.</p>
             <p>Generated: {generated}</p>
-
-            <p>
-              <a href="full-data.json">
-                Download raw JSON
-              </a>
-            </p>
-
-            <pre>{escape(pretty)}</pre>
+            <p><a href="full-data.json">Complete current JSON</a></p>
+            <p><a href="data/index.json">Daily historical archive index</a></p>
+            <pre style="white-space:pre-wrap;word-break:break-word;font-family:monospace;font-size:13px;line-height:1.45">{escape(pretty)}</pre>
           </body>
-          </html>
-          """
+          </html>"""
 
-          Path("public/index.html").write_text(
-              html,
-              encoding="utf-8"
-          )
+          Path("public/index.html").write_text(html, encoding="utf-8")
           PY
+
+      - name: Commit archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data public/full-data.json public/index.html
+          git diff --cached --quiet || git commit -m "Update Blobigames analytics archive"
+          git push
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
