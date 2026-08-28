@@ -1,0 +1,53 @@
+name: Update Blobigames Analytics
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download latest analytics
+        run: |
+          mkdir -p public
+          curl -L --fail \
+            "https://shortioapikey.help-blobigames.workers.dev/data" \
+            -o public/full-data.json
+
+      - name: Create index
+        run: |
+          cat > public/index.html <<'EOF'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta charset="UTF-8">
+            <title>Blobigames Analytics</title>
+          </head>
+          <body>
+            <h1>Blobigames Analytics</h1>
+            <p>Complete Short.io dataset.</p>
+            <p><a href="full-data.json">full-data.json</a></p>
+          </body>
+          </html>
+          EOF
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add public/full-data.json public/index.html
+
+          git diff --cached --quiet || \
+            git commit -m "Update analytics"
+
+          git push
