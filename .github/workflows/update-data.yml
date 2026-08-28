@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
 
 env:
@@ -21,7 +21,6 @@ env:
 jobs:
   archive-and-deploy:
     runs-on: ubuntu-latest
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -33,16 +32,15 @@ jobs:
       - name: Download current complete export
         run: |
           mkdir -p public
-          curl -L --fail --retry 3 \
-            "$WORKER/data" \
-            -o public/full-data.json
+          curl -L --fail --retry 3 "$WORKER/data" -o public/full-data.json
 
       - name: Build daily historical archive
+        env:
+          ARCHIVE_TOKEN: ${{ secrets.ARCHIVE_TOKEN }}
         run: |
+          test -n "$ARCHIVE_TOKEN" || { echo "ARCHIVE_TOKEN GitHub secret is missing"; exit 1; }
           python3 <<'PY'
-          import json
-          import os
-          import time
+          import json, os, time
           from datetime import date, datetime, timedelta, timezone
           from pathlib import Path
           from urllib.parse import urlencode
@@ -50,55 +48,44 @@ jobs:
 
           START = date.fromisoformat(os.environ["START_DATE"])
           WORKER = os.environ["WORKER"]
-
-          out_dir = Path("public/data")
-          out_dir.mkdir(parents=True, exist_ok=True)
-
+          TOKEN = os.environ["ARCHIVE_TOKEN"]
+          out = Path("public/data")
+          out.mkdir(parents=True, exist_ok=True)
           today = datetime.now(timezone.utc).date()
 
           def fetch_day(d):
-              params = urlencode({"date": d.isoformat()})
-              url = f"{WORKER}/day?{params}"
-
-              last_error = None
+              url = f"{WORKER}/day?{urlencode({'date': d.isoformat()})}"
+              req = Request(url, headers={
+                  "Accept": "application/json",
+                  "X-Archive-Token": TOKEN
+              })
+              last = None
               for attempt in range(3):
                   try:
-                      req = Request(url, headers={"Accept": "application/json"})
-                      with urlopen(req, timeout=120) as response:
-                          return json.loads(response.read().decode("utf-8"))
-                  except Exception as exc:
-                      last_error = exc
+                      with urlopen(req, timeout=180) as r:
+                          if r.status != 200:
+                              raise RuntimeError(f"HTTP {r.status}")
+                          return json.loads(r.read().decode("utf-8"))
+                  except Exception as e:
+                      last = e
                       time.sleep(2 ** attempt)
-
-              raise RuntimeError(f"Daily request failed for {d}: {last_error}")
+              raise RuntimeError(f"Daily request failed for {d}: {last}")
 
           d = START
           while d <= today:
-              output_file = out_dir / f"{d.isoformat()}.json"
-
-              # Re-fetch today and yesterday; older dates are immutable once archived.
-              if d == today or d == today - timedelta(days=1) or not output_file.exists():
+              f = out / f"{d.isoformat()}.json"
+              if d == today or d == today - timedelta(days=1) or not f.exists():
                   print(f"Fetching {d}")
-                  daily = fetch_day(d)
-                  output_file.write_text(
-                      json.dumps(daily, ensure_ascii=False, indent=2),
-                      encoding="utf-8"
-                  )
-                  time.sleep(0.5)
-
+                  f.write_text(json.dumps(fetch_day(d), ensure_ascii=False, indent=2), encoding="utf-8")
               d += timedelta(days=1)
 
-          files = sorted(p.stem for p in out_dir.glob("????-??-??.json"))
-          index = {
+          files = sorted(p.stem for p in out.glob("????-??-??.json"))
+          (out / "index.json").write_text(json.dumps({
               "startDate": files[0] if files else None,
               "endDate": files[-1] if files else None,
               "dates": files,
               "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
-          }
-          (out_dir / "index.json").write_text(
-              json.dumps(index, ensure_ascii=False, indent=2),
-              encoding="utf-8"
-          )
+          }, ensure_ascii=False, indent=2), encoding="utf-8")
           PY
 
       - name: Generate readable HTML
@@ -107,24 +94,10 @@ jobs:
           import json
           from html import escape
           from pathlib import Path
-
           data = json.loads(Path("public/full-data.json").read_text(encoding="utf-8"))
           pretty = json.dumps(data, indent=2, ensure_ascii=False)
           generated = escape(data.get("generatedAt", "Unknown"))
-
-          html = f'''<!DOCTYPE html>
-          <html lang="en"><head><meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width,initial-scale=1">
-          <title>Blobigames Analytics</title></head>
-          <body>
-          <h1>Blobigames Short.io Analytics</h1>
-          <p>Complete current dataset for both Blobigames domains.</p>
-          <p>Generated: {generated}</p>
-          <p><a href="full-data.json">Complete current JSON</a></p>
-          <p><a href="data/index.json">Daily historical archive index</a></p>
-          <pre style="white-space:pre-wrap;word-break:break-word;font-family:monospace;font-size:13px;line-height:1.45">{escape(pretty)}</pre>
-          </body></html>'''
-
+          html = f'''<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Blobigames Analytics</title></head><body><h1>Blobigames Short.io Analytics</h1><p>Generated: {generated}</p><p><a href="full-data.json">Complete current JSON</a></p><p><a href="data/index.json">Daily archive index</a></p><pre style="white-space:pre-wrap;word-break:break-word">{escape(pretty)}</pre></body></html>'''
           Path("public/index.html").write_text(html, encoding="utf-8")
           PY
 
