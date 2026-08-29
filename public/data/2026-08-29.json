@@ -2,7 +2,7 @@
   "date": "2026-08-29",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-08-29T14:40:50.566812Z",
+  "generatedAt": "2026-08-29T16:43:10.183886Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -336,7 +336,7 @@
           "title": "Referral from Its Us",
           "originalURL": "https://blobigames.nicepage.io",
           "createdAt": "2026-08-28T11:23:31.711Z",
-          "clicks": 0
+          "clicks": 1
         },
         "blobfisch-destructor": {
           "id": "link_760w_034E0Ldc8dmb9McE9TiARN",
@@ -381,7 +381,7 @@
           "title": "Blobi Road",
           "originalURL": "https://robotik0.github.io/blobi-road/",
           "createdAt": "2026-08-24T17:36:30.881Z",
-          "clicks": 8
+          "clicks": 9
         },
         "flappy-blob": {
           "id": "link_760w_034CpBLPCEOptB011YLQJo",
@@ -390,7 +390,7 @@
           "title": "Flappy Blob 0.2",
           "originalURL": "https://robotik0.github.io/flappy-blob/",
           "createdAt": "2026-08-24T17:35:42.205Z",
-          "clicks": 9
+          "clicks": 10
         },
         "g": {
           "id": "link_760w_034CBqgsJIakEp3jWyJvnx",
@@ -462,7 +462,7 @@
           "title": "Blobigames 2: Reimagined",
           "originalURL": "https://blobigames.nicepage.io/",
           "createdAt": "2026-04-17T11:22:14.909Z",
-          "clicks": 23
+          "clicks": 32
         },
         "blob-chat": {
           "id": "lnk_760w_yfR2PkFsHuqQwCwptpy8u",
@@ -516,7 +516,7 @@
           "title": "Level Devil",
           "originalURL": "https://ld.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:38.432Z",
-          "clicks": 3
+          "clicks": 4
         },
         "smh": {
           "id": "lnk_760w_dHIpba7a9ZxoyeIEMutga",
@@ -561,7 +561,7 @@
           "title": "Snake.io | Fun Online Slither",
           "originalURL": "https://s.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:22:02.225Z",
-          "clicks": 0
+          "clicks": 1
         },
         "gs": {
           "id": "lnk_760w_GpfQ4fGC1jI6zUBC5em2h",
@@ -691,7 +691,7 @@
         }
       },
       "statistics": {
-        "clicks": 84,
+        "clicks": 98,
         "source": "batched-link-clicks"
       }
     },
