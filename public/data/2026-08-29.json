@@ -2,7 +2,7 @@
   "date": "2026-08-29",
   "archiveVersion": "3",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-08-29T09:21:31.394014Z",
+  "generatedAt": "2026-08-29T11:21:20.706774Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -372,7 +372,7 @@
           "title": "Referral from M&L",
           "originalURL": "https://blobigames.nicepage.io",
           "createdAt": "2026-08-25T15:30:14.961Z",
-          "clicks": 0
+          "clicks": 1
         },
         "blobi-road": {
           "id": "link_760w_034CpCZw8U57QozOeW5lVh",
@@ -691,7 +691,7 @@
         }
       },
       "statistics": {
-        "clicks": 48,
+        "clicks": 49,
         "source": "batched-link-clicks"
       }
     },
