@@ -1,0 +1,11 @@
+{
+  "description": "Queryable Blobigames link analytics.",
+  "howToQuery": [
+    "Fetch query/index.json to resolve paths to link files.",
+    "Fetch only the required query/links/*.json files.",
+    "For each requested link, sum days[YYYY-MM-DD] for the inclusive date range.",
+    "Multiple links can be combined by summing their daily values.",
+    "Use createdAt to distinguish links that did not exist during the entire range."
+  ],
+  "source": "public/data/aggregates.json"
+}
