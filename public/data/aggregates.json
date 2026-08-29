@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-08-29T06:29:35.289609Z",
+  "timezone": "Europe/Zurich",
+  "months": {
+    "2026-03": {
+      "clicks": 33,
+      "humanClicks": 33,
+      "domains": {
+        "blobigames.short.gy": {
+          "clicks": 0,
+          "humanClicks": 0
+        },
+        "referral-blobigames.short.gy": {
+          "clicks": 33,
+          "humanClicks": 33
+        }
+      }
+    },
+    "2026-04": {
+      "clicks": 1012,
+      "humanClicks": 976,
+      "domains": {
+        "blobigames.short.gy": {
+          "clicks": 951,
+          "humanClicks": 921
+        },
+        "referral-blobigames.short.gy": {
+          "clicks": 61,
+          "humanClicks": 55
+        }
+      }
+    },
+    "2026-05": {
+      "clicks": 1261,
+      "humanClicks": 1158,
+      "domains": {
+        "blobigames.short.gy": {
+          "clicks": 1239,
+          "humanClicks": 1138
+        },
+        "referral-blobigames.short.gy": {
+          "clicks": 22,
+          "humanClicks": 20
+        }
+      }
+    },
+    "2026-06": {
+      "clicks": 1062,
+      "humanClicks": 917,
+      "domains": {
+        "blobigames.short.gy": {
+          "clicks": 1044,
+          "humanClicks": 905
+        },
+        "referral-blobigames.short.gy": {
+          "clicks": 18,
+          "humanClicks": 12
+        }
+      }
+    },
+    "2026-07": {
+      "clicks": 329,
+      "humanClicks": 296,
+      "domains": {
+        "blobigames.short.gy": {
+          "clicks": 329,
+          "humanClicks": 296
+        },
+        "referral-blobigames.short.gy": {
+          "clicks": 0,
+          "humanClicks": 0
+        }
+      }
+    },
+    "2026-08": {
+      "clicks": 2124,
+      "humanClicks": 1955,
+      "domains": {
+        "blobigames.short.gy": {
+          "clicks": 2061,
+          "humanClicks": 1906
+        },
+        "referral-blobigames.short.gy": {
+          "clicks": 63,
+          "humanClicks": 49
+        }
+      }
+    }
+  },
+  "allTime": {
+    "clicks": 5821,
+    "humanClicks": 5335,
+    "domains": {
+      "blobigames.short.gy": {
+        "clicks": 5624,
+        "humanClicks": 5166
+      },
+      "referral-blobigames.short.gy": {
+        "clicks": 197,
+        "humanClicks": 169
+      }
+    }
+  }
+}
