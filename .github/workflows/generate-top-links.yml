@@ -38,7 +38,12 @@ jobs:
               except Exception:
                   continue
 
-              clicks = item.get("totalClicks")
+              clicks = item.get("lifetimeClicks")
+
+              # Backward compatibility for files generated before
+              # the authoritative lifetime field existed.
+              if not isinstance(clicks, (int, float)):
+                  clicks = item.get("totalClicks")
 
               if not isinstance(clicks, (int, float)):
                   continue
@@ -49,23 +54,24 @@ jobs:
                   "path": item.get("path"),
                   "title": item.get("title"),
                   "createdAt": item.get("createdAt"),
-                  "totalClicks": int(clicks),
+                  "lifetimeClicks": int(clicks),
                   "file": f"links/{path.name}"
               })
 
           records.sort(
               key=lambda x: (
-                  -x["totalClicks"],
+                  -x["lifetimeClicks"],
                   x.get("createdAt") or "",
                   x.get("path") or ""
               )
           )
 
           output = {
-              "version": "1",
+              "version": "2",
               "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
               "timezone": "Europe/Zurich",
               "count": len(records),
+              "source": "Short.io link lifetime clicks when available",
               "links": records,
               "top12": records[:12]
           }
@@ -81,5 +87,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/query/top-all-time.json
-          git diff --cached --quiet || git commit -m "Generate top link rankings"
+          git diff --cached --quiet || git commit -m "Generate accurate lifetime link rankings"
           git push
