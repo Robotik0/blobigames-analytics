@@ -17,7 +17,8 @@ env:
   START_DATE: "2026-03-13"
   WORKER: "https://shortioapikey.help-blobigames.workers.dev"
   ARCHIVE_VERSION: "2"
-\ njobs:
+
+jobs:
   archive-and-deploy:
     runs-on: ubuntu-latest
 
