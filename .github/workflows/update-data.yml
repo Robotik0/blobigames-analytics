@@ -16,7 +16,7 @@ permissions:
 env:
   START_DATE: "2026-03-13"
   WORKER: "https://shortioapikey.help-blobigames.workers.dev"
-  ARCHIVE_VERSION: "3"
+  ARCHIVE_VERSION: "4"
 
 jobs:
   archive-and-deploy:
@@ -34,7 +34,7 @@ jobs:
         run: |
           mkdir -p public
           curl -L --fail --retry 5 --retry-delay 2 \
-            -A "BlobigamesAnalytics/3.0" \
+            -A "BlobigamesAnalytics/4.0" \
             "$WORKER/data" \
             -o public/full-data.json
 
@@ -65,7 +65,7 @@ jobs:
                           url,
                           headers={
                               "Accept": "application/json",
-                              "User-Agent": "BlobigamesAnalytics/3.0"
+                              "User-Agent": "BlobigamesAnalytics/4.0"
                           }
                       )
                       with urlopen(req, timeout=180) as response:
@@ -146,9 +146,8 @@ jobs:
                   except ValueError:
                       return None
               if isinstance(value, dict):
-                  for key in ("clicks", "total", "count"):
-                      if key in value:
-                          return as_clicks(value[key])
+                  if "clicks" in value:
+                      return as_clicks(value["clicks"])
               return None
 
           d = START
@@ -178,15 +177,14 @@ jobs:
                       ids = info["ids"]
                       metadata = info["metadata"]
 
-                      # Keep requests comfortably below URL/header limits.
                       batches = [ids[i:i+50] for i in range(0, len(ids), 50)]
                       link_clicks = {}
 
                       for batch in batches:
                           raw = query_domain_day(hostname, batch, d)
                           for link_id in batch:
-                              value = as_clicks(raw.get(link_id))
                               meta = metadata[link_id]
+                              value = as_clicks(raw.get(link_id))
                               key = meta.get("path") or link_id
                               link_clicks[key] = {
                                   **meta,
@@ -301,7 +299,7 @@ jobs:
                   by_path[path].append(key)
 
           result = {
-              "archiveVersion": "3",
+              "archiveVersion": "4",
               "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
               "timezone": "Europe/Zurich",
               "months": normalise(months),
@@ -324,6 +322,103 @@ jobs:
 
           Path("public/data/aggregates.json").write_text(
               json.dumps(result, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+          PY
+
+      - name: Build compact query index
+        run: |
+          python3 <<'PY'
+          import hashlib
+          import json
+          from collections import defaultdict
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          aggregate_path = Path("public/data/aggregates.json")
+          aggregate = json.loads(
+              aggregate_path.read_text(encoding="utf-8")
+          )
+
+          query_dir = Path("public/query")
+          links_dir = query_dir / "links"
+          links_dir.mkdir(parents=True, exist_ok=True)
+
+          index = {
+              "version": "1",
+              "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+              "timezone": "Europe/Zurich",
+              "links": {},
+              "paths": defaultdict(list)
+          }
+
+          for key, entry in aggregate.get("links", {}).items():
+              link_hash = hashlib.sha256(
+                  key.encode("utf-8")
+              ).hexdigest()
+
+              filename = f"{link_hash}.json"
+
+              compact = {
+                  "domain": entry.get("domain"),
+                  "id": entry.get("id"),
+                  "path": entry.get("path"),
+                  "displayPath": entry.get("displayPath"),
+                  "title": entry.get("title"),
+                  "originalURL": entry.get("originalURL"),
+                  "createdAt": entry.get("createdAt"),
+                  "days": entry.get("days", {}),
+                  "totals": entry.get("totals", {})
+              }
+
+              (links_dir / filename).write_text(
+                  json.dumps(
+                      compact,
+                      ensure_ascii=False,
+                      indent=2
+                  ),
+                  encoding="utf-8"
+              )
+
+              index["links"][key] = {
+                  "domain": entry.get("domain"),
+                  "id": entry.get("id"),
+                  "path": entry.get("path"),
+                  "title": entry.get("title"),
+                  "createdAt": entry.get("createdAt"),
+                  "file": f"links/{filename}"
+              }
+
+              path = entry.get("path")
+              if path:
+                  index["paths"][path].append(key)
+
+          index["paths"] = dict(index["paths"])
+
+          (query_dir / "index.json").write_text(
+              json.dumps(
+                  index,
+                  ensure_ascii=False,
+                  indent=2
+              ),
+              encoding="utf-8"
+          )
+
+          # Query schema: fetch index.json, resolve one or more links,
+          # fetch only those link files, and sum their `days` values for
+          # the requested inclusive date range.
+          (query_dir / "README.json").write_text(
+              json.dumps({
+                  "description": "Queryable Blobigames link analytics.",
+                  "howToQuery": [
+                      "Fetch query/index.json to resolve paths to link files.",
+                      "Fetch only the required query/links/*.json files.",
+                      "For each requested link, sum days[YYYY-MM-DD] for the inclusive date range.",
+                      "Multiple links can be combined by summing their daily values.",
+                      "Use createdAt to distinguish links that did not exist during the entire range."
+                  ],
+                  "source": "public/data/aggregates.json"
+              }, ensure_ascii=False, indent=2),
               encoding="utf-8"
           )
           PY
@@ -354,7 +449,8 @@ jobs:
             <p>Generated: {generated}</p>
             <p><a href="full-data.json">Complete current JSON</a></p>
             <p><a href="data/index.json">Daily archive index</a></p>
-            <p><a href="data/aggregates.json">Link-level analytics index</a></p>
+            <p><a href="data/aggregates.json">Legacy aggregate dataset</a></p>
+            <p><a href="query/index.json">Queryable per-link index</a></p>
             <pre style="white-space:pre-wrap;word-break:break-word;font-family:monospace;font-size:13px;line-height:1.45">{escape(pretty)}</pre>
           </body>
           </html>'''
@@ -369,8 +465,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data public/full-data.json public/index.html
-          git diff --cached --quiet || git commit -m "Rebuild reliable analytics archive"
+          git add public/data public/query public/full-data.json public/index.html
+          git diff --cached --quiet || git commit -m "Add queryable link analytics index"
           git push
 
       - name: Configure Pages
