@@ -38,7 +38,7 @@ jobs:
             "$WORKER/data" \
             -o public/full-data.json
 
-      - name: Rebuild daily archive from batched link-ID queries
+      - name: Rebuild daily historical archive from batched link-ID queries
         run: |
           mkdir -p public/data
 
@@ -123,7 +123,7 @@ jobs:
               })
 
               data = get_json(f"{WORKER}/link-clicks?{params}")
-              raw = data.get("clicks", data)
+              raw = data.get("clicks", {})
 
               if not isinstance(raw, dict):
                   raise RuntimeError(
@@ -176,7 +176,6 @@ jobs:
                   for hostname, info in domain_info.items():
                       ids = info["ids"]
                       metadata = info["metadata"]
-
                       batches = [ids[i:i+50] for i in range(0, len(ids), 50)]
                       link_clicks = {}
 
@@ -299,7 +298,7 @@ jobs:
                   by_path[path].append(key)
 
           result = {
-              "archiveVersion": "4",
+              "archiveVersion": VERSION,
               "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
               "timezone": "Europe/Zurich",
               "months": normalise(months),
@@ -336,9 +335,7 @@ jobs:
           from pathlib import Path
 
           aggregate_path = Path("public/data/aggregates.json")
-          aggregate = json.loads(
-              aggregate_path.read_text(encoding="utf-8")
-          )
+          aggregate = json.loads(aggregate_path.read_text(encoding="utf-8"))
 
           query_dir = Path("public/query")
           links_dir = query_dir / "links"
@@ -353,10 +350,7 @@ jobs:
           }
 
           for key, entry in aggregate.get("links", {}).items():
-              link_hash = hashlib.sha256(
-                  key.encode("utf-8")
-              ).hexdigest()
-
+              link_hash = hashlib.sha256(key.encode("utf-8")).hexdigest()
               filename = f"{link_hash}.json"
 
               compact = {
@@ -372,15 +366,11 @@ jobs:
               }
 
               (links_dir / filename).write_text(
-                  json.dumps(
-                      compact,
-                      ensure_ascii=False,
-                      indent=2
-                  ),
+                  json.dumps(compact, ensure_ascii=False, indent=2),
                   encoding="utf-8"
               )
 
-              index["links"][key] = {
+              record = {
                   "domain": entry.get("domain"),
                   "id": entry.get("id"),
                   "path": entry.get("path"),
@@ -389,6 +379,7 @@ jobs:
                   "file": f"links/{filename}"
               }
 
+              index["links"][key] = record
               path = entry.get("path")
               if path:
                   index["paths"][path].append(key)
@@ -396,28 +387,20 @@ jobs:
           index["paths"] = dict(index["paths"])
 
           (query_dir / "index.json").write_text(
-              json.dumps(
-                  index,
-                  ensure_ascii=False,
-                  indent=2
-              ),
+              json.dumps(index, ensure_ascii=False, indent=2),
               encoding="utf-8"
           )
 
-          # Query schema: fetch index.json, resolve one or more links,
-          # fetch only those link files, and sum their `days` values for
-          # the requested inclusive date range.
           (query_dir / "README.json").write_text(
               json.dumps({
                   "description": "Queryable Blobigames link analytics.",
-                  "howToQuery": [
-                      "Fetch query/index.json to resolve paths to link files.",
-                      "Fetch only the required query/links/*.json files.",
-                      "For each requested link, sum days[YYYY-MM-DD] for the inclusive date range.",
-                      "Multiple links can be combined by summing their daily values.",
-                      "Use createdAt to distinguish links that did not exist during the entire range."
-                  ],
-                  "source": "public/data/aggregates.json"
+                  "query": {
+                      "step1": "Fetch query/index.json to resolve one or more paths to link files.",
+                      "step2": "Fetch the required query/links/*.json files.",
+                      "step3": "For each requested link, sum days[YYYY-MM-DD] over the inclusive requested date range.",
+                      "step4": "For multiple links, sum their results.",
+                      "note": "createdAt identifies when a link actually existed, so later-created links are not penalised for earlier dates."
+                  }
               }, ensure_ascii=False, indent=2),
               encoding="utf-8"
           )
@@ -449,16 +432,14 @@ jobs:
             <p>Generated: {generated}</p>
             <p><a href="full-data.json">Complete current JSON</a></p>
             <p><a href="data/index.json">Daily archive index</a></p>
-            <p><a href="data/aggregates.json">Legacy aggregate dataset</a></p>
-            <p><a href="query/index.json">Queryable per-link index</a></p>
+            <p><a href="data/aggregates.json">Aggregate dataset</a></p>
+            <p><a href="query/index.json">Queryable link index</a></p>
+            <p><a href="query/README.json">Query instructions</a></p>
             <pre style="white-space:pre-wrap;word-break:break-word;font-family:monospace;font-size:13px;line-height:1.45">{escape(pretty)}</pre>
           </body>
           </html>'''
 
-          Path("public/index.html").write_text(
-              html,
-              encoding="utf-8"
-          )
+          Path("public/index.html").write_text(html, encoding="utf-8")
           PY
 
       - name: Commit archive
@@ -466,7 +447,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data public/query public/full-data.json public/index.html
-          git diff --cached --quiet || git commit -m "Add queryable link analytics index"
+          git diff --cached --quiet || git commit -m "Build fully queryable analytics archive"
           git push
 
       - name: Configure Pages
