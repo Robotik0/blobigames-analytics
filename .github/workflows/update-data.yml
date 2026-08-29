@@ -16,7 +16,7 @@ permissions:
 env:
   START_DATE: "2026-03-13"
   WORKER: "https://shortioapikey.help-blobigames.workers.dev"
-  ARCHIVE_VERSION: "2"
+  ARCHIVE_VERSION: "3"
 
 jobs:
   archive-and-deploy:
@@ -33,12 +33,12 @@ jobs:
       - name: Download current complete export
         run: |
           mkdir -p public
-          curl -L --fail --retry 3 \
-            -A "BlobigamesAnalytics/2.0" \
+          curl -L --fail --retry 5 --retry-delay 2 \
+            -A "BlobigamesAnalytics/3.0" \
             "$WORKER/data" \
             -o public/full-data.json
 
-      - name: Build daily historical archive
+      - name: Rebuild daily archive from batched link-ID queries
         run: |
           mkdir -p public/data
 
@@ -53,76 +53,177 @@ jobs:
 
           START = date.fromisoformat(os.environ["START_DATE"])
           WORKER = os.environ["WORKER"]
-          ARCHIVE_VERSION = os.environ["ARCHIVE_VERSION"]
-          out_dir = Path("public/data")
-          today = datetime.now(timezone.utc).date()
+          VERSION = os.environ["ARCHIVE_VERSION"]
+          OUT = Path("public/data")
+          TODAY = datetime.now(timezone.utc).date()
 
-          def fetch_day(d):
-              url = f"{WORKER}/day?{urlencode({'date': d.isoformat()})}"
+          def get_json(url, attempts=8):
               last_error = None
-
-              for attempt in range(4):
+              for attempt in range(attempts):
                   try:
                       req = Request(
                           url,
                           headers={
                               "Accept": "application/json",
-                              "User-Agent": "BlobigamesAnalytics/2.0"
+                              "User-Agent": "BlobigamesAnalytics/3.0"
                           }
                       )
-
                       with urlopen(req, timeout=180) as response:
-                          if response.status != 200:
-                              raise RuntimeError(f"HTTP {response.status}")
+                          status = getattr(response, "status", 200)
+                          if status != 200:
+                              raise RuntimeError(f"HTTP {status}")
                           return json.loads(response.read().decode("utf-8"))
-
                   except Exception as exc:
                       last_error = exc
-                      time.sleep(2 ** attempt)
+                      if attempt < attempts - 1:
+                          time.sleep(min(30, 2 ** attempt))
+              raise RuntimeError(f"Request failed after {attempts} attempts: {last_error}")
 
-              raise RuntimeError(f"Daily request failed for {d}: {last_error}")
+          links_response = get_json(f"{WORKER}/links")
+          domains = links_response.get("domains", {})
+
+          if not domains:
+              raise RuntimeError("Worker returned no domains from /links")
+
+          domain_info = {}
+          for hostname, links in domains.items():
+              if not isinstance(links, list):
+                  continue
+              ids = []
+              metadata = {}
+              for link in links:
+                  if not isinstance(link, dict):
+                      continue
+                  link_id = link.get("idString") or link.get("id")
+                  if not link_id:
+                      continue
+                  ids.append(link_id)
+                  metadata[link_id] = {
+                      "id": link_id,
+                      "path": link.get("path"),
+                      "displayPath": link.get("displayPath"),
+                      "title": link.get("title"),
+                      "originalURL": link.get("originalURL"),
+                      "createdAt": link.get("createdAt")
+                  }
+              domain_info[hostname] = {
+                  "ids": ids,
+                  "metadata": metadata
+              }
+
+          def query_domain_day(hostname, ids, day):
+              if not ids:
+                  return {}
+
+              params = urlencode({
+                  "domain": hostname,
+                  "ids": ",".join(ids),
+                  "startDate": day.isoformat(),
+                  "endDate": day.isoformat()
+              })
+
+              data = get_json(f"{WORKER}/link-clicks?{params}")
+              raw = data.get("clicks", data)
+
+              if not isinstance(raw, dict):
+                  raise RuntimeError(
+                      f"Unexpected link-click response for {hostname} on {day}"
+                  )
+
+              return raw
+
+          def as_clicks(value):
+              if isinstance(value, bool):
+                  return None
+              if isinstance(value, int):
+                  return value if value >= 0 else None
+              if isinstance(value, float):
+                  return int(value) if value >= 0 else None
+              if isinstance(value, str):
+                  try:
+                      number = int(float(value))
+                      return number if number >= 0 else None
+                  except ValueError:
+                      return None
+              if isinstance(value, dict):
+                  for key in ("clicks", "total", "count"):
+                      if key in value:
+                          return as_clicks(value[key])
+              return None
 
           d = START
-          while d <= today:
-              output_file = out_dir / f"{d.isoformat()}.json"
+          while d <= TODAY:
+              output_file = OUT / f"{d.isoformat()}.json"
+              refresh = True
 
-              needs_refresh = True
               if output_file.exists():
                   try:
-                      existing = json.loads(output_file.read_text(encoding="utf-8"))
-                      domains = existing.get("domains", {})
-                      needs_refresh = (
-                          existing.get("archiveVersion") != ARCHIVE_VERSION
-                          or not domains
-                          or any(
-                              "linkClicks" not in domain
-                              for domain in domains.values()
-                          )
-                      )
+                      old = json.loads(output_file.read_text(encoding="utf-8"))
+                      refresh = old.get("archiveVersion") != VERSION
                   except Exception:
-                      needs_refresh = True
+                      refresh = True
 
-              if (
-                  d == today
-                  or d == today - timedelta(days=1)
-                  or needs_refresh
-              ):
-                  print(f"Fetching {d}")
-                  daily = fetch_day(d)
-                  daily["archiveVersion"] = ARCHIVE_VERSION
+              if d == TODAY or d == TODAY - timedelta(days=1) or refresh:
+                  print(f"Rebuilding {d}")
+
+                  daily = {
+                      "date": d.isoformat(),
+                      "archiveVersion": VERSION,
+                      "timezone": "Europe/Zurich",
+                      "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+                      "domains": {}
+                  }
+
+                  for hostname, info in domain_info.items():
+                      ids = info["ids"]
+                      metadata = info["metadata"]
+
+                      # Keep requests comfortably below URL/header limits.
+                      batches = [ids[i:i+50] for i in range(0, len(ids), 50)]
+                      link_clicks = {}
+
+                      for batch in batches:
+                          raw = query_domain_day(hostname, batch, d)
+                          for link_id in batch:
+                              value = as_clicks(raw.get(link_id))
+                              meta = metadata[link_id]
+                              key = meta.get("path") or link_id
+                              link_clicks[key] = {
+                                  **meta,
+                                  "clicks": value
+                              }
+
+                      total = sum(
+                          item["clicks"]
+                          for item in link_clicks.values()
+                          if isinstance(item.get("clicks"), int)
+                      )
+
+                      daily["domains"][hostname] = {
+                          "hostname": hostname,
+                          "links": list(metadata.values()),
+                          "linkClicks": link_clicks,
+                          "statistics": {
+                              "clicks": total,
+                              "source": "batched-link-clicks"
+                          }
+                      }
+
                   output_file.write_text(
                       json.dumps(daily, ensure_ascii=False, indent=2),
                       encoding="utf-8"
                   )
-                  time.sleep(0.75)
 
               d += timedelta(days=1)
 
-          files = sorted(p.stem for p in out_dir.glob("????-??-??.json"))
+          files = sorted(
+              p.stem
+              for p in OUT.glob("????-??-??.json")
+          )
 
-          (out_dir / "index.json").write_text(
+          (OUT / "index.json").write_text(
               json.dumps({
-                  "archiveVersion": ARCHIVE_VERSION,
+                  "archiveVersion": VERSION,
                   "startDate": files[0] if files else None,
                   "endDate": files[-1] if files else None,
                   "dates": files,
@@ -132,7 +233,7 @@ jobs:
           )
           PY
 
-      - name: Build aggregate analytics index
+      - name: Build reliable aggregate analytics
         run: |
           python3 <<'PY'
           import json
@@ -142,24 +243,12 @@ jobs:
 
           data_dir = Path("public/data")
 
-          monthly = defaultdict(lambda: {
+          months = defaultdict(lambda: {
               "clicks": 0,
-              "humanClicks": 0,
-              "domains": defaultdict(lambda: {
-                  "clicks": 0,
-                  "humanClicks": 0
-              })
+              "domains": defaultdict(int)
           })
 
           links = {}
-          all_time = {
-              "clicks": 0,
-              "humanClicks": 0,
-              "domains": defaultdict(lambda: {
-                  "clicks": 0,
-                  "humanClicks": 0
-              })
-          }
 
           for path in sorted(data_dir.glob("????-??-??.json")):
               daily = json.loads(path.read_text(encoding="utf-8"))
@@ -167,23 +256,11 @@ jobs:
               month = day[:7]
 
               for hostname, domain in daily.get("domains", {}).items():
-                  stats = domain.get("statistics", {})
-                  clicks = int(stats.get("clicks", 0) or 0)
-                  human = int(stats.get("humanClicks", 0) or 0)
-
-                  monthly[month]["clicks"] += clicks
-                  monthly[month]["humanClicks"] += human
-                  monthly[month]["domains"][hostname]["clicks"] += clicks
-                  monthly[month]["domains"][hostname]["humanClicks"] += human
-
-                  all_time["clicks"] += clicks
-                  all_time["humanClicks"] += human
-                  all_time["domains"][hostname]["clicks"] += clicks
-                  all_time["domains"][hostname]["humanClicks"] += human
-
                   for path_name, item in domain.get("linkClicks", {}).items():
                       link_id = item.get("id")
-                      if not link_id:
+                      clicks = item.get("clicks")
+
+                      if not link_id or not isinstance(clicks, (int, float)) or clicks < 0:
                           continue
 
                       key = f"{hostname}:{link_id}"
@@ -202,38 +279,47 @@ jobs:
                           }
                       })
 
-                      value = item.get("clicks")
-                      if isinstance(value, str):
-                          try:
-                              value = int(value)
-                          except ValueError:
-                              value = None
+                      value = int(clicks)
+                      entry["days"][day] = value
+                      entry["totals"]["clicks"] += value
+                      entry["totals"]["byMonth"][month] += value
 
-                      if isinstance(value, (int, float)) and value >= 0:
-                          entry["days"][day] = value
-                          entry["totals"]["clicks"] += value
-                          entry["totals"]["byMonth"][month] += value
+                      months[month]["clicks"] += value
+                      months[month]["domains"][hostname] += value
 
-          def normalise(obj):
-              if isinstance(obj, defaultdict):
-                  obj = dict(obj)
-              if isinstance(obj, dict):
-                  return {k: normalise(v) for k, v in obj.items()}
-              return obj
+          def normalise(value):
+              if isinstance(value, defaultdict):
+                  value = dict(value)
+              if isinstance(value, dict):
+                  return {k: normalise(v) for k, v in value.items()}
+              return value
 
           by_path = defaultdict(list)
           for key, entry in links.items():
-              if entry.get("path"):
-                  by_path[entry["path"]].append(key)
+              path = entry.get("path")
+              if path:
+                  by_path[path].append(key)
 
           result = {
-              "archiveVersion": "2",
+              "archiveVersion": "3",
               "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
               "timezone": "Europe/Zurich",
-              "months": normalise(dict(monthly)),
+              "months": normalise(months),
               "links": normalise(links),
-              "linksByPath": normalise(dict(by_path)),
-              "allTime": normalise(all_time)
+              "linksByPath": normalise(by_path),
+              "allTime": {
+                  "clicks": sum(entry["totals"]["clicks"] for entry in links.values()),
+                  "domains": normalise({
+                      hostname: sum(
+                          entry["totals"]["clicks"]
+                          for entry in links.values()
+                          if entry["domain"] == hostname
+                      )
+                      for hostname in {
+                          entry["domain"] for entry in links.values()
+                      }
+                  })
+              }
           }
 
           Path("public/data/aggregates.json").write_text(
@@ -249,7 +335,10 @@ jobs:
           from html import escape
           from pathlib import Path
 
-          data = json.loads(Path("public/full-data.json").read_text(encoding="utf-8"))
+          data = json.loads(
+              Path("public/full-data.json").read_text(encoding="utf-8")
+          )
+
           pretty = json.dumps(data, indent=2, ensure_ascii=False)
           generated = escape(data.get("generatedAt", "Unknown"))
 
@@ -262,16 +351,18 @@ jobs:
           </head>
           <body>
             <h1>Blobigames Short.io Analytics</h1>
-            <p>Complete current dataset for both Blobigames domains.</p>
             <p>Generated: {generated}</p>
             <p><a href="full-data.json">Complete current JSON</a></p>
-            <p><a href="data/index.json">Daily historical archive index</a></p>
-            <p><a href="data/aggregates.json">Analytics aggregates and link history</a></p>
+            <p><a href="data/index.json">Daily archive index</a></p>
+            <p><a href="data/aggregates.json">Link-level analytics index</a></p>
             <pre style="white-space:pre-wrap;word-break:break-word;font-family:monospace;font-size:13px;line-height:1.45">{escape(pretty)}</pre>
           </body>
           </html>'''
 
-          Path("public/index.html").write_text(html, encoding="utf-8")
+          Path("public/index.html").write_text(
+              html,
+              encoding="utf-8"
+          )
           PY
 
       - name: Commit archive
@@ -279,7 +370,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data public/full-data.json public/index.html
-          git diff --cached --quiet || git commit -m "Update Blobigames analytics archive"
+          git diff --cached --quiet || git commit -m "Rebuild reliable analytics archive"
           git push
 
       - name: Configure Pages
