@@ -1,6 +1,6 @@
 {
   "archiveVersion": "4",
-  "generatedAt": "2026-08-29T14:22:10.644857Z",
+  "generatedAt": "2026-08-29T14:23:09.837918Z",
   "timezone": "Europe/Zurich",
   "months": {
     "2026-03": {
@@ -9012,8 +9012,8 @@
   "allTime": {
     "clicks": 3680,
     "domains": {
-      "blobigames.short.gy": 3573,
-      "referral-blobigames.short.gy": 107
+      "referral-blobigames.short.gy": 107,
+      "blobigames.short.gy": 3573
     }
   }
 }
