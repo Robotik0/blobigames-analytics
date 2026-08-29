@@ -2,7 +2,7 @@
   "date": "2026-08-29",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-08-29T16:43:10.183886Z",
+  "generatedAt": "2026-08-29T20:55:28.507721Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -345,7 +345,7 @@
           "title": "Blobfisch Destructor 0.2 DE 3 w Thumbnail",
           "originalURL": "https://blobfisch-destructor.wasmer.app/",
           "createdAt": "2026-08-26T19:17:04.988Z",
-          "clicks": 5
+          "clicks": 6
         },
         "sn": {
           "id": "link_760w_034DvwaEh52e2CG8v2KfaA",
@@ -381,7 +381,7 @@
           "title": "Blobi Road",
           "originalURL": "https://robotik0.github.io/blobi-road/",
           "createdAt": "2026-08-24T17:36:30.881Z",
-          "clicks": 9
+          "clicks": 10
         },
         "flappy-blob": {
           "id": "link_760w_034CpBLPCEOptB011YLQJo",
@@ -462,7 +462,7 @@
           "title": "Blobigames 2: Reimagined",
           "originalURL": "https://blobigames.nicepage.io/",
           "createdAt": "2026-04-17T11:22:14.909Z",
-          "clicks": 32
+          "clicks": 41
         },
         "blob-chat": {
           "id": "lnk_760w_yfR2PkFsHuqQwCwptpy8u",
@@ -543,7 +543,7 @@
           "title": "Poxel.io | FPS io Game - Play Poxel io Online",
           "originalURL": "https://p.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:22:43.910Z",
-          "clicks": 0
+          "clicks": 1
         },
         "fz": {
           "id": "lnk_760w_h5yTFkNMmX4RQ5XQws06D",
@@ -624,7 +624,7 @@
           "title": "Subway Surfers Web",
           "originalURL": "https://ss.help-blobigames.workers.dev/",
           "createdAt": "2026-03-22T07:23:14.070Z",
-          "clicks": 0
+          "clicks": 1
         },
         "sbe": {
           "id": "lnk_760w_fFn9Ya4LRsd4x6fFFR499",
@@ -678,7 +678,7 @@
           "title": "Eaglercraft",
           "originalURL": "https://robotik0.github.io/ec/",
           "createdAt": "2026-03-13T19:07:33.291Z",
-          "clicks": 1
+          "clicks": 5
         },
         "blobs-fischen": {
           "id": "lnk_760w_flYtajtsyWMGJluTUqWYm",
@@ -691,7 +691,7 @@
         }
       },
       "statistics": {
-        "clicks": 98,
+        "clicks": 115,
         "source": "batched-link-clicks"
       }
     },
