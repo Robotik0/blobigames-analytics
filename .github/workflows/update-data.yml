@@ -16,8 +16,8 @@ permissions:
 env:
   START_DATE: "2026-03-13"
   WORKER: "https://shortioapikey.help-blobigames.workers.dev"
-
-jobs:
+  ARCHIVE_VERSION: "2"
+\ njobs:
   archive-and-deploy:
     runs-on: ubuntu-latest
 
@@ -52,6 +52,7 @@ jobs:
 
           START = date.fromisoformat(os.environ["START_DATE"])
           WORKER = os.environ["WORKER"]
+          ARCHIVE_VERSION = os.environ["ARCHIVE_VERSION"]
           out_dir = Path("public/data")
           today = datetime.now(timezone.utc).date()
 
@@ -84,26 +85,30 @@ jobs:
           while d <= today:
               output_file = out_dir / f"{d.isoformat()}.json"
 
-              needs_link_backfill = True
+              needs_refresh = True
               if output_file.exists():
                   try:
                       existing = json.loads(output_file.read_text(encoding="utf-8"))
                       domains = existing.get("domains", {})
-                      needs_link_backfill = any(
-                          "linkClicks" not in domain
-                          for domain in domains.values()
+                      needs_refresh = (
+                          existing.get("archiveVersion") != ARCHIVE_VERSION
+                          or not domains
+                          or any(
+                              "linkClicks" not in domain
+                              for domain in domains.values()
+                          )
                       )
                   except Exception:
-                      needs_link_backfill = True
+                      needs_refresh = True
 
               if (
                   d == today
                   or d == today - timedelta(days=1)
-                  or not output_file.exists()
-                  or needs_link_backfill
+                  or needs_refresh
               ):
                   print(f"Fetching {d}")
                   daily = fetch_day(d)
+                  daily["archiveVersion"] = ARCHIVE_VERSION
                   output_file.write_text(
                       json.dumps(daily, ensure_ascii=False, indent=2),
                       encoding="utf-8"
@@ -116,6 +121,7 @@ jobs:
 
           (out_dir / "index.json").write_text(
               json.dumps({
+                  "archiveVersion": ARCHIVE_VERSION,
                   "startDate": files[0] if files else None,
                   "endDate": files[-1] if files else None,
                   "dates": files,
@@ -202,7 +208,7 @@ jobs:
                           except ValueError:
                               value = None
 
-                      if isinstance(value, (int, float)):
+                      if isinstance(value, (int, float)) and value >= 0:
                           entry["days"][day] = value
                           entry["totals"]["clicks"] += value
                           entry["totals"]["byMonth"][month] += value
@@ -214,13 +220,13 @@ jobs:
                   return {k: normalise(v) for k, v in obj.items()}
               return obj
 
-          # Add a simple path index for fast human lookup.
           by_path = defaultdict(list)
           for key, entry in links.items():
               if entry.get("path"):
                   by_path[entry["path"]].append(key)
 
           result = {
+              "archiveVersion": "2",
               "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
               "timezone": "Europe/Zurich",
               "months": normalise(dict(monthly)),
