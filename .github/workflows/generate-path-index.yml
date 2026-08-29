@@ -1,0 +1,101 @@
+name: Generate Deterministic Analytics Path Index
+
+on:
+  push:
+    paths:
+      - ".github/workflows/generate-path-index.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate path files
+        run: |
+          python3 <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          index_path = Path("public/query/index.json")
+          if not index_path.exists():
+              raise SystemExit("public/query/index.json does not exist")
+
+          index = json.loads(index_path.read_text(encoding="utf-8"))
+          links = index.get("links", {})
+
+          root = Path("public/query/by-path")
+          root.mkdir(parents=True, exist_ok=True)
+
+          manifest = {
+              "version": "1",
+              "description": "Deterministic per-path analytics lookup. This avoids the large query/index.json file.",
+              "domains": {}
+          }
+
+          def safe_component(value):
+              value = value or "_root"
+              value = value.replace("/", "__")
+              value = re.sub(r"[^A-Za-z0-9._~-]", "_", value)
+              return value or "_root"
+
+          for key, item in links.items():
+              domain = item.get("domain")
+              path = item.get("path")
+              file_ref = item.get("file")
+              link_id = item.get("id")
+
+              if not domain or not link_id or not file_ref:
+                  continue
+
+              domain_dir = root / safe_component(domain)
+              domain_dir.mkdir(parents=True, exist_ok=True)
+
+              filename = safe_component(path)
+
+              payload = {
+                  "domain": domain,
+                  "id": link_id,
+                  "path": path,
+                  "title": item.get("title"),
+                  "createdAt": item.get("createdAt"),
+                  "linkFile": f"../{file_ref}",
+                  "key": key
+              }
+
+              # Paths should be unique within a domain. If not, preserve every
+              # link by using the link ID as a suffix.
+              output = domain_dir / f"{filename}.json"
+              if output.exists():
+                  old = json.loads(output.read_text(encoding="utf-8"))
+                  if old.get("id") != link_id:
+                      output = domain_dir / f"{filename}--{safe_component(link_id)}.json"
+
+              output.write_text(
+                  json.dumps(payload, ensure_ascii=False, indent=2),
+                  encoding="utf-8"
+              )
+
+              manifest.setdefault("domains", {}).setdefault(domain, {})
+              manifest["domains"][domain][path or ""] = str(output.relative_to(root))
+
+          (root / "manifest.json").write_text(
+              json.dumps(manifest, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+          PY
+
+      - name: Commit path index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/query/by-path
+          git diff --cached --quiet || git commit -m "Generate deterministic analytics path index"
+          git push
