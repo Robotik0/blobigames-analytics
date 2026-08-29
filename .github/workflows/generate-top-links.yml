@@ -1,0 +1,85 @@
+name: Generate Top Link Rankings
+
+on:
+  push:
+    paths:
+      - ".github/workflows/generate-top-links.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate rankings
+        run: |
+          python3 <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          files = sorted(
+              Path("public/query/links").glob("*.json")
+          )
+
+          records = []
+
+          for path in files:
+              try:
+                  item = json.loads(
+                      path.read_text(encoding="utf-8")
+                  )
+              except Exception:
+                  continue
+
+              clicks = item.get("totalClicks")
+
+              if not isinstance(clicks, (int, float)):
+                  continue
+
+              records.append({
+                  "domain": item.get("domain"),
+                  "id": item.get("id"),
+                  "path": item.get("path"),
+                  "title": item.get("title"),
+                  "createdAt": item.get("createdAt"),
+                  "totalClicks": int(clicks),
+                  "file": f"links/{path.name}"
+              })
+
+          records.sort(
+              key=lambda x: (
+                  -x["totalClicks"],
+                  x.get("createdAt") or "",
+                  x.get("path") or ""
+              )
+          )
+
+          output = {
+              "version": "1",
+              "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+              "timezone": "Europe/Zurich",
+              "count": len(records),
+              "links": records,
+              "top12": records[:12]
+          }
+
+          Path("public/query/top-all-time.json").write_text(
+              json.dumps(output, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+          PY
+
+      - name: Commit ranking
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/query/top-all-time.json
+          git diff --cached --quiet || git commit -m "Generate top link rankings"
+          git push
