@@ -1,0 +1,163 @@
+name: Sync Short.io Lifetime Clicks
+
+on:
+  push:
+    paths:
+      - ".github/workflows/sync-lifetime-clicks.yml"
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Update Blobigames Analytics"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+env:
+  WORKER: "https://shortioapikey.help-blobigames.workers.dev"
+
+jobs:
+  sync:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync lifetime click totals
+        run: |
+          python3 <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+
+          WORKER = "https://shortioapikey.help-blobigames.workers.dev"
+          query_dir = Path("public/query/links")
+
+          response = urlopen(
+              Request(
+                  f"{WORKER}/links",
+                  headers={
+                      "Accept": "application/json",
+                      "User-Agent": "BlobigamesLifetimeSync/1.0"
+                  }
+              ),
+              timeout=180
+          )
+
+          payload = json.loads(response.read().decode("utf-8"))
+          domains = payload.get("domains", {})
+
+          live = {}
+
+          for hostname, links in domains.items():
+              if not isinstance(links, list):
+                  continue
+
+              for link in links:
+                  if not isinstance(link, dict):
+                      continue
+
+                  link_id = link.get("idString") or link.get("id")
+                  clicks = link.get("clicks")
+
+                  if not link_id:
+                      continue
+
+                  if isinstance(clicks, bool):
+                      continue
+
+                  if isinstance(clicks, (int, float)) and clicks >= 0:
+                      live[f"{hostname}:{link_id}"] = int(clicks)
+                  elif isinstance(clicks, str):
+                      try:
+                          number = int(float(clicks))
+                          if number >= 0:
+                              live[f"{hostname}:{link_id}"] = number
+                      except ValueError:
+                          pass
+
+          updated = 0
+          missing = 0
+
+          for path in query_dir.glob("*.json"):
+              try:
+                  item = json.loads(path.read_text(encoding="utf-8"))
+              except Exception:
+                  continue
+
+              key = f"{item.get('domain')}:{item.get('id')}"
+
+              if key in live:
+                  item["lifetimeClicks"] = live[key]
+                  path.write_text(
+                      json.dumps(item, ensure_ascii=False, indent=2),
+                      encoding="utf-8"
+                  )
+                  updated += 1
+              else:
+                  missing += 1
+
+          print(f"Updated {updated} link files; {missing} had no live lifetime count.")
+          PY
+
+      - name: Generate accurate lifetime ranking
+        run: |
+          python3 <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          records = []
+
+          for path in Path("public/query/links").glob("*.json"):
+              try:
+                  item = json.loads(path.read_text(encoding="utf-8"))
+              except Exception:
+                  continue
+
+              clicks = item.get("lifetimeClicks")
+              if not isinstance(clicks, int) or clicks < 0:
+                  continue
+
+              records.append({
+                  "domain": item.get("domain"),
+                  "id": item.get("id"),
+                  "path": item.get("path"),
+                  "title": item.get("title"),
+                  "createdAt": item.get("createdAt"),
+                  "lifetimeClicks": clicks,
+                  "file": f"links/{path.name}"
+              })
+
+          records.sort(
+              key=lambda x: (
+                  -x["lifetimeClicks"],
+                  x.get("createdAt") or "",
+                  x.get("path") or ""
+              )
+          )
+
+          output = {
+              "version": "3",
+              "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+              "timezone": "Europe/Zurich",
+              "source": "Short.io current link-level lifetime clicks",
+              "count": len(records),
+              "links": records,
+              "top12": records[:12]
+          }
+
+          Path("public/query/top-all-time.json").write_text(
+              json.dumps(output, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+          PY
+
+      - name: Commit synced lifetime data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/query/links public/query/top-all-time.json
+          git diff --cached --quiet || git commit -m "Sync authoritative Short.io lifetime clicks"
+          git push
