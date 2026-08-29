@@ -1,6 +1,9 @@
 name: Update Blobigames Analytics
 
 on:
+  push:
+    paths:
+      - ".github/workflows/update-data.yml"
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
@@ -34,54 +37,50 @@ jobs:
         run: |
           mkdir -p public
           curl -L --fail --retry 3 \
-            -A "Mozilla/5.0" \
-            -H "Accept: application/json" \
             "$WORKER/data" \
             -o public/full-data.json
 
       - name: Build daily historical archive
         run: |
+          mkdir -p public/data
+
           python3 <<'PY'
           import json
           import os
           import time
-          import subprocess
           from datetime import date, datetime, timedelta, timezone
           from pathlib import Path
+          from urllib.parse import urlencode
+          from urllib.request import Request, urlopen
 
           START = date.fromisoformat(os.environ["START_DATE"])
           WORKER = os.environ["WORKER"]
           out_dir = Path("public/data")
-          out_dir.mkdir(parents=True, exist_ok=True)
           today = datetime.now(timezone.utc).date()
 
           def fetch_day(d):
-              url = f"{WORKER}/day?date={d.isoformat()}"
+              url = f"{WORKER}/day?{urlencode({'date': d.isoformat()})}"
               last_error = None
 
               for attempt in range(3):
                   try:
-                      result = subprocess.run(
-                          [
-                              "curl",
-                              "-L",
-                              "--fail",
-                              "--silent",
-                              "--show-error",
-                              "--max-time",
-                              "180",
-                              "-A",
-                              "Mozilla/5.0",
-                              "-H",
-                              "Accept: application/json",
-                              url
-                          ],
-                          check=True,
-                          capture_output=True,
-                          text=True
+                      req = Request(
+                          url,
+                          headers={
+                              "Accept": "application/json",
+                              "User-Agent": "BlobigamesAnalytics/1.0"
+                          }
                       )
 
-                      return json.loads(result.stdout)
+                      with urlopen(req, timeout=180) as response:
+                          if response.status != 200:
+                              raise RuntimeError(
+                                  f"HTTP {response.status}"
+                              )
+
+                          return json.loads(
+                              response.read().decode("utf-8")
+                          )
 
                   except Exception as exc:
                       last_error = exc
@@ -102,7 +101,6 @@ jobs:
                   or not output_file.exists()
               ):
                   print(f"Fetching {d}")
-
                   daily = fetch_day(d)
 
                   output_file.write_text(
@@ -123,21 +121,89 @@ jobs:
               for p in out_dir.glob("????-??-??.json")
           )
 
-          index = {
-              "startDate": files[0] if files else None,
-              "endDate": files[-1] if files else None,
-              "dates": files,
-              "generatedAt": datetime.now(
-                  timezone.utc
-              ).isoformat().replace("+00:00", "Z")
-          }
-
           (out_dir / "index.json").write_text(
               json.dumps(
-                  index,
+                  {
+                      "startDate": files[0] if files else None,
+                      "endDate": files[-1] if files else None,
+                      "dates": files,
+                      "generatedAt": datetime.now(
+                          timezone.utc
+                      ).isoformat().replace("+00:00", "Z")
+                  },
                   ensure_ascii=False,
                   indent=2
               ),
+              encoding="utf-8"
+          )
+          PY
+
+      - name: Build aggregate analytics index
+        run: |
+          python3 <<'PY'
+          import json
+          from collections import defaultdict
+          from pathlib import Path
+
+          data_dir = Path("public/data")
+          monthly = defaultdict(lambda: {
+              "clicks": 0,
+              "humanClicks": 0,
+              "domains": defaultdict(lambda: {
+                  "clicks": 0,
+                  "humanClicks": 0
+              })
+          })
+
+          all_time = {
+              "clicks": 0,
+              "humanClicks": 0,
+              "domains": defaultdict(lambda: {
+                  "clicks": 0,
+                  "humanClicks": 0
+              })
+          }
+
+          for path in sorted(data_dir.glob("????-??-??.json")):
+              daily = json.loads(
+                  path.read_text(encoding="utf-8")
+              )
+
+              month = daily["date"][:7]
+
+              for hostname, domain in daily.get("domains", {}).items():
+                  stats = domain.get("statistics", {})
+                  clicks = int(stats.get("clicks", 0) or 0)
+                  human = int(stats.get("humanClicks", 0) or 0)
+
+                  monthly[month]["clicks"] += clicks
+                  monthly[month]["humanClicks"] += human
+                  monthly[month]["domains"][hostname]["clicks"] += clicks
+                  monthly[month]["domains"][hostname]["humanClicks"] += human
+
+                  all_time["clicks"] += clicks
+                  all_time["humanClicks"] += human
+                  all_time["domains"][hostname]["clicks"] += clicks
+                  all_time["domains"][hostname]["humanClicks"] += human
+
+          def normalise(obj):
+              if isinstance(obj, defaultdict):
+                  obj = dict(obj)
+              if isinstance(obj, dict):
+                  return {k: normalise(v) for k, v in obj.items()}
+              return obj
+
+          result = {
+              "generatedAt": __import__("datetime").datetime.now(
+                  __import__("datetime").timezone.utc
+              ).isoformat().replace("+00:00", "Z"),
+              "timezone": "Europe/Zurich",
+              "months": normalise(dict(monthly)),
+              "allTime": normalise(all_time)
+          }
+
+          Path("public/data/aggregates.json").write_text(
+              json.dumps(result, ensure_ascii=False, indent=2),
               encoding="utf-8"
           )
           PY
@@ -178,6 +244,7 @@ jobs:
             <p>Generated: {generated}</p>
             <p><a href="full-data.json">Complete current JSON</a></p>
             <p><a href="data/index.json">Daily historical archive index</a></p>
+            <p><a href="data/aggregates.json">Analytics aggregates</a></p>
             <pre style="white-space:pre-wrap;word-break:break-word;font-family:monospace;font-size:13px;line-height:1.45">{escape(pretty)}</pre>
           </body>
           </html>'''
