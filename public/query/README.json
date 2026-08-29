@@ -1,11 +1,10 @@
 {
-  "description": "Queryable Blobigames link analytics.",
-  "howToQuery": [
-    "Fetch query/index.json to resolve paths to link files.",
-    "Fetch only the required query/links/*.json files.",
-    "For each requested link, sum days[YYYY-MM-DD] for the inclusive date range.",
-    "Multiple links can be combined by summing their daily values.",
-    "Use createdAt to distinguish links that did not exist during the entire range."
-  ],
-  "source": "public/data/aggregates.json"
+  "description": "Blobigames analytics query index.",
+  "queryMethod": {
+    "resolve": "Use query/index.json to resolve a path to one or more link files.",
+    "combine": "Fetch any number of link files and sum their daily values.",
+    "dateRange": "Sum only days whose YYYY-MM-DD key falls inside the requested inclusive range.",
+    "creationDate": "Use createdAt to determine when a link actually existed.",
+    "allTime": "Use totalClicks when the full archived lifetime is requested."
+  }
 }
