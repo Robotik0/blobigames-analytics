@@ -34,6 +34,8 @@ jobs:
         run: |
           mkdir -p public
           curl -L --fail --retry 3 \
+            -A "Mozilla/5.0" \
+            -H "Accept: application/json" \
             "$WORKER/data" \
             -o public/full-data.json
 
@@ -43,41 +45,43 @@ jobs:
           import json
           import os
           import time
+          import subprocess
           from datetime import date, datetime, timedelta, timezone
           from pathlib import Path
-          from urllib.parse import urlencode
-          from urllib.request import Request, urlopen
 
           START = date.fromisoformat(os.environ["START_DATE"])
           WORKER = os.environ["WORKER"]
-
           out_dir = Path("public/data")
           out_dir.mkdir(parents=True, exist_ok=True)
-
           today = datetime.now(timezone.utc).date()
 
           def fetch_day(d):
-              url = f"{WORKER}/day?{urlencode({'date': d.isoformat()})}"
-
+              url = f"{WORKER}/day?date={d.isoformat()}"
               last_error = None
+
               for attempt in range(3):
                   try:
-                      req = Request(
-                          url,
-                          headers={
-                              "Accept": "application/json"
-                          }
+                      result = subprocess.run(
+                          [
+                              "curl",
+                              "-L",
+                              "--fail",
+                              "--silent",
+                              "--show-error",
+                              "--max-time",
+                              "180",
+                              "-A",
+                              "Mozilla/5.0",
+                              "-H",
+                              "Accept: application/json",
+                              url
+                          ],
+                          check=True,
+                          capture_output=True,
+                          text=True
                       )
 
-                      with urlopen(req, timeout=180) as response:
-                          if response.status != 200:
-                              raise RuntimeError(
-                                  f"HTTP {response.status}"
-                              )
-
-                          return json.loads(
-                              response.read().decode("utf-8")
-                          )
+                      return json.loads(result.stdout)
 
                   except Exception as exc:
                       last_error = exc
@@ -92,8 +96,6 @@ jobs:
           while d <= today:
               output_file = out_dir / f"{d.isoformat()}.json"
 
-              # Re-fetch today and yesterday because their totals
-              # can still change. Older days are kept as archived.
               if (
                   d == today
                   or d == today - timedelta(days=1)
