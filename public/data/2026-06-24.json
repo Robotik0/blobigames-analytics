@@ -1,1545 +1,331 @@
 {
   "date": "2026-06-24",
+  "archiveVersion": "3",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-08-29T07:32:08.190Z",
-  "requestedRange": {
-    "startDate": "2026-06-23T22:00:00.000Z",
-    "endDate": "2026-06-24T21:59:59.999Z"
-  },
+  "generatedAt": "2026-08-29T09:19:13.900981Z",
   "domains": {
     "blobigames.short.gy": {
-      "id": 1691392,
       "hostname": "blobigames.short.gy",
-      "createdAt": "2026-03-13T18:40:58.000Z",
-      "statistics": {
-        "clicks": 53,
-        "humanClicks": 43,
-        "prevClicks": 18,
-        "prevHumanClicks": 6,
-        "links": 0,
-        "linksChange": "999.00",
-        "interval": {
-          "startDate": "2026-06-23T20:00:00.000Z",
-          "endDate": "2026-06-24T19:59:59.999Z",
-          "prevStartDate": "2026-06-22T20:00:00.000Z",
-          "prevEndDate": "2026-06-23T19:59:59.000Z",
-          "tz": "Europe/Zurich"
-        },
-        "linksChangePositive": true,
-        "clicksPerLink": "0",
-        "clicksPerLinkChange": "999.00",
-        "humanClicksPerLink": "0",
-        "prevClicksChange": "-50.00",
-        "humanClicksChange": "-66.67",
-        "humanClicksChangePositive": false,
-        "clickStatistics": {
-          "datasets": [
-            {
-              "data": [
-                {
-                  "x": "2026-06-23T22:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-23T23:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T00:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T01:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T02:00:00.000Z",
-                  "y": "31"
-                },
-                {
-                  "x": "2026-06-24T03:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T04:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T05:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T06:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T07:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T08:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T09:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T10:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T11:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T12:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T13:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T14:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T15:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T16:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T17:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T18:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T19:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T20:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T21:00:00.000Z",
-                  "y": "0"
-                }
-              ]
-            }
-          ]
-        },
-        "referer": [
-          {
-            "refhost": "",
-            "score": 2
-          }
-        ],
-        "social": [
-          {
-            "social": "",
-            "score": 31
-          }
-        ],
-        "browser": [
-          {
-            "browser": "Chrome Mobile",
-            "score": 9
-          },
-          {
-            "browser": "Edge",
-            "score": 9
-          },
-          {
-            "browser": "Chrome",
-            "score": 7
-          },
-          {
-            "browser": "Safari",
-            "score": 3
-          },
-          {
-            "browser": "Electron",
-            "score": 1
-          },
-          {
-            "browser": "FakeGoogle",
-            "score": 1
-          },
-          {
-            "browser": "Firefox",
-            "score": 1
-          }
-        ],
-        "country": [
-          {
-            "countryName": "Switzerland",
-            "country": "CH",
-            "score": 29
-          },
-          {
-            "countryName": "United States",
-            "country": "US",
-            "score": 2
-          }
-        ],
-        "city": [
-          {
-            "city": 2660971,
-            "score": 16,
-            "name": "Dübendorf",
-            "countryCode": "CH"
-          },
-          {
-            "city": 2659531,
-            "score": 13,
-            "name": "Muri",
-            "countryCode": "CH"
-          },
-          {
-            "city": 4726206,
-            "score": 1,
-            "name": "San Antonio",
-            "countryCode": "US"
-          },
-          {
-            "city": 5308655,
-            "score": 1,
-            "name": "Phoenix",
-            "countryCode": "US"
-          }
-        ],
-        "os": [
-          {
-            "os": "Windows",
-            "score": 16
-          },
-          {
-            "os": "Android",
-            "score": 9
-          },
-          {
-            "os": "Mac OS X",
-            "score": 4
-          },
-          {
-            "os": "iOS",
-            "score": 1
-          },
-          {
-            "os": "Linux",
-            "score": 1
-          }
-        ],
-        "utm_medium": [
-          {
-            "utm_medium": "unknown",
-            "score": 31
-          }
-        ],
-        "utm_source": [
-          {
-            "utm_source": "",
-            "score": 31
-          }
-        ],
-        "utm_campaign": [
-          {
-            "utm_campaign": "",
-            "score": 31
-          }
-        ],
-        "utm_term": [
-          {
-            "utm_term": "",
-            "score": 2
-          }
-        ],
-        "utm_content": [
-          {
-            "utm_content": "",
-            "score": 2
-          }
-        ],
-        "sample": false,
-        "loading": false,
-        "device": []
-      },
       "links": [
         {
-          "originalURL": "https://blobigames.nicepage.io",
-          "idString": "link_760w_034ExP93RO5pidJhzH7USA",
           "id": "link_760w_034ExP93RO5pidJhzH7USA",
-          "shortURL": "https://blobigames.short.gy/its-us",
-          "secureShortURL": "https://blobigames.short.gy/its-us",
           "path": "its-us",
           "displayPath": null,
-          "createdAt": "2026-08-28T11:23:31.711Z",
-          "updatedAt": "2026-08-28T11:24:12.637Z",
-          "cloaking": false,
           "title": "Referral from Its Us",
-          "tags": [
-            "browser-game",
-            "game-website",
-            "indie-game",
-            "online-game",
-            "web-based"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://blobigames.nicepage.io",
+          "createdAt": "2026-08-28T11:23:31.711Z"
         },
         {
-          "originalURL": "https://blobfisch-destructor.wasmer.app/",
-          "idString": "link_760w_034E0Ldc8dmb9McE9TiARN",
           "id": "link_760w_034E0Ldc8dmb9McE9TiARN",
-          "shortURL": "https://blobigames.short.gy/blobfisch-destructor",
-          "secureShortURL": "https://blobigames.short.gy/blobfisch-destructor",
           "path": "blobfisch-destructor",
           "displayPath": null,
-          "createdAt": "2026-08-26T19:17:04.988Z",
-          "updatedAt": "2026-08-26T19:17:23.342Z",
-          "cloaking": false,
           "title": "Blobfisch Destructor 0.2 DE 3 w Thumbnail",
-          "tags": [],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://blobfisch-destructor.wasmer.app/",
+          "createdAt": "2026-08-26T19:17:04.988Z"
         },
         {
-          "originalURL": "https://blobigames.nicepage.io",
-          "idString": "link_760w_034DvwaEh52e2CG8v2KfaA",
           "id": "link_760w_034DvwaEh52e2CG8v2KfaA",
-          "shortURL": "https://blobigames.short.gy/sn",
-          "secureShortURL": "https://blobigames.short.gy/sn",
           "path": "sn",
           "displayPath": null,
-          "createdAt": "2026-08-26T16:17:37.443Z",
-          "updatedAt": "2026-08-26T20:03:59.813Z",
-          "cloaking": false,
           "title": "Referral from Space News",
-          "tags": [
-            "browser-game",
-            "flash-game",
-            "free-game",
-            "game-platform",
-            "game-website",
-            "indie-game",
-            "ninja-game",
-            "online-game",
-            "pixel-art",
-            "web-based"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://blobigames.nicepage.io",
+          "createdAt": "2026-08-26T16:17:37.443Z"
         },
         {
-          "originalURL": "https://blobigames.nicepage.io",
-          "idString": "link_760w_034DLWlmCLVUY2NqzRZ7p4",
           "id": "link_760w_034DLWlmCLVUY2NqzRZ7p4",
-          "shortURL": "https://blobigames.short.gy/mmlr",
-          "secureShortURL": "https://blobigames.short.gy/mmlr",
           "path": "mmlr",
           "displayPath": null,
-          "createdAt": "2026-08-25T15:33:43.519Z",
-          "updatedAt": "2026-08-26T20:03:40.137Z",
-          "cloaking": false,
           "title": "Referral from MM&LR",
-          "tags": [
-            "browser-game",
-            "game-platform",
-            "indie-game",
-            "pixel-art",
-            "web-based"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://blobigames.nicepage.io",
+          "createdAt": "2026-08-25T15:33:43.519Z"
         },
         {
-          "originalURL": "https://blobigames.nicepage.io",
-          "idString": "link_760w_034DLRTrwJkkwjlO8RdCrH",
           "id": "link_760w_034DLRTrwJkkwjlO8RdCrH",
-          "shortURL": "https://blobigames.short.gy/lm",
-          "secureShortURL": "https://blobigames.short.gy/lm",
           "path": "lm",
           "displayPath": null,
-          "createdAt": "2026-08-25T15:30:14.961Z",
-          "updatedAt": "2026-08-26T20:03:18.042Z",
-          "cloaking": false,
           "title": "Referral from M&L",
-          "tags": [
-            "browser-game",
-            "game-platform",
-            "indie-game",
-            "pixel-art",
-            "web-based"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://blobigames.nicepage.io",
+          "createdAt": "2026-08-25T15:30:14.961Z"
         },
         {
-          "originalURL": "https://robotik0.github.io/blobi-road/",
-          "idString": "link_760w_034CpCZw8U57QozOeW5lVh",
           "id": "link_760w_034CpCZw8U57QozOeW5lVh",
-          "shortURL": "https://blobigames.short.gy/blobi-road",
-          "secureShortURL": "https://blobigames.short.gy/blobi-road",
           "path": "blobi-road",
           "displayPath": null,
-          "createdAt": "2026-08-24T17:36:30.881Z",
-          "updatedAt": "2026-08-24T17:36:39.734Z",
-          "cloaking": false,
           "title": "Blobi Road",
-          "tags": [
-            "browser-game",
-            "indie-game",
-            "pixel-art",
-            "road-game",
-            "web-based"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://robotik0.github.io/blobi-road/",
+          "createdAt": "2026-08-24T17:36:30.881Z"
         },
         {
-          "originalURL": "https://robotik0.github.io/flappy-blob/",
-          "idString": "link_760w_034CpBLPCEOptB011YLQJo",
           "id": "link_760w_034CpBLPCEOptB011YLQJo",
-          "shortURL": "https://blobigames.short.gy/flappy-blob",
-          "secureShortURL": "https://blobigames.short.gy/flappy-blob",
           "path": "flappy-blob",
           "displayPath": null,
-          "createdAt": "2026-08-24T17:35:42.205Z",
-          "updatedAt": "2026-08-24T17:35:54.112Z",
-          "cloaking": false,
           "title": "Flappy Blob 0.2",
-          "tags": [
-            "browser-game",
-            "indie-game",
-            "pixel-art",
-            "web-based"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://robotik0.github.io/flappy-blob/",
+          "createdAt": "2026-08-24T17:35:42.205Z"
         },
         {
-          "originalURL": "https://g.help-blobigames.workers.dev/",
-          "idString": "link_760w_034CBqgsJIakEp3jWyJvnx",
           "id": "link_760w_034CBqgsJIakEp3jWyJvnx",
-          "shortURL": "https://blobigames.short.gy/g",
-          "secureShortURL": "https://blobigames.short.gy/g",
           "path": "g",
           "displayPath": null,
-          "createdAt": "2026-08-23T14:52:57.099Z",
-          "updatedAt": "2026-08-23T14:53:17.451Z",
-          "cloaking": false,
           "title": "Grow a Garden in Growden.io | Free Garden Game",
-          "tags": [],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://g.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-23T14:52:57.099Z"
         },
         {
-          "originalURL": "https://robotik0.github.io/blobfisch-ninja/",
-          "idString": "link_760w_033yNUyzsfeZjZQ401IjfD",
           "id": "link_760w_033yNUyzsfeZjZQ401IjfD",
-          "shortURL": "https://blobigames.short.gy/blobfisch-ninja",
-          "secureShortURL": "https://blobigames.short.gy/blobfisch-ninja",
           "path": "blobfisch-ninja",
           "displayPath": null,
-          "createdAt": "2026-07-30T09:18:16.477Z",
-          "updatedAt": "2026-07-30T09:18:30.726Z",
-          "cloaking": false,
           "title": "Blobfisch Ninja long",
-          "tags": [
-            "browser-game",
-            "indie-game",
-            "ninja-game",
-            "pixel-art",
-            "web-based"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://robotik0.github.io/blobfisch-ninja/",
+          "createdAt": "2026-07-30T09:18:16.477Z"
         },
         {
-          "originalURL": "https://robotik0.github.io/sb/",
-          "idString": "lnk_760w_9EFBU6bQ6PfyHVm0htZBG",
           "id": "lnk_760w_9EFBU6bQ6PfyHVm0htZBG",
-          "shortURL": "https://blobigames.short.gy/sb",
-          "secureShortURL": "https://blobigames.short.gy/sb",
           "path": "sb",
           "displayPath": null,
-          "createdAt": "2026-06-21T10:16:42.668Z",
-          "updatedAt": "2026-08-19T16:21:51.658Z",
-          "cloaking": false,
           "title": "Sandboxels - Experiment with Pixels",
-          "tags": [
-            "experiment",
-            "free-game",
-            "indie-game",
-            "pixel-art",
-            "web-based"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://robotik0.github.io/sb/",
+          "createdAt": "2026-06-21T10:16:42.668Z"
         },
         {
-          "originalURL": "https://s2048.help-blobigames.workers.dev/",
-          "idString": "lnk_760w_1DMBicDpA7JBajCisUmjh",
           "id": "lnk_760w_1DMBicDpA7JBajCisUmjh",
-          "shortURL": "https://blobigames.short.gy/s2048",
-          "secureShortURL": "https://blobigames.short.gy/s2048",
           "path": "s2048",
           "displayPath": null,
-          "createdAt": "2026-06-21T09:36:50.587Z",
-          "updatedAt": "2026-06-21T09:37:19.061Z",
-          "cloaking": false,
           "title": "Snake 2048.io - RocketGames",
-          "tags": [
-            "HTML5",
-            "free-game",
-            "number-game",
-            "puzzle-game",
-            "web-based"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://s2048.help-blobigames.workers.dev/",
+          "createdAt": "2026-06-21T09:36:50.587Z"
         },
         {
-          "originalURL": "https://fnab.help-blobigames.workers.dev/",
-          "idString": "lnk_760w_6X6xY7RBXGWy9goxhZvah",
           "id": "lnk_760w_6X6xY7RBXGWy9goxhZvah",
-          "shortURL": "https://blobigames.short.gy/fnab",
-          "secureShortURL": "https://blobigames.short.gy/fnab",
           "path": "fnab",
           "displayPath": null,
-          "createdAt": "2026-06-20T14:32:10.500Z",
-          "updatedAt": "2026-08-23T08:02:24.725Z",
-          "cloaking": false,
           "title": "FNAB Alpha 0.5.6 Lite 2",
-          "tags": [
-            "alpha-release",
-            "browser-game",
-            "game-development",
-            "indie-game",
-            "open-source"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://fnab.help-blobigames.workers.dev/",
+          "createdAt": "2026-06-20T14:32:10.500Z"
         },
         {
-          "originalURL": "https://blobigames.nicepage.io/",
-          "idString": "lnk_760w_0EwbuluAWFdqnxI1JuV6v",
           "id": "lnk_760w_0EwbuluAWFdqnxI1JuV6v",
-          "shortURL": "https://blobigames.short.gy/wf",
-          "secureShortURL": "https://blobigames.short.gy/wf",
           "path": "wf",
           "displayPath": null,
-          "createdAt": "2026-04-21T17:13:28.279Z",
-          "updatedAt": "2026-07-28T13:22:36.876Z",
-          "cloaking": false,
           "title": "Referral from Wild&Free",
-          "tags": [
-            "gaming",
-            "homepage",
-            "online-community",
-            "reimagined",
-            "web-based"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://blobigames.nicepage.io/",
+          "createdAt": "2026-04-21T17:13:28.279Z"
         },
         {
-          "originalURL": "https://creator.voiceflow.com/share/69e251a132741e085c497000/development",
-          "idString": "lnk_760w_ndV6v40ss4MVG9VUFy4pV",
           "id": "lnk_760w_ndV6v40ss4MVG9VUFy4pV",
-          "shortURL": "https://blobigames.short.gy/blob-gpt2",
-          "secureShortURL": "https://blobigames.short.gy/blob-gpt2",
           "path": "blob-gpt2",
           "displayPath": null,
-          "createdAt": "2026-04-17T17:04:20.610Z",
-          "updatedAt": "2026-04-17T17:14:11.026Z",
-          "cloaking": false,
           "title": "Voiceflow Creator",
-          "tags": [
-            "AI-creation",
-            "development-tool",
-            "interactive-tool",
-            "storytelling",
-            "voice-design"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://creator.voiceflow.com/share/69e251a132741e085c497000/development",
+          "createdAt": "2026-04-17T17:04:20.610Z"
         },
         {
-          "originalURL": "https://blobigames.nicepage.io/",
-          "idString": "lnk_760w_VyQ5Soszrk4zcPFUVOZQM",
           "id": "lnk_760w_VyQ5Soszrk4zcPFUVOZQM",
-          "shortURL": "https://blobigames.short.gy/",
-          "secureShortURL": "https://blobigames.short.gy/",
           "path": "",
           "displayPath": null,
-          "createdAt": "2026-04-17T11:22:14.909Z",
-          "updatedAt": "2026-04-17T11:22:37.285Z",
-          "cloaking": false,
           "title": "Blobigames 2: Reimagined",
-          "tags": [
-            "browser-game",
-            "gaming",
-            "online-community",
-            "reimagined",
-            "web-based"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://blobigames.nicepage.io/",
+          "createdAt": "2026-04-17T11:22:14.909Z"
         },
         {
-          "originalURL": "https://bl0b1gam3s.nicepage.io/blob-chat",
-          "idString": "lnk_760w_yfR2PkFsHuqQwCwptpy8u",
           "id": "lnk_760w_yfR2PkFsHuqQwCwptpy8u",
-          "shortURL": "https://blobigames.short.gy/blob-chat",
-          "secureShortURL": "https://blobigames.short.gy/blob-chat",
           "path": "blob-chat",
           "displayPath": null,
-          "createdAt": "2026-04-15T15:11:47.502Z",
-          "updatedAt": "2026-05-01T15:58:37.989Z",
-          "cloaking": false,
           "title": "BlobChat 2",
-          "tags": [
-            "account-creation",
-            "browser-game",
-            "chat-game",
-            "online-community",
-            "social-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://bl0b1gam3s.nicepage.io/blob-chat",
+          "createdAt": "2026-04-15T15:11:47.502Z"
         },
         {
-          "originalURL": "https://robotik0.github.io/blobfisch-magnat/",
-          "idString": "lnk_760w_uh2J1LiN7byOqBvlxieM7",
           "id": "lnk_760w_uh2J1LiN7byOqBvlxieM7",
-          "shortURL": "https://blobigames.short.gy/blobfisch-magnat",
-          "secureShortURL": "https://blobigames.short.gy/blobfisch-magnat",
           "path": "blobfisch-magnat",
           "displayPath": null,
-          "createdAt": "2026-04-10T09:44:34.494Z",
-          "updatedAt": "2026-04-10T09:44:50.251Z",
-          "cloaking": false,
           "title": "Blobfisch Magnat 1.9",
-          "tags": [
-            "browser-game",
-            "economic-simulation",
-            "management-game",
-            "online-game",
-            "strategy-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://robotik0.github.io/blobfisch-magnat/",
+          "createdAt": "2026-04-10T09:44:34.494Z"
         },
         {
-          "originalURL": "https://robotik0.github.io/verteidige-den-turm/",
-          "idString": "lnk_760w_zqD2rmQAhpX1cQQj2q52d",
           "id": "lnk_760w_zqD2rmQAhpX1cQQj2q52d",
-          "shortURL": "https://blobigames.short.gy/verteidige-den-turm",
-          "secureShortURL": "https://blobigames.short.gy/verteidige-den-turm",
           "path": "verteidige-den-turm",
           "displayPath": null,
-          "createdAt": "2026-04-09T19:28:32.724Z",
-          "updatedAt": "2026-04-09T19:28:45.803Z",
-          "cloaking": false,
           "title": "Verteidige den Turm 2",
-          "tags": [
-            "browser-game",
-            "defense-game",
-            "io-game",
-            "online-game",
-            "strategy-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://robotik0.github.io/verteidige-den-turm/",
+          "createdAt": "2026-04-09T19:28:32.724Z"
         },
         {
-          "originalURL": "https://robotik0.github.io/blobfisch-wanderung/",
-          "idString": "lnk_760w_EufD4BDBB6glhKrOWrQES",
           "id": "lnk_760w_EufD4BDBB6glhKrOWrQES",
-          "shortURL": "https://blobigames.short.gy/blobfisch-wanderung",
-          "secureShortURL": "https://blobigames.short.gy/blobfisch-wanderung",
           "path": "blobfisch-wanderung",
           "displayPath": null,
-          "createdAt": "2026-04-09T19:28:09.063Z",
-          "updatedAt": "2026-04-09T19:28:21.965Z",
-          "cloaking": false,
           "title": "Blobfisch: Wanderung 1",
-          "tags": [
-            "adventure-game",
-            "browser-game",
-            "io-game",
-            "online-game",
-            "strategy-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://robotik0.github.io/blobfisch-wanderung/",
+          "createdAt": "2026-04-09T19:28:09.063Z"
         },
         {
-          "originalURL": "https://robotik0.github.io/blobfisch-defence/",
-          "idString": "lnk_760w_9ZjkaqedFfTqy7E93w3ys",
           "id": "lnk_760w_9ZjkaqedFfTqy7E93w3ys",
-          "shortURL": "https://blobigames.short.gy/blobfisch-defence",
-          "secureShortURL": "https://blobigames.short.gy/blobfisch-defence",
           "path": "blobfisch-defence",
           "displayPath": null,
-          "createdAt": "2026-04-09T19:23:53.685Z",
-          "updatedAt": "2026-04-09T19:24:11.431Z",
-          "cloaking": false,
           "title": "Blobfisch Defence",
-          "tags": [
-            "browser-game",
-            "defense-game",
-            "io-game",
-            "online-game",
-            "strategy-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://robotik0.github.io/blobfisch-defence/",
+          "createdAt": "2026-04-09T19:23:53.685Z"
         },
         {
-          "originalURL": "https://ld.help-blobigames.workers.dev/",
-          "idString": "lnk_760w_YIbc9uvvbh9LvaYAGj7qE",
           "id": "lnk_760w_YIbc9uvvbh9LvaYAGj7qE",
-          "shortURL": "https://blobigames.short.gy/ld",
-          "secureShortURL": "https://blobigames.short.gy/ld",
           "path": "ld",
           "displayPath": null,
-          "createdAt": "2026-04-09T19:23:38.432Z",
-          "updatedAt": "2026-04-09T19:23:45.510Z",
-          "cloaking": false,
           "title": "Level Devil",
-          "tags": [
-            "addictive-game",
-            "io-game",
-            "online-game",
-            "puzzle-game",
-            "skill-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://ld.help-blobigames.workers.dev/",
+          "createdAt": "2026-04-09T19:23:38.432Z"
         },
         {
-          "originalURL": "https://smh.help-blobigames.workers.dev/",
-          "idString": "lnk_760w_dHIpba7a9ZxoyeIEMutga",
           "id": "lnk_760w_dHIpba7a9ZxoyeIEMutga",
-          "shortURL": "https://blobigames.short.gy/smh",
-          "secureShortURL": "https://blobigames.short.gy/smh",
           "path": "smh",
           "displayPath": null,
-          "createdAt": "2026-04-09T19:23:20.924Z",
-          "updatedAt": "2026-04-09T19:23:27.551Z",
-          "cloaking": false,
           "title": "Play Stickman Hook Game Online !",
-          "tags": [
-            "action-game",
-            "browser-game",
-            "hook-game",
-            "online-game",
-            "stickman-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://smh.help-blobigames.workers.dev/",
+          "createdAt": "2026-04-09T19:23:20.924Z"
         },
         {
-          "originalURL": "https://bb.help-blobigames.workers.dev/",
-          "idString": "lnk_760w_5i2NWHAj49tOY9SCggTvN",
           "id": "lnk_760w_5i2NWHAj49tOY9SCggTvN",
-          "shortURL": "https://blobigames.short.gy/bb",
-          "secureShortURL": "https://blobigames.short.gy/bb",
           "path": "bb",
           "displayPath": null,
-          "createdAt": "2026-04-09T19:23:01.196Z",
-          "updatedAt": "2026-04-09T19:23:07.780Z",
-          "cloaking": false,
           "title": "Bullet Bros Unblocked - Play Bullet Bros on BulletBros.io",
-          "tags": [
-            "browser-game",
-            "io-game",
-            "multiplayer-game",
-            "unblocked-game",
-            "unblocked-games"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://bb.help-blobigames.workers.dev/",
+          "createdAt": "2026-04-09T19:23:01.196Z"
         },
         {
-          "originalURL": "https://p.help-blobigames.workers.dev/",
-          "idString": "lnk_760w_Q0lZoAi9uS9FhHH9zX4hi",
           "id": "lnk_760w_Q0lZoAi9uS9FhHH9zX4hi",
-          "shortURL": "https://blobigames.short.gy/p",
-          "secureShortURL": "https://blobigames.short.gy/p",
           "path": "p",
           "displayPath": null,
-          "createdAt": "2026-04-09T19:22:43.910Z",
-          "updatedAt": "2026-04-09T19:22:53.417Z",
-          "cloaking": false,
           "title": "Poxel.io | FPS io Game - Play Poxel io Online",
-          "tags": [
-            "battle-royale",
-            "fps-game",
-            "io-game",
-            "online-game",
-            "strategy-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://p.help-blobigames.workers.dev/",
+          "createdAt": "2026-04-09T19:22:43.910Z"
         },
         {
-          "originalURL": "https://fz.help-blobigames.workers.dev/",
-          "idString": "lnk_760w_h5yTFkNMmX4RQ5XQws06D",
           "id": "lnk_760w_h5yTFkNMmX4RQ5XQws06D",
-          "shortURL": "https://blobigames.short.gy/fz",
-          "secureShortURL": "https://blobigames.short.gy/fz",
           "path": "fz",
           "displayPath": null,
-          "createdAt": "2026-04-09T19:22:24.040Z",
-          "updatedAt": "2026-04-09T19:22:31.803Z",
-          "cloaking": false,
           "title": "Fortzone Battle Royale",
-          "tags": [
-            "battle-royale",
-            "community-game",
-            "fps-game",
-            "online-game",
-            "strategy-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://fz.help-blobigames.workers.dev/",
+          "createdAt": "2026-04-09T19:22:24.040Z"
         },
         {
-          "originalURL": "https://s.help-blobigames.workers.dev/",
-          "idString": "lnk_760w_LJn2wn1QdloEGxOAYjy2Q",
           "id": "lnk_760w_LJn2wn1QdloEGxOAYjy2Q",
-          "shortURL": "https://blobigames.short.gy/s",
-          "secureShortURL": "https://blobigames.short.gy/s",
           "path": "s",
           "displayPath": null,
-          "createdAt": "2026-04-09T19:22:02.225Z",
-          "updatedAt": "2026-04-09T19:22:08.509Z",
-          "cloaking": false,
           "title": "Snake.io | Fun Online Slither",
-          "tags": [
-            "community-game",
-            "fun-game",
-            "game-update",
-            "online-game",
-            "slither-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://s.help-blobigames.workers.dev/",
+          "createdAt": "2026-04-09T19:22:02.225Z"
         },
         {
-          "originalURL": "https://labgstore311.github.io/g5/class-533/",
-          "idString": "lnk_760w_GpfQ4fGC1jI6zUBC5em2h",
           "id": "lnk_760w_GpfQ4fGC1jI6zUBC5em2h",
-          "shortURL": "https://blobigames.short.gy/gs",
-          "secureShortURL": "https://blobigames.short.gy/gs",
           "path": "gs",
           "displayPath": null,
-          "createdAt": "2026-04-08T09:52:51.145Z",
-          "updatedAt": "2026-04-08T09:53:03.017Z",
-          "cloaking": false,
           "title": "GunSpin 0.1.4",
-          "tags": [
-            "classroom-tools",
-            "educational-game",
-            "game-update",
-            "robotics-game",
-            "tech-integration"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://labgstore311.github.io/g5/class-533/",
+          "createdAt": "2026-04-08T09:52:51.145Z"
         },
         {
-          "originalURL": "https://robotik0.github.io/FNAR-ALT-2/",
-          "idString": "lnk_760w_Kuol0AYjrTSw0XxGr5Iqb",
           "id": "lnk_760w_Kuol0AYjrTSw0XxGr5Iqb",
-          "shortURL": "https://blobigames.short.gy/fnar",
-          "secureShortURL": "https://blobigames.short.gy/fnar",
           "path": "fnar",
           "displayPath": null,
-          "createdAt": "2026-03-30T18:40:25.207Z",
-          "updatedAt": "2026-05-07T11:13:27.383Z",
-          "cloaking": false,
           "title": "Five Nights at Rüfis",
-          "tags": [
-            "community-engagement",
-            "educational-games",
-            "game-update",
-            "robotics",
-            "tech-integration"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://robotik0.github.io/FNAR-ALT-2/",
+          "createdAt": "2026-03-30T18:40:25.207Z"
         },
         {
-          "originalURL": "https://blobigames.nicepage.io/",
-          "idString": "lnk_760w_cumn5mvCsOOYWzl0zvmtm",
           "id": "lnk_760w_cumn5mvCsOOYWzl0zvmtm",
-          "shortURL": "https://blobigames.short.gy/en",
-          "secureShortURL": "https://blobigames.short.gy/en",
           "path": "en",
           "displayPath": null,
-          "createdAt": "2026-03-29T15:24:39.970Z",
-          "updatedAt": "2026-03-29T15:25:23.719Z",
-          "cloaking": false,
           "title": "Blobigames 2: Reimagined",
-          "tags": [
-            "community-game",
-            "game-portal",
-            "redesign",
-            "reimagined-games",
-            "update"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://blobigames.nicepage.io/",
+          "createdAt": "2026-03-29T15:24:39.970Z"
         },
         {
-          "originalURL": "https://blobigames.nicepage.io/",
-          "idString": "lnk_760w_XVZKbb6kcmlPJezG0ynLM",
           "id": "lnk_760w_XVZKbb6kcmlPJezG0ynLM",
-          "shortURL": "https://blobigames.short.gy/scootit",
-          "secureShortURL": "https://blobigames.short.gy/scootit",
           "path": "scootit",
           "displayPath": null,
-          "createdAt": "2026-03-25T14:27:08.300Z",
-          "updatedAt": "2026-04-06T09:27:02.644Z",
-          "cloaking": false,
           "title": "Referral from YT Channel",
-          "tags": [
-            "game-portal",
-            "referral"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://blobigames.nicepage.io/",
+          "createdAt": "2026-03-25T14:27:08.300Z"
         },
         {
-          "originalURL": "https://hos.help-blobigames.workers.dev/",
-          "idString": "lnk_760w_sIAcQsiM8BXMoA4CCZ1CX",
           "id": "lnk_760w_sIAcQsiM8BXMoA4CCZ1CX",
-          "shortURL": "https://blobigames.short.gy/hos",
-          "secureShortURL": "https://blobigames.short.gy/hos",
           "path": "hos",
           "displayPath": null,
-          "createdAt": "2026-03-23T17:04:33.690Z",
-          "updatedAt": "2026-03-23T17:04:52.989Z",
-          "cloaking": false,
           "title": "Hills of Steel - Arcadrome",
-          "tags": [
-            "endless-runner",
-            "html5-game",
-            "mobile-game",
-            "strategy-game",
-            "web-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://hos.help-blobigames.workers.dev/",
+          "createdAt": "2026-03-23T17:04:33.690Z"
         },
         {
-          "originalURL": "https://er.help-blobigames.workers.dev/",
-          "idString": "lnk_760w_gij0vVTpUIqfyUgvPo08T",
           "id": "lnk_760w_gij0vVTpUIqfyUgvPo08T",
-          "shortURL": "https://blobigames.short.gy/er",
-          "secureShortURL": "https://blobigames.short.gy/er",
           "path": "er",
           "displayPath": null,
-          "createdAt": "2026-03-22T07:23:54.539Z",
-          "updatedAt": "2026-03-22T07:24:04.314Z",
-          "cloaking": false,
           "title": "Escape Road 2 - Arcadrome",
-          "tags": [
-            "endless-runner",
-            "html5-game",
-            "mobile-game",
-            "racing-game",
-            "web-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://er.help-blobigames.workers.dev/",
+          "createdAt": "2026-03-22T07:23:54.539Z"
         },
         {
-          "originalURL": "https://ss.help-blobigames.workers.dev/",
-          "idString": "lnk_760w_Mo7CqgsIKipWFfaivkMbQ",
           "id": "lnk_760w_Mo7CqgsIKipWFfaivkMbQ",
-          "shortURL": "https://blobigames.short.gy/ss",
-          "secureShortURL": "https://blobigames.short.gy/ss",
           "path": "ss",
           "displayPath": null,
-          "createdAt": "2026-03-22T07:23:14.070Z",
-          "updatedAt": "2026-03-22T07:23:26.329Z",
-          "cloaking": false,
           "title": "Subway Surfers Web",
-          "tags": [
-            "endless-runner",
-            "html5-game",
-            "mobile-game",
-            "running-game",
-            "web-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://ss.help-blobigames.workers.dev/",
+          "createdAt": "2026-03-22T07:23:14.070Z"
         },
         {
-          "originalURL": "https://storeg223.github.io/g66/class-948/",
-          "idString": "lnk_760w_fFn9Ya4LRsd4x6fFFR499",
           "id": "lnk_760w_fFn9Ya4LRsd4x6fFFR499",
-          "shortURL": "https://blobigames.short.gy/sbe",
-          "secureShortURL": "https://blobigames.short.gy/sbe",
           "path": "sbe",
           "displayPath": null,
-          "createdAt": "2026-03-16T16:35:55.281Z",
-          "updatedAt": "2026-03-16T16:36:05.082Z",
-          "cloaking": false,
           "title": "Stunt Bike Extreme ",
-          "tags": [
-            "browser-game",
-            "html5-game",
-            "motorcycle-game",
-            "racing-game",
-            "skill-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://storeg223.github.io/g66/class-948/",
+          "createdAt": "2026-03-16T16:35:55.281Z"
         },
         {
-          "originalURL": "https://cdn.botpress.cloud/webchat/v3.6/shareable.html?configUrl=https://files.bpcontent.cloud/2026/03/13/12/20260313122133-TM1XEFKH.json",
-          "idString": "lnk_760w_K8YQTx3toBBhpfAmrEcWY",
           "id": "lnk_760w_K8YQTx3toBBhpfAmrEcWY",
-          "shortURL": "https://blobigames.short.gy/blob-gpt",
-          "secureShortURL": "https://blobigames.short.gy/blob-gpt",
           "path": "blob-gpt",
           "displayPath": null,
-          "createdAt": "2026-03-13T19:23:23.515Z",
-          "updatedAt": "2026-03-13T19:24:33.450Z",
-          "cloaking": false,
           "title": "BlobGPT",
-          "tags": [
-            "ai-chat",
-            "chatbot",
-            "communication-tool",
-            "online-interface",
-            "web-chat"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://cdn.botpress.cloud/webchat/v3.6/shareable.html?configUrl=https://files.bpcontent.cloud/2026/03/13/12/20260313122133-TM1XEFKH.json",
+          "createdAt": "2026-03-13T19:23:23.515Z"
         },
         {
-          "originalURL": "https://robotik0.github.io/gd/",
-          "idString": "lnk_760w_lYlNwbD4LrhUtxNEJaxAx",
           "id": "lnk_760w_lYlNwbD4LrhUtxNEJaxAx",
-          "shortURL": "https://blobigames.short.gy/gd",
-          "secureShortURL": "https://blobigames.short.gy/gd",
           "path": "gd",
           "displayPath": null,
-          "createdAt": "2026-03-13T19:13:28.395Z",
-          "updatedAt": "2026-03-13T19:19:04.068Z",
-          "cloaking": false,
           "title": "Geometry Dash",
-          "tags": [
-            "browser-game",
-            "music-game",
-            "platformer",
-            "rhythm-game",
-            "skill-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://robotik0.github.io/gd/",
+          "createdAt": "2026-03-13T19:13:28.395Z"
         },
         {
-          "originalURL": "https://app-260481.cdn.games.yandex.net/260481/zp93hvwefd4vx1mi2t1m8u030zgs8h11_brotli/index.html?iframe=1&sdk=%2Fsdk%2F_%2Fv2.249809e6675065e2c7e5.js#origin=https%3A%2F%2Fyandex.com&app-id=260481&device-type=desktop",
-          "idString": "lnk_760w_wo81mXnFywNVJ7Bl6QNH7",
           "id": "lnk_760w_wo81mXnFywNVJ7Bl6QNH7",
-          "shortURL": "https://blobigames.short.gy/mp",
-          "secureShortURL": "https://blobigames.short.gy/mp",
           "path": "mp",
           "displayPath": null,
-          "createdAt": "2026-03-13T19:11:18.001Z",
-          "updatedAt": "2026-03-13T19:20:22.281Z",
-          "cloaking": false,
           "title": "Melon Playground",
-          "tags": [
-            "browser-game",
-            "casual-game",
-            "html5-game",
-            "interactive",
-            "web-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://app-260481.cdn.games.yandex.net/260481/zp93hvwefd4vx1mi2t1m8u030zgs8h11_brotli/index.html?iframe=1&sdk=%2Fsdk%2F_%2Fv2.249809e6675065e2c7e5.js#origin=https%3A%2F%2Fyandex.com&app-id=260481&device-type=desktop",
+          "createdAt": "2026-03-13T19:11:18.001Z"
         },
         {
-          "originalURL": "https://ra.help-blobigames.workers.dev/",
-          "idString": "lnk_760w_lxMjk7DZvCqUGwLrxt7vD",
           "id": "lnk_760w_lxMjk7DZvCqUGwLrxt7vD",
-          "shortURL": "https://blobigames.short.gy/ra",
-          "secureShortURL": "https://blobigames.short.gy/ra",
           "path": "ra",
           "displayPath": null,
-          "createdAt": "2026-03-13T19:09:53.370Z",
-          "updatedAt": "2026-03-17T11:55:00.249Z",
-          "cloaking": false,
           "title": "Ragdoll Archers",
-          "tags": [
-            "archery",
-            "browser-game",
-            "interactive",
-            "physics-game",
-            "web-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://ra.help-blobigames.workers.dev/",
+          "createdAt": "2026-03-13T19:09:53.370Z"
         },
         {
-          "originalURL": "https://robotik0.github.io/ec/",
-          "idString": "lnk_760w_mfvsbNakedCom7damsfOD",
           "id": "lnk_760w_mfvsbNakedCom7damsfOD",
-          "shortURL": "https://blobigames.short.gy/ec",
-          "secureShortURL": "https://blobigames.short.gy/ec",
           "path": "ec",
           "displayPath": null,
-          "createdAt": "2026-03-13T19:07:33.291Z",
-          "updatedAt": "2026-08-18T17:50:54.896Z",
-          "cloaking": false,
           "title": "Eaglercraft",
-          "tags": [
-            "browser-game",
-            "minecraft-classic",
-            "retro-gaming",
-            "wasm",
-            "web-emulation"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://robotik0.github.io/ec/",
+          "createdAt": "2026-03-13T19:07:33.291Z"
         },
         {
-          "originalURL": "https://robotik0.github.io/blobs-fischen/",
-          "idString": "lnk_760w_flYtajtsyWMGJluTUqWYm",
           "id": "lnk_760w_flYtajtsyWMGJluTUqWYm",
-          "shortURL": "https://blobigames.short.gy/blobs-fischen",
-          "secureShortURL": "https://blobigames.short.gy/blobs-fischen",
           "path": "blobs-fischen",
           "displayPath": null,
-          "createdAt": "2026-03-13T18:55:54.082Z",
-          "updatedAt": "2026-03-13T19:21:56.635Z",
-          "cloaking": false,
           "title": "Blobs-Fischen",
-          "tags": [
-            "browser-game",
-            "game",
-            "interactive",
-            "javascript",
-            "web-game"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1691392,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTMXWUUFMS%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073208Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEtafxUrM0891%2FAXCFKwYgdvCMxhZJdWDECo%2BQMEzXyJAiEAu8rRrQ%2Fonk%2FPGVuxT8QFswcZ4nduhfP43avs7N8gXBwq%2FAQIYBAEGgw5NzU0ODI3NTc2MDYiDHbuI4dj76BgH4vz5SrZBMEMt837%2B5kUWC8hn%2FwHXrXo8RhqLctDt8%2FGAM3Gsh5NsVGQJF5BoRDcKN2TyO%2FWsldPVRvKq3BpBOsMmqJdYsLJQ4az2P0AI%2FjYDa4poLa10JVP9S%2FyfMakjii6IwYuiACeK9TJ1L3%2FGP90TcVA8pTfQ4JXq3uSpVs0FIBTvR%2FDRiwRAfKkjIkyRiCETsg%2BE6IsUj1LXQZrkeWgFOXo1Sb15oICUGEMA9nK%2FNK%2FE%2Fq168i38PAqCijeORuYrO0%2FL%2BNi8xUgk5cOcKqPFJjEuswIGRgwMTBRliNUEp3RD3qQRybZkDwKSh1q4102pG2Zp8Xi2rvAAL02ztNtMfyacIRJgKeuc74ublRYLGtolfb1XO33EdosernvvHBYE2KfRWAqhiC3c8mhMrrk7DEYozEpWtAQ%2F9HVYVtAlgUmJxJHoskA1TWh1UO6Yqz%2BC83nA6vzdM%2BNBpIZ4JGCM0uhROFvsrQ3qjq0Ow0A7jK39E%2FXqf9SeUXeUKnxo7Ilv7KIfiLAbyBHzBQVjPfZgJXNy1ZNB5P2WMjFPvD1VgrreI5qOORc3AzxyDUUrsw5oJvyC5m4mkfdkP%2Fa3j%2Fu0iWv90nSGTsjMJ5x%2BAgKP9iyEJ33LqDPAe%2FIiiamkGVWxhS8NUdFCoOIlJOlyS5NraSkKyn33%2Flq6L8%2Fz81cBcNSpnLTeIYWWx3GYvBE1DDBbad%2F130iaJYGQVK6ZAetqhbNIOMu9gQrxEEzTmaHnEp%2BmD%2BcWtnpGOrDAsefvEYUmcVgGMJtOvntNRp%2BuvRJPNG8yisWHCm0C%2BzVHpkwpInK1AY6mAFQGg%2B%2B7w%2FSOkx8tH6b5sH6Xg3jSLEud%2FY2EvG0ktKpk0HwabpH9wxFBQ7kPUBWww4HP7k%2BjgQEoKPZwHZAtnYE95Rg%2FmKQqcJvOS9mz5E65qpWjs9oWwadxrRPrueE3J53jeXn1PtzVdr2FCuPqZi0z9ffN0DdAB74Ey1PM2y0eN26g5e%2BYGUEwiiczmf9Vn70okf8mgruIQ%3D%3D&X-Amz-Signature=b5ea8882fc11403238b8774129899cff6024040c00d694af4c936ed2636fb582&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://robotik0.github.io/blobs-fischen/",
+          "createdAt": "2026-03-13T18:55:54.082Z"
         }
       ],
       "linkClicks": {
@@ -1671,7 +457,7 @@
         },
         "lnk_760w_VyQ5Soszrk4zcPFUVOZQM": {
           "id": "lnk_760w_VyQ5Soszrk4zcPFUVOZQM",
-          "path": null,
+          "path": "",
           "displayPath": null,
           "title": "Blobigames 2: Reimagined",
           "originalURL": "https://blobigames.nicepage.io/",
@@ -1903,401 +689,62 @@
           "createdAt": "2026-03-13T18:55:54.082Z",
           "clicks": 1
         }
+      },
+      "statistics": {
+        "clicks": 31,
+        "source": "batched-link-clicks"
       }
     },
     "referral-blobigames.short.gy": {
-      "id": 1710291,
       "hostname": "referral-blobigames.short.gy",
-      "createdAt": "2026-03-25T14:56:58.000Z",
-      "statistics": {
-        "clicks": 2,
-        "humanClicks": 1,
-        "prevClicks": 2,
-        "prevHumanClicks": 1,
-        "links": 0,
-        "linksChange": "999.00",
-        "interval": {
-          "startDate": "2026-06-23T20:00:00.000Z",
-          "endDate": "2026-06-24T19:59:59.999Z",
-          "prevStartDate": "2026-06-22T20:00:00.000Z",
-          "prevEndDate": "2026-06-23T19:59:59.000Z",
-          "tz": "Europe/Zurich"
-        },
-        "linksChangePositive": true,
-        "clicksPerLink": "0",
-        "clicksPerLinkChange": "999.00",
-        "humanClicksPerLink": "0",
-        "prevClicksChange": "0.00",
-        "humanClicksChange": "0.00",
-        "humanClicksChangePositive": false,
-        "clickStatistics": {
-          "datasets": [
-            {
-              "data": [
-                {
-                  "x": "2026-06-23T22:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-23T23:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T00:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T01:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T02:00:00.000Z",
-                  "y": "1"
-                },
-                {
-                  "x": "2026-06-24T03:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T04:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T05:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T06:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T07:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T08:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T09:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T10:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T11:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T12:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T13:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T14:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T15:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T16:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T17:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T18:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T19:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T20:00:00.000Z",
-                  "y": "0"
-                },
-                {
-                  "x": "2026-06-24T21:00:00.000Z",
-                  "y": "0"
-                }
-              ]
-            }
-          ]
-        },
-        "referer": [
-          {
-            "refhost": "",
-            "score": 1
-          }
-        ],
-        "social": [
-          {
-            "social": "",
-            "score": 1
-          }
-        ],
-        "browser": [
-          {
-            "browser": "Chrome",
-            "score": 1
-          }
-        ],
-        "country": [
-          {
-            "countryName": "United States",
-            "country": "US",
-            "score": 1
-          }
-        ],
-        "city": [
-          {
-            "city": 5815135,
-            "score": 1,
-            "name": 5815135,
-            "countryCode": null
-          }
-        ],
-        "os": [
-          {
-            "os": "Windows",
-            "score": 1
-          }
-        ],
-        "utm_medium": [
-          {
-            "utm_medium": "unknown",
-            "score": 1
-          }
-        ],
-        "utm_source": [
-          {
-            "utm_source": "",
-            "score": 1
-          }
-        ],
-        "utm_campaign": [
-          {
-            "utm_campaign": "",
-            "score": 1
-          }
-        ],
-        "utm_term": [
-          {
-            "utm_term": "",
-            "score": 1
-          }
-        ],
-        "utm_content": [
-          {
-            "utm_content": "",
-            "score": 1
-          }
-        ],
-        "sample": false,
-        "loading": false,
-        "device": []
-      },
       "links": [
         {
-          "originalURL": "https://whatsapp.com/channel/0029Vb7P7gHIiRosF8G8BH0C",
-          "idString": "link_7aVl_034DzbTkhirgwdb5TxVoIl",
           "id": "link_7aVl_034DzbTkhirgwdb5TxVoIl",
-          "shortURL": "https://referral-blobigames.short.gy/lm",
-          "secureShortURL": "https://referral-blobigames.short.gy/lm",
           "path": "lm",
           "displayPath": null,
-          "createdAt": "2026-08-26T18:46:44.766Z",
-          "updatedAt": "2026-08-26T18:46:54.225Z",
-          "cloaking": false,
           "title": "✨️M&L✨️ – WhatsApp-Kanal",
-          "tags": [
-            "Community",
-            "Lifestyle",
-            "Local",
-            "Social Media",
-            "Support"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1710291,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTEKUWOLZA%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073211Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQD6iY%2B8xjHj1gzDw4hVE9wJJfylmKBCrRrpOSkianHzagIhAJ3QHB5CLlH2nsYAih7k8TQpjPw8yAqYCz7hi9FYaDheKvwECGAQBBoMOTc1NDgyNzU3NjA2IgyIjDyZEeFrMy6Rdq8q2QQ%2BXXvmouqhtV%2FcGo4shHK%2F4fZ6UCC73xcqB0X48zoLNpx8C45FQty%2FQoTSTd1oSFo%2BcvS1Mx1aOzNX1JaYyeEEV4TqY8qb2NZOdkjuwq%2Bxk2WkZh%2B6J%2FdlRGaMo6Dm%2B6IHb7fK7WWSYdIAuSwamznPRQURflbrHCzGQPcT95E8J9vY9Q3Qzm5g4jeHkpW9CC%2FAuVYFMXcBjFpg3Xk5Q97RGw7gTbDPkMqhtn8zrcWf5O4qXdE01NZnlIGxzFzGxi4PsMNPFy5wcVbIjLKKlTo5e86tLolygob%2BunFvYXX6uxDAN0MPsQrLg2053DWGmvMOOy%2Br6vTJTG47hL8UO5mv525VmQjaYvwPve07DP0knzt7wvn2k%2F1QbTwlQLuXDTWnsvt%2BsieF5LIG8DASautZcO0M4xrJhOWrMVJWZMY%2BMGn6nPOzfRZlR0G8grk3j6L1PWW%2BzrNq6LbPdtwofy01ZYg6VblooN%2FktKd5MURQ6OqgvxptLR2fDD4whp%2FSvUEINFUWs8G3W00bXe2qMKl5bk%2BuWonhNDW7fRz4SqXFu%2Ff5Cdqqi3YqoSa0FCTsb6C%2F7APmpKva%2FGY4E0oemkpJJbpya9gWkb2Zz7nhKA6gxkui9S%2Flxi5aUbLO6hKbGty6u1j6vKivmV79V6jyyKmnSB9Kdwveqnxe1OMoq2gNaRDnfFSsasWYq6aWlnDnEgvwee4ewMG3GEfdjOTwwZrUXcR5JnnrP0Q9BCUdSOtSfFRKRy%2BTdvXuj21bcy48i0tLQXnnNqbX5M4wA34lnZUFSaJkBA6osAERMLKHytQGOpcB89sBB563EOisgee46X0S54yQ2BzhIJF5PAoua%2B2y6eeUB%2B04QNP%2F2NBSoKYgbdGMBgosUBvbh2Q%2BGcap3P6qDSXyhuv%2FnpyrvMSI3hvo8JKXvoLci8yHq79VptjxgND1uVmx4WFWowJDCpWPt1tdIuS3O650Hr4zMMj8MdzD7nvKJNO%2Fwta2OGfcWqu0LFEDVAL5iqj22A%3D%3D&X-Amz-Signature=599dc878895a8fd3084aca2f885ce7505b9b8326f9504d1a4aee833aeb7e3e59&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://whatsapp.com/channel/0029Vb7P7gHIiRosF8G8BH0C",
+          "createdAt": "2026-08-26T18:46:44.766Z"
         },
         {
-          "originalURL": "https://whatsapp.com/channel/0029Vb7uxjCLI8YPc0eDCr0A",
-          "idString": "link_7aVl_034DzZf9H6Tvxn8sqjFtmg",
           "id": "link_7aVl_034DzZf9H6Tvxn8sqjFtmg",
-          "shortURL": "https://referral-blobigames.short.gy/mmlr",
-          "secureShortURL": "https://referral-blobigames.short.gy/mmlr",
           "path": "mmlr",
           "displayPath": null,
-          "createdAt": "2026-08-26T18:45:33.148Z",
-          "updatedAt": "2026-08-26T18:45:41.430Z",
-          "cloaking": false,
           "title": "🤍✨️MM&LR✨️🤍 – WhatsApp-Kanal",
-          "tags": [
-            "Community",
-            "Lifestyle",
-            "Social Media",
-            "Support"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1710291,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTEKUWOLZA%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073211Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQD6iY%2B8xjHj1gzDw4hVE9wJJfylmKBCrRrpOSkianHzagIhAJ3QHB5CLlH2nsYAih7k8TQpjPw8yAqYCz7hi9FYaDheKvwECGAQBBoMOTc1NDgyNzU3NjA2IgyIjDyZEeFrMy6Rdq8q2QQ%2BXXvmouqhtV%2FcGo4shHK%2F4fZ6UCC73xcqB0X48zoLNpx8C45FQty%2FQoTSTd1oSFo%2BcvS1Mx1aOzNX1JaYyeEEV4TqY8qb2NZOdkjuwq%2Bxk2WkZh%2B6J%2FdlRGaMo6Dm%2B6IHb7fK7WWSYdIAuSwamznPRQURflbrHCzGQPcT95E8J9vY9Q3Qzm5g4jeHkpW9CC%2FAuVYFMXcBjFpg3Xk5Q97RGw7gTbDPkMqhtn8zrcWf5O4qXdE01NZnlIGxzFzGxi4PsMNPFy5wcVbIjLKKlTo5e86tLolygob%2BunFvYXX6uxDAN0MPsQrLg2053DWGmvMOOy%2Br6vTJTG47hL8UO5mv525VmQjaYvwPve07DP0knzt7wvn2k%2F1QbTwlQLuXDTWnsvt%2BsieF5LIG8DASautZcO0M4xrJhOWrMVJWZMY%2BMGn6nPOzfRZlR0G8grk3j6L1PWW%2BzrNq6LbPdtwofy01ZYg6VblooN%2FktKd5MURQ6OqgvxptLR2fDD4whp%2FSvUEINFUWs8G3W00bXe2qMKl5bk%2BuWonhNDW7fRz4SqXFu%2Ff5Cdqqi3YqoSa0FCTsb6C%2F7APmpKva%2FGY4E0oemkpJJbpya9gWkb2Zz7nhKA6gxkui9S%2Flxi5aUbLO6hKbGty6u1j6vKivmV79V6jyyKmnSB9Kdwveqnxe1OMoq2gNaRDnfFSsasWYq6aWlnDnEgvwee4ewMG3GEfdjOTwwZrUXcR5JnnrP0Q9BCUdSOtSfFRKRy%2BTdvXuj21bcy48i0tLQXnnNqbX5M4wA34lnZUFSaJkBA6osAERMLKHytQGOpcB89sBB563EOisgee46X0S54yQ2BzhIJF5PAoua%2B2y6eeUB%2B04QNP%2F2NBSoKYgbdGMBgosUBvbh2Q%2BGcap3P6qDSXyhuv%2FnpyrvMSI3hvo8JKXvoLci8yHq79VptjxgND1uVmx4WFWowJDCpWPt1tdIuS3O650Hr4zMMj8MdzD7nvKJNO%2Fwta2OGfcWqu0LFEDVAL5iqj22A%3D%3D&X-Amz-Signature=599dc878895a8fd3084aca2f885ce7505b9b8326f9504d1a4aee833aeb7e3e59&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://whatsapp.com/channel/0029Vb7uxjCLI8YPc0eDCr0A",
+          "createdAt": "2026-08-26T18:45:33.148Z"
         },
         {
-          "originalURL": "https://www.google.com/search?q=Support+Ukraine",
-          "idString": "link_7aVl_034C01Ofza7tKnpycp7xwD",
           "id": "link_7aVl_034C01Ofza7tKnpycp7xwD",
-          "shortURL": "https://referral-blobigames.short.gy/support-ukraine",
-          "secureShortURL": "https://referral-blobigames.short.gy/support-ukraine",
           "path": "support-ukraine",
           "displayPath": null,
-          "createdAt": "2026-08-23T06:51:00.632Z",
-          "updatedAt": "2026-08-23T06:51:16.167Z",
-          "cloaking": false,
           "title": "Google Search",
-          "tags": [
-            "Charity",
-            "Global",
-            "Humanitarian",
-            "International",
-            "Support"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1710291,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTEKUWOLZA%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073211Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQD6iY%2B8xjHj1gzDw4hVE9wJJfylmKBCrRrpOSkianHzagIhAJ3QHB5CLlH2nsYAih7k8TQpjPw8yAqYCz7hi9FYaDheKvwECGAQBBoMOTc1NDgyNzU3NjA2IgyIjDyZEeFrMy6Rdq8q2QQ%2BXXvmouqhtV%2FcGo4shHK%2F4fZ6UCC73xcqB0X48zoLNpx8C45FQty%2FQoTSTd1oSFo%2BcvS1Mx1aOzNX1JaYyeEEV4TqY8qb2NZOdkjuwq%2Bxk2WkZh%2B6J%2FdlRGaMo6Dm%2B6IHb7fK7WWSYdIAuSwamznPRQURflbrHCzGQPcT95E8J9vY9Q3Qzm5g4jeHkpW9CC%2FAuVYFMXcBjFpg3Xk5Q97RGw7gTbDPkMqhtn8zrcWf5O4qXdE01NZnlIGxzFzGxi4PsMNPFy5wcVbIjLKKlTo5e86tLolygob%2BunFvYXX6uxDAN0MPsQrLg2053DWGmvMOOy%2Br6vTJTG47hL8UO5mv525VmQjaYvwPve07DP0knzt7wvn2k%2F1QbTwlQLuXDTWnsvt%2BsieF5LIG8DASautZcO0M4xrJhOWrMVJWZMY%2BMGn6nPOzfRZlR0G8grk3j6L1PWW%2BzrNq6LbPdtwofy01ZYg6VblooN%2FktKd5MURQ6OqgvxptLR2fDD4whp%2FSvUEINFUWs8G3W00bXe2qMKl5bk%2BuWonhNDW7fRz4SqXFu%2Ff5Cdqqi3YqoSa0FCTsb6C%2F7APmpKva%2FGY4E0oemkpJJbpya9gWkb2Zz7nhKA6gxkui9S%2Flxi5aUbLO6hKbGty6u1j6vKivmV79V6jyyKmnSB9Kdwveqnxe1OMoq2gNaRDnfFSsasWYq6aWlnDnEgvwee4ewMG3GEfdjOTwwZrUXcR5JnnrP0Q9BCUdSOtSfFRKRy%2BTdvXuj21bcy48i0tLQXnnNqbX5M4wA34lnZUFSaJkBA6osAERMLKHytQGOpcB89sBB563EOisgee46X0S54yQ2BzhIJF5PAoua%2B2y6eeUB%2B04QNP%2F2NBSoKYgbdGMBgosUBvbh2Q%2BGcap3P6qDSXyhuv%2FnpyrvMSI3hvo8JKXvoLci8yHq79VptjxgND1uVmx4WFWowJDCpWPt1tdIuS3O650Hr4zMMj8MdzD7nvKJNO%2Fwta2OGfcWqu0LFEDVAL5iqj22A%3D%3D&X-Amz-Signature=599dc878895a8fd3084aca2f885ce7505b9b8326f9504d1a4aee833aeb7e3e59&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://www.google.com/search?q=Support+Ukraine",
+          "createdAt": "2026-08-23T06:51:00.632Z"
         },
         {
-          "originalURL": "https://whatsapp.com/channel/0029Vb7MJUPF1YlRs1x4nv2p",
-          "idString": "link_7aVl_0347jJY1JNF7A0egYWEk8J",
           "id": "link_7aVl_0347jJY1JNF7A0egYWEk8J",
-          "shortURL": "https://referral-blobigames.short.gy/its-us",
-          "secureShortURL": "https://referral-blobigames.short.gy/its-us",
           "path": "its-us",
           "displayPath": null,
-          "createdAt": "2026-08-15T19:04:40.913Z",
-          "updatedAt": "2026-08-15T19:04:49.270Z",
-          "cloaking": false,
           "title": "🧸✨️🤎 𝙸𝚝𝚜 𝚞𝚜 🤎✨️🧸 – WhatsApp-Kanal",
-          "tags": [
-            "Community",
-            "Lifestyle",
-            "Local",
-            "Personal",
-            "Social Media"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1710291,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTEKUWOLZA%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073211Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQD6iY%2B8xjHj1gzDw4hVE9wJJfylmKBCrRrpOSkianHzagIhAJ3QHB5CLlH2nsYAih7k8TQpjPw8yAqYCz7hi9FYaDheKvwECGAQBBoMOTc1NDgyNzU3NjA2IgyIjDyZEeFrMy6Rdq8q2QQ%2BXXvmouqhtV%2FcGo4shHK%2F4fZ6UCC73xcqB0X48zoLNpx8C45FQty%2FQoTSTd1oSFo%2BcvS1Mx1aOzNX1JaYyeEEV4TqY8qb2NZOdkjuwq%2Bxk2WkZh%2B6J%2FdlRGaMo6Dm%2B6IHb7fK7WWSYdIAuSwamznPRQURflbrHCzGQPcT95E8J9vY9Q3Qzm5g4jeHkpW9CC%2FAuVYFMXcBjFpg3Xk5Q97RGw7gTbDPkMqhtn8zrcWf5O4qXdE01NZnlIGxzFzGxi4PsMNPFy5wcVbIjLKKlTo5e86tLolygob%2BunFvYXX6uxDAN0MPsQrLg2053DWGmvMOOy%2Br6vTJTG47hL8UO5mv525VmQjaYvwPve07DP0knzt7wvn2k%2F1QbTwlQLuXDTWnsvt%2BsieF5LIG8DASautZcO0M4xrJhOWrMVJWZMY%2BMGn6nPOzfRZlR0G8grk3j6L1PWW%2BzrNq6LbPdtwofy01ZYg6VblooN%2FktKd5MURQ6OqgvxptLR2fDD4whp%2FSvUEINFUWs8G3W00bXe2qMKl5bk%2BuWonhNDW7fRz4SqXFu%2Ff5Cdqqi3YqoSa0FCTsb6C%2F7APmpKva%2FGY4E0oemkpJJbpya9gWkb2Zz7nhKA6gxkui9S%2Flxi5aUbLO6hKbGty6u1j6vKivmV79V6jyyKmnSB9Kdwveqnxe1OMoq2gNaRDnfFSsasWYq6aWlnDnEgvwee4ewMG3GEfdjOTwwZrUXcR5JnnrP0Q9BCUdSOtSfFRKRy%2BTdvXuj21bcy48i0tLQXnnNqbX5M4wA34lnZUFSaJkBA6osAERMLKHytQGOpcB89sBB563EOisgee46X0S54yQ2BzhIJF5PAoua%2B2y6eeUB%2B04QNP%2F2NBSoKYgbdGMBgosUBvbh2Q%2BGcap3P6qDSXyhuv%2FnpyrvMSI3hvo8JKXvoLci8yHq79VptjxgND1uVmx4WFWowJDCpWPt1tdIuS3O650Hr4zMMj8MdzD7nvKJNO%2Fwta2OGfcWqu0LFEDVAL5iqj22A%3D%3D&X-Amz-Signature=599dc878895a8fd3084aca2f885ce7505b9b8326f9504d1a4aee833aeb7e3e59&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://whatsapp.com/channel/0029Vb7MJUPF1YlRs1x4nv2p",
+          "createdAt": "2026-08-15T19:04:40.913Z"
         },
         {
-          "originalURL": "https://whatsapp.com/channel/0029VbC3Bg59MF8vhZBUI01E",
-          "idString": "lnk_7aVl_516OeblPrWgRjFqIPNJpV",
           "id": "lnk_7aVl_516OeblPrWgRjFqIPNJpV",
-          "shortURL": "https://referral-blobigames.short.gy/wild-and-free",
-          "secureShortURL": "https://referral-blobigames.short.gy/wild-and-free",
           "path": "wild-and-free",
           "displayPath": null,
-          "createdAt": "2026-04-23T04:48:48.200Z",
-          "updatedAt": "2026-04-23T04:49:33.066Z",
-          "cloaking": false,
           "title": "wild & free 🪶 – WhatsApp-Kanal",
-          "tags": [
-            "Communication",
-            "Lifestyle",
-            "Nature",
-            "Social Media",
-            "Wildlife"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1710291,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTEKUWOLZA%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073211Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQD6iY%2B8xjHj1gzDw4hVE9wJJfylmKBCrRrpOSkianHzagIhAJ3QHB5CLlH2nsYAih7k8TQpjPw8yAqYCz7hi9FYaDheKvwECGAQBBoMOTc1NDgyNzU3NjA2IgyIjDyZEeFrMy6Rdq8q2QQ%2BXXvmouqhtV%2FcGo4shHK%2F4fZ6UCC73xcqB0X48zoLNpx8C45FQty%2FQoTSTd1oSFo%2BcvS1Mx1aOzNX1JaYyeEEV4TqY8qb2NZOdkjuwq%2Bxk2WkZh%2B6J%2FdlRGaMo6Dm%2B6IHb7fK7WWSYdIAuSwamznPRQURflbrHCzGQPcT95E8J9vY9Q3Qzm5g4jeHkpW9CC%2FAuVYFMXcBjFpg3Xk5Q97RGw7gTbDPkMqhtn8zrcWf5O4qXdE01NZnlIGxzFzGxi4PsMNPFy5wcVbIjLKKlTo5e86tLolygob%2BunFvYXX6uxDAN0MPsQrLg2053DWGmvMOOy%2Br6vTJTG47hL8UO5mv525VmQjaYvwPve07DP0knzt7wvn2k%2F1QbTwlQLuXDTWnsvt%2BsieF5LIG8DASautZcO0M4xrJhOWrMVJWZMY%2BMGn6nPOzfRZlR0G8grk3j6L1PWW%2BzrNq6LbPdtwofy01ZYg6VblooN%2FktKd5MURQ6OqgvxptLR2fDD4whp%2FSvUEINFUWs8G3W00bXe2qMKl5bk%2BuWonhNDW7fRz4SqXFu%2Ff5Cdqqi3YqoSa0FCTsb6C%2F7APmpKva%2FGY4E0oemkpJJbpya9gWkb2Zz7nhKA6gxkui9S%2Flxi5aUbLO6hKbGty6u1j6vKivmV79V6jyyKmnSB9Kdwveqnxe1OMoq2gNaRDnfFSsasWYq6aWlnDnEgvwee4ewMG3GEfdjOTwwZrUXcR5JnnrP0Q9BCUdSOtSfFRKRy%2BTdvXuj21bcy48i0tLQXnnNqbX5M4wA34lnZUFSaJkBA6osAERMLKHytQGOpcB89sBB563EOisgee46X0S54yQ2BzhIJF5PAoua%2B2y6eeUB%2B04QNP%2F2NBSoKYgbdGMBgosUBvbh2Q%2BGcap3P6qDSXyhuv%2FnpyrvMSI3hvo8JKXvoLci8yHq79VptjxgND1uVmx4WFWowJDCpWPt1tdIuS3O650Hr4zMMj8MdzD7nvKJNO%2Fwta2OGfcWqu0LFEDVAL5iqj22A%3D%3D&X-Amz-Signature=599dc878895a8fd3084aca2f885ce7505b9b8326f9504d1a4aee833aeb7e3e59&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://whatsapp.com/channel/0029VbC3Bg59MF8vhZBUI01E",
+          "createdAt": "2026-04-23T04:48:48.200Z"
         },
         {
-          "originalURL": "https://www.youtube.com/@ScootIt/",
-          "idString": "lnk_7aVl_v1hkIaINTmrhj9ZQ6aEpq",
           "id": "lnk_7aVl_v1hkIaINTmrhj9ZQ6aEpq",
-          "shortURL": "https://referral-blobigames.short.gy/scootit",
-          "secureShortURL": "https://referral-blobigames.short.gy/scootit",
           "path": "scootit",
           "displayPath": null,
-          "createdAt": "2026-03-25T14:57:33.406Z",
-          "updatedAt": "2026-03-25T16:32:05.395Z",
-          "cloaking": false,
           "title": "Scoot It! - YouTube",
-          "tags": [
-            "Entertainment",
-            "Lifestyle",
-            "Scooter",
-            "Shorts",
-            "YouTube"
-          ],
-          "skipQS": false,
-          "archived": false,
-          "DomainId": 1710291,
-          "OwnerId": 2376719,
-          "hasPassword": false,
-          "source": "website",
-          "User": {
-            "id": 2376719,
-            "name": "Bobigames",
-            "email": "robotik.animation@gmail.com",
-            "photoURL": "https://shortio-user-photos.s3.us-east-1.amazonaws.com/robotik.animation%40gmail.com/Zmhn4YzDoQi2f8ieBwRpH?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA6GH2NUHTEKUWOLZA%2F20260829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260829T073211Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQD6iY%2B8xjHj1gzDw4hVE9wJJfylmKBCrRrpOSkianHzagIhAJ3QHB5CLlH2nsYAih7k8TQpjPw8yAqYCz7hi9FYaDheKvwECGAQBBoMOTc1NDgyNzU3NjA2IgyIjDyZEeFrMy6Rdq8q2QQ%2BXXvmouqhtV%2FcGo4shHK%2F4fZ6UCC73xcqB0X48zoLNpx8C45FQty%2FQoTSTd1oSFo%2BcvS1Mx1aOzNX1JaYyeEEV4TqY8qb2NZOdkjuwq%2Bxk2WkZh%2B6J%2FdlRGaMo6Dm%2B6IHb7fK7WWSYdIAuSwamznPRQURflbrHCzGQPcT95E8J9vY9Q3Qzm5g4jeHkpW9CC%2FAuVYFMXcBjFpg3Xk5Q97RGw7gTbDPkMqhtn8zrcWf5O4qXdE01NZnlIGxzFzGxi4PsMNPFy5wcVbIjLKKlTo5e86tLolygob%2BunFvYXX6uxDAN0MPsQrLg2053DWGmvMOOy%2Br6vTJTG47hL8UO5mv525VmQjaYvwPve07DP0knzt7wvn2k%2F1QbTwlQLuXDTWnsvt%2BsieF5LIG8DASautZcO0M4xrJhOWrMVJWZMY%2BMGn6nPOzfRZlR0G8grk3j6L1PWW%2BzrNq6LbPdtwofy01ZYg6VblooN%2FktKd5MURQ6OqgvxptLR2fDD4whp%2FSvUEINFUWs8G3W00bXe2qMKl5bk%2BuWonhNDW7fRz4SqXFu%2Ff5Cdqqi3YqoSa0FCTsb6C%2F7APmpKva%2FGY4E0oemkpJJbpya9gWkb2Zz7nhKA6gxkui9S%2Flxi5aUbLO6hKbGty6u1j6vKivmV79V6jyyKmnSB9Kdwveqnxe1OMoq2gNaRDnfFSsasWYq6aWlnDnEgvwee4ewMG3GEfdjOTwwZrUXcR5JnnrP0Q9BCUdSOtSfFRKRy%2BTdvXuj21bcy48i0tLQXnnNqbX5M4wA34lnZUFSaJkBA6osAERMLKHytQGOpcB89sBB563EOisgee46X0S54yQ2BzhIJF5PAoua%2B2y6eeUB%2B04QNP%2F2NBSoKYgbdGMBgosUBvbh2Q%2BGcap3P6qDSXyhuv%2FnpyrvMSI3hvo8JKXvoLci8yHq79VptjxgND1uVmx4WFWowJDCpWPt1tdIuS3O650Hr4zMMj8MdzD7nvKJNO%2Fwta2OGfcWqu0LFEDVAL5iqj22A%3D%3D&X-Amz-Signature=599dc878895a8fd3084aca2f885ce7505b9b8326f9504d1a4aee833aeb7e3e59&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-          }
+          "originalURL": "https://www.youtube.com/@ScootIt/",
+          "createdAt": "2026-03-25T14:57:33.406Z"
         }
       ],
       "linkClicks": {
@@ -2355,6 +802,10 @@
           "createdAt": "2026-03-25T14:57:33.406Z",
           "clicks": 1
         }
+      },
+      "statistics": {
+        "clicks": 1,
+        "source": "batched-link-clicks"
       }
     }
   }

@@ -1,89 +1,48 @@
 {
-  "generatedAt": "2026-08-29T07:37:14.497726Z",
+  "archiveVersion": "3",
+  "generatedAt": "2026-08-29T09:21:33.169271Z",
   "timezone": "Europe/Zurich",
   "months": {
     "2026-03": {
-      "clicks": 33,
-      "humanClicks": 33,
+      "clicks": 17,
       "domains": {
-        "blobigames.short.gy": {
-          "clicks": 0,
-          "humanClicks": 0
-        },
-        "referral-blobigames.short.gy": {
-          "clicks": 33,
-          "humanClicks": 33
-        }
+        "blobigames.short.gy": 0,
+        "referral-blobigames.short.gy": 17
       }
     },
     "2026-04": {
-      "clicks": 1012,
-      "humanClicks": 976,
+      "clicks": 498,
       "domains": {
-        "blobigames.short.gy": {
-          "clicks": 951,
-          "humanClicks": 921
-        },
-        "referral-blobigames.short.gy": {
-          "clicks": 61,
-          "humanClicks": 55
-        }
+        "blobigames.short.gy": 473,
+        "referral-blobigames.short.gy": 25
       }
     },
     "2026-05": {
-      "clicks": 1261,
-      "humanClicks": 1158,
+      "clicks": 553,
       "domains": {
-        "blobigames.short.gy": {
-          "clicks": 1239,
-          "humanClicks": 1138
-        },
-        "referral-blobigames.short.gy": {
-          "clicks": 22,
-          "humanClicks": 20
-        }
+        "blobigames.short.gy": 542,
+        "referral-blobigames.short.gy": 11
       }
     },
     "2026-06": {
-      "clicks": 1062,
-      "humanClicks": 917,
+      "clicks": 449,
       "domains": {
-        "blobigames.short.gy": {
-          "clicks": 1044,
-          "humanClicks": 905
-        },
-        "referral-blobigames.short.gy": {
-          "clicks": 18,
-          "humanClicks": 12
-        }
+        "blobigames.short.gy": 444,
+        "referral-blobigames.short.gy": 5
       }
     },
     "2026-07": {
-      "clicks": 329,
-      "humanClicks": 296,
+      "clicks": 163,
       "domains": {
-        "blobigames.short.gy": {
-          "clicks": 329,
-          "humanClicks": 296
-        },
-        "referral-blobigames.short.gy": {
-          "clicks": 0,
-          "humanClicks": 0
-        }
+        "blobigames.short.gy": 163,
+        "referral-blobigames.short.gy": 0
       }
     },
     "2026-08": {
-      "clicks": 2130,
-      "humanClicks": 1957,
+      "clicks": 1965,
       "domains": {
-        "blobigames.short.gy": {
-          "clicks": 2067,
-          "humanClicks": 1908
-        },
-        "referral-blobigames.short.gy": {
-          "clicks": 63,
-          "humanClicks": 49
-        }
+        "blobigames.short.gy": 1916,
+        "referral-blobigames.short.gy": 49
       }
     }
   },
@@ -458,17 +417,17 @@
         "2026-08-26": 0,
         "2026-08-27": 7,
         "2026-08-28": 7,
-        "2026-08-29": 0
+        "2026-08-29": 2
       },
       "totals": {
-        "clicks": 14,
+        "clicks": 16,
         "byMonth": {
           "2026-03": 0,
           "2026-04": 0,
           "2026-05": 0,
           "2026-06": 0,
           "2026-07": 0,
-          "2026-08": 14
+          "2026-08": 16
         }
       }
     },
@@ -1226,17 +1185,17 @@
         "2026-08-26": 1,
         "2026-08-27": 4,
         "2026-08-28": 4,
-        "2026-08-29": 3
+        "2026-08-29": 4
       },
       "totals": {
-        "clicks": 12,
+        "clicks": 13,
         "byMonth": {
           "2026-03": 0,
           "2026-04": 0,
           "2026-05": 0,
           "2026-06": 0,
           "2026-07": 0,
-          "2026-08": 12
+          "2026-08": 13
         }
       }
     },
@@ -1418,17 +1377,17 @@
         "2026-08-26": 0,
         "2026-08-27": 2,
         "2026-08-28": 6,
-        "2026-08-29": 1
+        "2026-08-29": 2
       },
       "totals": {
-        "clicks": 9,
+        "clicks": 10,
         "byMonth": {
           "2026-03": 0,
           "2026-04": 0,
           "2026-05": 0,
           "2026-06": 0,
           "2026-07": 0,
-          "2026-08": 9
+          "2026-08": 10
         }
       }
     },
@@ -1802,17 +1761,17 @@
         "2026-08-26": 1,
         "2026-08-27": 3,
         "2026-08-28": 0,
-        "2026-08-29": 0
+        "2026-08-29": 1
       },
       "totals": {
-        "clicks": 38,
+        "clicks": 39,
         "byMonth": {
           "2026-03": 0,
           "2026-04": 0,
           "2026-05": 0,
           "2026-06": 0,
           "2026-07": 9,
-          "2026-08": 29
+          "2026-08": 30
         }
       }
     },
@@ -2378,17 +2337,17 @@
         "2026-08-26": 5,
         "2026-08-27": 5,
         "2026-08-28": 2,
-        "2026-08-29": 1
+        "2026-08-29": 4
       },
       "totals": {
-        "clicks": 76,
+        "clicks": 79,
         "byMonth": {
           "2026-03": 0,
           "2026-04": 0,
           "2026-05": 0,
           "2026-06": 4,
           "2026-07": 6,
-          "2026-08": 66
+          "2026-08": 69
         }
       }
     },
@@ -2779,7 +2738,7 @@
     "blobigames.short.gy:lnk_760w_VyQ5Soszrk4zcPFUVOZQM": {
       "domain": "blobigames.short.gy",
       "id": "lnk_760w_VyQ5Soszrk4zcPFUVOZQM",
-      "path": null,
+      "path": "",
       "displayPath": null,
       "title": "Blobigames 2: Reimagined",
       "originalURL": "https://blobigames.nicepage.io/",
@@ -2954,17 +2913,17 @@
         "2026-08-26": 105,
         "2026-08-27": 141,
         "2026-08-28": 105,
-        "2026-08-29": 19
+        "2026-08-29": 21
       },
       "totals": {
-        "clicks": 700,
+        "clicks": 702,
         "byMonth": {
           "2026-03": 0,
           "2026-04": 4,
           "2026-05": 3,
           "2026-06": 0,
           "2026-07": 0,
-          "2026-08": 693
+          "2026-08": 695
         }
       }
     },
@@ -4106,17 +4065,17 @@
         "2026-08-26": 6,
         "2026-08-27": 7,
         "2026-08-28": 7,
-        "2026-08-29": 0
+        "2026-08-29": 2
       },
       "totals": {
-        "clicks": 127,
+        "clicks": 129,
         "byMonth": {
           "2026-03": 0,
           "2026-04": 36,
           "2026-05": 13,
           "2026-06": 17,
           "2026-07": 7,
-          "2026-08": 54
+          "2026-08": 56
         }
       }
     },
@@ -6602,17 +6561,17 @@
         "2026-08-26": 7,
         "2026-08-27": 12,
         "2026-08-28": 4,
-        "2026-08-29": 1
+        "2026-08-29": 3
       },
       "totals": {
-        "clicks": 289,
+        "clicks": 291,
         "byMonth": {
           "2026-03": 0,
           "2026-04": 12,
           "2026-05": 73,
           "2026-06": 93,
           "2026-07": 15,
-          "2026-08": 96
+          "2026-08": 98
         }
       }
     },
@@ -9051,17 +9010,10 @@
     ]
   },
   "allTime": {
-    "clicks": 5827,
-    "humanClicks": 5337,
+    "clicks": 3645,
     "domains": {
-      "blobigames.short.gy": {
-        "clicks": 5630,
-        "humanClicks": 5168
-      },
-      "referral-blobigames.short.gy": {
-        "clicks": 197,
-        "humanClicks": 169
-      }
+      "referral-blobigames.short.gy": 107,
+      "blobigames.short.gy": 3538
     }
   }
 }
