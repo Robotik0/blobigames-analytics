@@ -2,11 +2,99 @@
   "date": "2026-08-30",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-08-30T11:55:29.427172Z",
+  "generatedAt": "2026-08-30T16:40:41.303430Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
       "links": [
+        {
+          "id": "link_760w_034GCZkkpEPpwQVyI89cWU",
+          "path": "cc",
+          "displayPath": null,
+          "title": "candyWorldMM",
+          "originalURL": "https://cc.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-30T15:48:06.445Z"
+        },
+        {
+          "id": "link_760w_034GCX7WF9PUguvXibNCqb",
+          "path": "dm",
+          "displayPath": null,
+          "title": "Drive Mad",
+          "originalURL": "https://dm.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-30T15:46:22.623Z"
+        },
+        {
+          "id": "link_760w_034GCWqnjmPBXJfkrqAwV7",
+          "path": "hk",
+          "displayPath": null,
+          "title": "Unity WebGL Player | Hollow Knight",
+          "originalURL": "https://robotik0.github.io/hk/",
+          "createdAt": "2026-08-30T15:46:11.990Z"
+        },
+        {
+          "id": "link_760w_034GCUhsHVOCy4lT8qIKQc",
+          "path": "u",
+          "displayPath": null,
+          "title": "UNDERTALE",
+          "originalURL": "https://undertale-robotikanimation.wasmer.app/",
+          "createdAt": "2026-08-30T15:44:47.445Z"
+        },
+        {
+          "id": "link_760w_034GCTK5BQUkZMcn0M8ByB",
+          "path": "sabl",
+          "displayPath": null,
+          "title": "Sand Tetris",
+          "originalURL": "https://sabl.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-30T15:43:52.879Z"
+        },
+        {
+          "id": "link_760w_034GCSzJrP04USLdF8Clat",
+          "path": "blbl",
+          "displayPath": null,
+          "title": "Blocky Puzzle",
+          "originalURL": "https://blbl.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-30T15:43:39.673Z"
+        },
+        {
+          "id": "link_760w_034GCSYwpGFA98AG4nnqwH",
+          "path": "br",
+          "displayPath": null,
+          "title": "basketball-real-ag",
+          "originalURL": "https://br.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-30T15:43:22.900Z"
+        },
+        {
+          "id": "link_760w_034GCSEF70fbixUF8thZ5f",
+          "path": "sr",
+          "displayPath": null,
+          "title": "Soccer-REAL-ag",
+          "originalURL": "https://sr.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-30T15:43:09.731Z"
+        },
+        {
+          "id": "link_760w_034GCRSphJ0RIEUq626gfr",
+          "path": "slope",
+          "displayPath": null,
+          "title": "Play Slope 2 Game Online!",
+          "originalURL": "https://slope.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-30T15:42:39.577Z"
+        },
+        {
+          "id": "link_760w_034GCPZ2O6GRLjQb8QFLYi",
+          "path": "c",
+          "displayPath": null,
+          "title": "Chess Gibbons",
+          "originalURL": "https://chess.gibbons.fr/",
+          "createdAt": "2026-08-30T15:41:24.656Z"
+        },
+        {
+          "id": "link_760w_034GAIgdhF23eIKr5pfHI4",
+          "path": "blobfisch-survivors",
+          "displayPath": null,
+          "title": "Blobfisch Survivors – Blobigames",
+          "originalURL": "https://robotik0.github.io/blobfisch-survivors/",
+          "createdAt": "2026-08-30T14:15:23.678Z"
+        },
         {
           "id": "link_760w_034FxQ7SGa2vS28FdTNE4m",
           "path": "t",
@@ -187,7 +275,7 @@
           "id": "lnk_760w_dHIpba7a9ZxoyeIEMutga",
           "path": "smh",
           "displayPath": null,
-          "title": "Play Stickman Hook Game Online !",
+          "title": "Stickman Hook Game",
           "originalURL": "https://smh.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:20.924Z"
         },
@@ -337,6 +425,105 @@
         }
       ],
       "linkClicks": {
+        "cc": {
+          "id": "link_760w_034GCZkkpEPpwQVyI89cWU",
+          "path": "cc",
+          "displayPath": null,
+          "title": "candyWorldMM",
+          "originalURL": "https://cc.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-30T15:48:06.445Z",
+          "clicks": 1
+        },
+        "dm": {
+          "id": "link_760w_034GCX7WF9PUguvXibNCqb",
+          "path": "dm",
+          "displayPath": null,
+          "title": "Drive Mad",
+          "originalURL": "https://dm.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-30T15:46:22.623Z",
+          "clicks": 1
+        },
+        "hk": {
+          "id": "link_760w_034GCWqnjmPBXJfkrqAwV7",
+          "path": "hk",
+          "displayPath": null,
+          "title": "Unity WebGL Player | Hollow Knight",
+          "originalURL": "https://robotik0.github.io/hk/",
+          "createdAt": "2026-08-30T15:46:11.990Z",
+          "clicks": 1
+        },
+        "u": {
+          "id": "link_760w_034GCUhsHVOCy4lT8qIKQc",
+          "path": "u",
+          "displayPath": null,
+          "title": "UNDERTALE",
+          "originalURL": "https://undertale-robotikanimation.wasmer.app/",
+          "createdAt": "2026-08-30T15:44:47.445Z",
+          "clicks": 1
+        },
+        "sabl": {
+          "id": "link_760w_034GCTK5BQUkZMcn0M8ByB",
+          "path": "sabl",
+          "displayPath": null,
+          "title": "Sand Tetris",
+          "originalURL": "https://sabl.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-30T15:43:52.879Z",
+          "clicks": 1
+        },
+        "blbl": {
+          "id": "link_760w_034GCSzJrP04USLdF8Clat",
+          "path": "blbl",
+          "displayPath": null,
+          "title": "Blocky Puzzle",
+          "originalURL": "https://blbl.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-30T15:43:39.673Z",
+          "clicks": 1
+        },
+        "br": {
+          "id": "link_760w_034GCSYwpGFA98AG4nnqwH",
+          "path": "br",
+          "displayPath": null,
+          "title": "basketball-real-ag",
+          "originalURL": "https://br.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-30T15:43:22.900Z",
+          "clicks": 1
+        },
+        "sr": {
+          "id": "link_760w_034GCSEF70fbixUF8thZ5f",
+          "path": "sr",
+          "displayPath": null,
+          "title": "Soccer-REAL-ag",
+          "originalURL": "https://sr.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-30T15:43:09.731Z",
+          "clicks": 2
+        },
+        "slope": {
+          "id": "link_760w_034GCRSphJ0RIEUq626gfr",
+          "path": "slope",
+          "displayPath": null,
+          "title": "Play Slope 2 Game Online!",
+          "originalURL": "https://slope.help-blobigames.workers.dev/",
+          "createdAt": "2026-08-30T15:42:39.577Z",
+          "clicks": 2
+        },
+        "c": {
+          "id": "link_760w_034GCPZ2O6GRLjQb8QFLYi",
+          "path": "c",
+          "displayPath": null,
+          "title": "Chess Gibbons",
+          "originalURL": "https://chess.gibbons.fr/",
+          "createdAt": "2026-08-30T15:41:24.656Z",
+          "clicks": 2
+        },
+        "blobfisch-survivors": {
+          "id": "link_760w_034GAIgdhF23eIKr5pfHI4",
+          "path": "blobfisch-survivors",
+          "displayPath": null,
+          "title": "Blobfisch Survivors – Blobigames",
+          "originalURL": "https://robotik0.github.io/blobfisch-survivors/",
+          "createdAt": "2026-08-30T14:15:23.678Z",
+          "clicks": 2
+        },
         "t": {
           "id": "link_760w_034FxQ7SGa2vS28FdTNE4m",
           "path": "t",
@@ -362,7 +549,7 @@
           "title": "Blobfisch Destructor 0.2 DE 3 w Thumbnail",
           "originalURL": "https://blobfisch-destructor.wasmer.app/",
           "createdAt": "2026-08-26T19:17:04.988Z",
-          "clicks": 7
+          "clicks": 8
         },
         "sn": {
           "id": "link_760w_034DvwaEh52e2CG8v2KfaA",
@@ -452,7 +639,7 @@
           "title": "FNAB Alpha 0.5.6 Lite 2",
           "originalURL": "https://fnab.help-blobigames.workers.dev/",
           "createdAt": "2026-06-20T14:32:10.500Z",
-          "clicks": 3
+          "clicks": 4
         },
         "wf": {
           "id": "lnk_760w_0EwbuluAWFdqnxI1JuV6v",
@@ -479,7 +666,7 @@
           "title": "Blobigames 2: Reimagined",
           "originalURL": "https://blobigames.nicepage.io/",
           "createdAt": "2026-04-17T11:22:14.909Z",
-          "clicks": 16
+          "clicks": 23
         },
         "blob-chat": {
           "id": "lnk_760w_yfR2PkFsHuqQwCwptpy8u",
@@ -539,10 +726,10 @@
           "id": "lnk_760w_dHIpba7a9ZxoyeIEMutga",
           "path": "smh",
           "displayPath": null,
-          "title": "Play Stickman Hook Game Online !",
+          "title": "Stickman Hook Game",
           "originalURL": "https://smh.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:20.924Z",
-          "clicks": 0
+          "clicks": 1
         },
         "bb": {
           "id": "lnk_760w_5i2NWHAj49tOY9SCggTvN",
@@ -569,7 +756,7 @@
           "title": "Fortzone Battle Royale",
           "originalURL": "https://fz.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:22:24.040Z",
-          "clicks": 0
+          "clicks": 1
         },
         "s": {
           "id": "lnk_760w_LJn2wn1QdloEGxOAYjy2Q",
@@ -587,7 +774,7 @@
           "title": "GunSpin 0.1.4",
           "originalURL": "https://labgstore311.github.io/g5/class-533/",
           "createdAt": "2026-04-08T09:52:51.145Z",
-          "clicks": 0
+          "clicks": 1
         },
         "fnar": {
           "id": "lnk_760w_Kuol0AYjrTSw0XxGr5Iqb",
@@ -641,7 +828,7 @@
           "title": "Subway Surfers Web",
           "originalURL": "https://ss.help-blobigames.workers.dev/",
           "createdAt": "2026-03-22T07:23:14.070Z",
-          "clicks": 1
+          "clicks": 4
         },
         "sbe": {
           "id": "lnk_760w_fFn9Ya4LRsd4x6fFFR499",
@@ -659,7 +846,7 @@
           "title": "BlobGPT",
           "originalURL": "https://cdn.botpress.cloud/webchat/v3.6/shareable.html?configUrl=https://files.bpcontent.cloud/2026/03/13/12/20260313122133-TM1XEFKH.json",
           "createdAt": "2026-03-13T19:23:23.515Z",
-          "clicks": 0
+          "clicks": 1
         },
         "gd": {
           "id": "lnk_760w_lYlNwbD4LrhUtxNEJaxAx",
@@ -708,7 +895,7 @@
         }
       },
       "statistics": {
-        "clicks": 35,
+        "clicks": 66,
         "source": "batched-link-clicks"
       }
     },

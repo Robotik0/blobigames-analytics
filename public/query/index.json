@@ -1,7 +1,7 @@
 {
   "version": "1",
   "archiveVersion": "5",
-  "generatedAt": "2026-08-30T11:55:32.329716Z",
+  "generatedAt": "2026-08-30T16:40:43.414156Z",
   "timezone": "Europe/Zurich",
   "links": {
     "blobigames.short.gy:link_760w_034ExP93RO5pidJhzH7USA": {
@@ -372,6 +372,94 @@
       "createdAt": "2026-03-25T14:57:33.406Z",
       "file": "links/500ff166f959afa6c90e24d05ab9192d13766d0b380e2b1217066c9dbffd7ce3.json"
     },
+    "blobigames.short.gy:link_760w_034GCZkkpEPpwQVyI89cWU": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034GCZkkpEPpwQVyI89cWU",
+      "path": "cc",
+      "title": "candyWorldMM",
+      "createdAt": "2026-08-30T15:48:06.445Z",
+      "file": "links/6dbc436a6b8979033f0a0319b7665d617314474faeca051804fe16b0134a4f12.json"
+    },
+    "blobigames.short.gy:link_760w_034GCX7WF9PUguvXibNCqb": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034GCX7WF9PUguvXibNCqb",
+      "path": "dm",
+      "title": "Drive Mad",
+      "createdAt": "2026-08-30T15:46:22.623Z",
+      "file": "links/763943769ce91cac64f9c8285bc811042eca6b24546bde32952e42efbbb0ba94.json"
+    },
+    "blobigames.short.gy:link_760w_034GCWqnjmPBXJfkrqAwV7": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034GCWqnjmPBXJfkrqAwV7",
+      "path": "hk",
+      "title": "Unity WebGL Player | Hollow Knight",
+      "createdAt": "2026-08-30T15:46:11.990Z",
+      "file": "links/40910aa54f7f69e82e1559b38bb5d872f41b88c27065c6a007abefce6fb9537c.json"
+    },
+    "blobigames.short.gy:link_760w_034GCUhsHVOCy4lT8qIKQc": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034GCUhsHVOCy4lT8qIKQc",
+      "path": "u",
+      "title": "UNDERTALE",
+      "createdAt": "2026-08-30T15:44:47.445Z",
+      "file": "links/cf836d72d5ccbf714b21b4e2dccb54a1d917e7aebeeb318b49e69c1478f843de.json"
+    },
+    "blobigames.short.gy:link_760w_034GCTK5BQUkZMcn0M8ByB": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034GCTK5BQUkZMcn0M8ByB",
+      "path": "sabl",
+      "title": "Sand Tetris",
+      "createdAt": "2026-08-30T15:43:52.879Z",
+      "file": "links/ebf7cfeb76649be8b3ce7eeb4e12b41fe92929f11959b4b87c9949b7472b84ba.json"
+    },
+    "blobigames.short.gy:link_760w_034GCSzJrP04USLdF8Clat": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034GCSzJrP04USLdF8Clat",
+      "path": "blbl",
+      "title": "Blocky Puzzle",
+      "createdAt": "2026-08-30T15:43:39.673Z",
+      "file": "links/8a96df263c67e9a414bf76beb0841b4c90ee66588346727750832110d85996e5.json"
+    },
+    "blobigames.short.gy:link_760w_034GCSYwpGFA98AG4nnqwH": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034GCSYwpGFA98AG4nnqwH",
+      "path": "br",
+      "title": "basketball-real-ag",
+      "createdAt": "2026-08-30T15:43:22.900Z",
+      "file": "links/febf235756028ed21d0c256bf8999b744d925ed34ff7b4cc5265538d4f423329.json"
+    },
+    "blobigames.short.gy:link_760w_034GCSEF70fbixUF8thZ5f": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034GCSEF70fbixUF8thZ5f",
+      "path": "sr",
+      "title": "Soccer-REAL-ag",
+      "createdAt": "2026-08-30T15:43:09.731Z",
+      "file": "links/5174b92cf2e609cc2646155e231a3a830bccc14e6e664747fb0c49d970577cd6.json"
+    },
+    "blobigames.short.gy:link_760w_034GCRSphJ0RIEUq626gfr": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034GCRSphJ0RIEUq626gfr",
+      "path": "slope",
+      "title": "Play Slope 2 Game Online!",
+      "createdAt": "2026-08-30T15:42:39.577Z",
+      "file": "links/b61508b0036dd457c3fc0a1c500b3201456f0c4c079cf75a2b457aa72f46ac14.json"
+    },
+    "blobigames.short.gy:link_760w_034GCPZ2O6GRLjQb8QFLYi": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034GCPZ2O6GRLjQb8QFLYi",
+      "path": "c",
+      "title": "Chess Gibbons",
+      "createdAt": "2026-08-30T15:41:24.656Z",
+      "file": "links/0f087dbaf448ec31a24dd758114da6826461ae286ca6b0014069edab916cf051.json"
+    },
+    "blobigames.short.gy:link_760w_034GAIgdhF23eIKr5pfHI4": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034GAIgdhF23eIKr5pfHI4",
+      "path": "blobfisch-survivors",
+      "title": "Blobfisch Survivors – Blobigames",
+      "createdAt": "2026-08-30T14:15:23.678Z",
+      "file": "links/5bfcae35d3c25de19fa72509abd0cacb2673138427585fd36e3f922ca24d35a1.json"
+    },
     "blobigames.short.gy:link_760w_034FxQ7SGa2vS28FdTNE4m": {
       "domain": "blobigames.short.gy",
       "id": "link_760w_034FxQ7SGa2vS28FdTNE4m",
@@ -508,6 +596,39 @@
     ],
     "wild-and-free": [
       "referral-blobigames.short.gy:lnk_7aVl_516OeblPrWgRjFqIPNJpV"
+    ],
+    "cc": [
+      "blobigames.short.gy:link_760w_034GCZkkpEPpwQVyI89cWU"
+    ],
+    "dm": [
+      "blobigames.short.gy:link_760w_034GCX7WF9PUguvXibNCqb"
+    ],
+    "hk": [
+      "blobigames.short.gy:link_760w_034GCWqnjmPBXJfkrqAwV7"
+    ],
+    "u": [
+      "blobigames.short.gy:link_760w_034GCUhsHVOCy4lT8qIKQc"
+    ],
+    "sabl": [
+      "blobigames.short.gy:link_760w_034GCTK5BQUkZMcn0M8ByB"
+    ],
+    "blbl": [
+      "blobigames.short.gy:link_760w_034GCSzJrP04USLdF8Clat"
+    ],
+    "br": [
+      "blobigames.short.gy:link_760w_034GCSYwpGFA98AG4nnqwH"
+    ],
+    "sr": [
+      "blobigames.short.gy:link_760w_034GCSEF70fbixUF8thZ5f"
+    ],
+    "slope": [
+      "blobigames.short.gy:link_760w_034GCRSphJ0RIEUq626gfr"
+    ],
+    "c": [
+      "blobigames.short.gy:link_760w_034GCPZ2O6GRLjQb8QFLYi"
+    ],
+    "blobfisch-survivors": [
+      "blobigames.short.gy:link_760w_034GAIgdhF23eIKr5pfHI4"
     ],
     "t": [
       "blobigames.short.gy:link_760w_034FxQ7SGa2vS28FdTNE4m"
