@@ -2,7 +2,7 @@
   "date": "2026-08-30",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-08-30T16:40:41.303430Z",
+  "generatedAt": "2026-08-30T21:05:54.778034Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -666,7 +666,7 @@
           "title": "Blobigames 2: Reimagined",
           "originalURL": "https://blobigames.nicepage.io/",
           "createdAt": "2026-04-17T11:22:14.909Z",
-          "clicks": 23
+          "clicks": 38
         },
         "blob-chat": {
           "id": "lnk_760w_yfR2PkFsHuqQwCwptpy8u",
@@ -693,7 +693,7 @@
           "title": "Verteidige den Turm 2",
           "originalURL": "https://robotik0.github.io/verteidige-den-turm/",
           "createdAt": "2026-04-09T19:28:32.724Z",
-          "clicks": 0
+          "clicks": 1
         },
         "blobfisch-wanderung": {
           "id": "lnk_760w_EufD4BDBB6glhKrOWrQES",
@@ -720,7 +720,7 @@
           "title": "Level Devil",
           "originalURL": "https://ld.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:38.432Z",
-          "clicks": 1
+          "clicks": 3
         },
         "smh": {
           "id": "lnk_760w_dHIpba7a9ZxoyeIEMutga",
@@ -747,7 +747,7 @@
           "title": "Poxel.io | FPS io Game - Play Poxel io Online",
           "originalURL": "https://p.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:22:43.910Z",
-          "clicks": 0
+          "clicks": 1
         },
         "fz": {
           "id": "lnk_760w_h5yTFkNMmX4RQ5XQws06D",
@@ -756,7 +756,7 @@
           "title": "Fortzone Battle Royale",
           "originalURL": "https://fz.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:22:24.040Z",
-          "clicks": 1
+          "clicks": 2
         },
         "s": {
           "id": "lnk_760w_LJn2wn1QdloEGxOAYjy2Q",
@@ -828,7 +828,7 @@
           "title": "Subway Surfers Web",
           "originalURL": "https://ss.help-blobigames.workers.dev/",
           "createdAt": "2026-03-22T07:23:14.070Z",
-          "clicks": 4
+          "clicks": 8
         },
         "sbe": {
           "id": "lnk_760w_fFn9Ya4LRsd4x6fFFR499",
@@ -837,7 +837,7 @@
           "title": "Stunt Bike Extreme ",
           "originalURL": "https://storeg223.github.io/g66/class-948/",
           "createdAt": "2026-03-16T16:35:55.281Z",
-          "clicks": 2
+          "clicks": 3
         },
         "blob-gpt": {
           "id": "lnk_760w_K8YQTx3toBBhpfAmrEcWY",
@@ -846,7 +846,7 @@
           "title": "BlobGPT",
           "originalURL": "https://cdn.botpress.cloud/webchat/v3.6/shareable.html?configUrl=https://files.bpcontent.cloud/2026/03/13/12/20260313122133-TM1XEFKH.json",
           "createdAt": "2026-03-13T19:23:23.515Z",
-          "clicks": 1
+          "clicks": 2
         },
         "gd": {
           "id": "lnk_760w_lYlNwbD4LrhUtxNEJaxAx",
@@ -855,7 +855,7 @@
           "title": "Geometry Dash",
           "originalURL": "https://robotik0.github.io/gd/",
           "createdAt": "2026-03-13T19:13:28.395Z",
-          "clicks": 2
+          "clicks": 4
         },
         "mp": {
           "id": "lnk_760w_wo81mXnFywNVJ7Bl6QNH7",
@@ -895,7 +895,7 @@
         }
       },
       "statistics": {
-        "clicks": 66,
+        "clicks": 94,
         "source": "batched-link-clicks"
       }
     },
@@ -968,7 +968,7 @@
           "title": "🤍✨️MM&LR✨️🤍 – WhatsApp-Kanal",
           "originalURL": "https://whatsapp.com/channel/0029Vb7uxjCLI8YPc0eDCr0A",
           "createdAt": "2026-08-26T18:45:33.148Z",
-          "clicks": 0
+          "clicks": 1
         },
         "support-ukraine": {
           "id": "link_7aVl_034C01Ofza7tKnpycp7xwD",
@@ -986,7 +986,7 @@
           "title": "🧸✨️🤎 𝙸𝚝𝚜 𝚞𝚜 🤎✨️🧸 – WhatsApp-Kanal",
           "originalURL": "https://whatsapp.com/channel/0029Vb7MJUPF1YlRs1x4nv2p",
           "createdAt": "2026-08-15T19:04:40.913Z",
-          "clicks": 0
+          "clicks": 2
         },
         "wild-and-free": {
           "id": "lnk_7aVl_516OeblPrWgRjFqIPNJpV",
@@ -1008,7 +1008,7 @@
         }
       },
       "statistics": {
-        "clicks": 0,
+        "clicks": 3,
         "source": "batched-link-clicks"
       }
     }
