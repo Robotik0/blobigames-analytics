@@ -2,11 +2,19 @@
   "date": "2026-08-29",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-08-30T05:24:11.545241Z",
+  "generatedAt": "2026-08-30T11:55:26.672157Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
       "links": [
+        {
+          "id": "link_760w_034FxQ7SGa2vS28FdTNE4m",
+          "path": "t",
+          "displayPath": null,
+          "title": "Referral TikTok ",
+          "originalURL": "https://blobigames.nicepage.io",
+          "createdAt": "2026-08-30T05:30:33.218Z"
+        },
         {
           "id": "link_760w_034ExP93RO5pidJhzH7USA",
           "path": "its-us",
@@ -329,6 +337,15 @@
         }
       ],
       "linkClicks": {
+        "t": {
+          "id": "link_760w_034FxQ7SGa2vS28FdTNE4m",
+          "path": "t",
+          "displayPath": null,
+          "title": "Referral TikTok ",
+          "originalURL": "https://blobigames.nicepage.io",
+          "createdAt": "2026-08-30T05:30:33.218Z",
+          "clicks": 0
+        },
         "its-us": {
           "id": "link_760w_034ExP93RO5pidJhzH7USA",
           "path": "its-us",
