@@ -2,11 +2,19 @@
   "date": "2026-08-31",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-08-31T13:49:47.193540Z",
+  "generatedAt": "2026-08-31T22:50:19.445352Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
       "links": [
+        {
+          "id": "link_760w_034GorIPydcpeK97EsUvKR",
+          "path": "tk",
+          "displayPath": null,
+          "title": "Referral from Toro Kuro",
+          "originalURL": "https://blobigames.nicepage.io",
+          "createdAt": "2026-08-31T17:48:03.994Z"
+        },
         {
           "id": "link_760w_034GCZkkpEPpwQVyI89cWU",
           "path": "cc",
@@ -425,6 +433,15 @@
         }
       ],
       "linkClicks": {
+        "tk": {
+          "id": "link_760w_034GorIPydcpeK97EsUvKR",
+          "path": "tk",
+          "displayPath": null,
+          "title": "Referral from Toro Kuro",
+          "originalURL": "https://blobigames.nicepage.io",
+          "createdAt": "2026-08-31T17:48:03.994Z",
+          "clicks": 3
+        },
         "cc": {
           "id": "link_760w_034GCZkkpEPpwQVyI89cWU",
           "path": "cc",
@@ -486,7 +503,7 @@
           "title": "basketball-real-ag",
           "originalURL": "https://br.help-blobigames.workers.dev/",
           "createdAt": "2026-08-30T15:43:22.900Z",
-          "clicks": 0
+          "clicks": 1
         },
         "sr": {
           "id": "link_760w_034GCSEF70fbixUF8thZ5f",
@@ -549,7 +566,7 @@
           "title": "Blobfisch Destructor 0.2 DE 3 w Thumbnail",
           "originalURL": "https://blobfisch-destructor.wasmer.app/",
           "createdAt": "2026-08-26T19:17:04.988Z",
-          "clicks": 17
+          "clicks": 20
         },
         "sn": {
           "id": "link_760w_034DvwaEh52e2CG8v2KfaA",
@@ -585,7 +602,7 @@
           "title": "Blobi Road",
           "originalURL": "https://robotik0.github.io/blobi-road/",
           "createdAt": "2026-08-24T17:36:30.881Z",
-          "clicks": 12
+          "clicks": 15
         },
         "flappy-blob": {
           "id": "link_760w_034CpBLPCEOptB011YLQJo",
@@ -594,7 +611,7 @@
           "title": "Flappy Blob 0.2",
           "originalURL": "https://robotik0.github.io/flappy-blob/",
           "createdAt": "2026-08-24T17:35:42.205Z",
-          "clicks": 8
+          "clicks": 9
         },
         "g": {
           "id": "link_760w_034CBqgsJIakEp3jWyJvnx",
@@ -630,7 +647,7 @@
           "title": "Snake 2048.io - RocketGames",
           "originalURL": "https://s2048.help-blobigames.workers.dev/",
           "createdAt": "2026-06-21T09:36:50.587Z",
-          "clicks": 3
+          "clicks": 5
         },
         "fnab": {
           "id": "lnk_760w_6X6xY7RBXGWy9goxhZvah",
@@ -639,7 +656,7 @@
           "title": "FNAB Alpha 0.5.6 Lite 2",
           "originalURL": "https://fnab.help-blobigames.workers.dev/",
           "createdAt": "2026-06-20T14:32:10.500Z",
-          "clicks": 16
+          "clicks": 17
         },
         "wf": {
           "id": "lnk_760w_0EwbuluAWFdqnxI1JuV6v",
@@ -666,7 +683,7 @@
           "title": "Blobigames 2: Reimagined",
           "originalURL": "https://blobigames.nicepage.io/",
           "createdAt": "2026-04-17T11:22:14.909Z",
-          "clicks": 104
+          "clicks": 138
         },
         "blob-chat": {
           "id": "lnk_760w_yfR2PkFsHuqQwCwptpy8u",
@@ -693,7 +710,7 @@
           "title": "Verteidige den Turm 2",
           "originalURL": "https://robotik0.github.io/verteidige-den-turm/",
           "createdAt": "2026-04-09T19:28:32.724Z",
-          "clicks": 4
+          "clicks": 5
         },
         "blobfisch-wanderung": {
           "id": "lnk_760w_EufD4BDBB6glhKrOWrQES",
@@ -720,7 +737,7 @@
           "title": "Level Devil",
           "originalURL": "https://ld.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:38.432Z",
-          "clicks": 7
+          "clicks": 9
         },
         "smh": {
           "id": "lnk_760w_dHIpba7a9ZxoyeIEMutga",
@@ -738,7 +755,7 @@
           "title": "Bullet Bros Unblocked - Play Bullet Bros on BulletBros.io",
           "originalURL": "https://bb.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:01.196Z",
-          "clicks": 6
+          "clicks": 7
         },
         "p": {
           "id": "lnk_760w_Q0lZoAi9uS9FhHH9zX4hi",
@@ -747,7 +764,7 @@
           "title": "Poxel.io | FPS io Game - Play Poxel io Online",
           "originalURL": "https://p.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:22:43.910Z",
-          "clicks": 10
+          "clicks": 13
         },
         "fz": {
           "id": "lnk_760w_h5yTFkNMmX4RQ5XQws06D",
@@ -756,7 +773,7 @@
           "title": "Fortzone Battle Royale",
           "originalURL": "https://fz.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:22:24.040Z",
-          "clicks": 12
+          "clicks": 17
         },
         "s": {
           "id": "lnk_760w_LJn2wn1QdloEGxOAYjy2Q",
@@ -810,7 +827,7 @@
           "title": "Hills of Steel - Arcadrome",
           "originalURL": "https://hos.help-blobigames.workers.dev/",
           "createdAt": "2026-03-23T17:04:33.690Z",
-          "clicks": 3
+          "clicks": 5
         },
         "er": {
           "id": "lnk_760w_gij0vVTpUIqfyUgvPo08T",
@@ -819,7 +836,7 @@
           "title": "Escape Road 2 - Arcadrome",
           "originalURL": "https://er.help-blobigames.workers.dev/",
           "createdAt": "2026-03-22T07:23:54.539Z",
-          "clicks": 4
+          "clicks": 13
         },
         "ss": {
           "id": "lnk_760w_Mo7CqgsIKipWFfaivkMbQ",
@@ -828,7 +845,7 @@
           "title": "Subway Surfers Web",
           "originalURL": "https://ss.help-blobigames.workers.dev/",
           "createdAt": "2026-03-22T07:23:14.070Z",
-          "clicks": 14
+          "clicks": 18
         },
         "sbe": {
           "id": "lnk_760w_fFn9Ya4LRsd4x6fFFR499",
@@ -837,7 +854,7 @@
           "title": "Stunt Bike Extreme ",
           "originalURL": "https://storeg223.github.io/g66/class-948/",
           "createdAt": "2026-03-16T16:35:55.281Z",
-          "clicks": 10
+          "clicks": 16
         },
         "blob-gpt": {
           "id": "lnk_760w_K8YQTx3toBBhpfAmrEcWY",
@@ -855,7 +872,7 @@
           "title": "Geometry Dash",
           "originalURL": "https://robotik0.github.io/gd/",
           "createdAt": "2026-03-13T19:13:28.395Z",
-          "clicks": 14
+          "clicks": 17
         },
         "mp": {
           "id": "lnk_760w_wo81mXnFywNVJ7Bl6QNH7",
@@ -873,7 +890,7 @@
           "title": "Ragdoll Archers",
           "originalURL": "https://ra.help-blobigames.workers.dev/",
           "createdAt": "2026-03-13T19:09:53.370Z",
-          "clicks": 9
+          "clicks": 15
         },
         "ec": {
           "id": "lnk_760w_mfvsbNakedCom7damsfOD",
@@ -882,7 +899,7 @@
           "title": "Eaglercraft",
           "originalURL": "https://robotik0.github.io/ec/",
           "createdAt": "2026-03-13T19:07:33.291Z",
-          "clicks": 21
+          "clicks": 26
         },
         "blobs-fischen": {
           "id": "lnk_760w_flYtajtsyWMGJluTUqWYm",
@@ -891,17 +908,25 @@
           "title": "Blobs-Fischen",
           "originalURL": "https://robotik0.github.io/blobs-fischen/",
           "createdAt": "2026-03-13T18:55:54.082Z",
-          "clicks": 2
+          "clicks": 4
         }
       },
       "statistics": {
-        "clicks": 306,
+        "clicks": 403,
         "source": "batched-link-clicks"
       }
     },
     "referral-blobigames.short.gy": {
       "hostname": "referral-blobigames.short.gy",
       "links": [
+        {
+          "id": "link_7aVl_034GqUly5Ireb6QjyrpNc3",
+          "path": "toro-kuro",
+          "displayPath": null,
+          "title": "🤍Toro🤍/🖤Kuro🖤 – WhatsApp-Kanal",
+          "originalURL": "https://whatsapp.com/channel/0029VbDBZ5PCMY0FzZde8W1Y",
+          "createdAt": "2026-08-31T18:54:45.591Z"
+        },
         {
           "id": "link_7aVl_034DzbTkhirgwdb5TxVoIl",
           "path": "lm",
@@ -952,6 +977,15 @@
         }
       ],
       "linkClicks": {
+        "toro-kuro": {
+          "id": "link_7aVl_034GqUly5Ireb6QjyrpNc3",
+          "path": "toro-kuro",
+          "displayPath": null,
+          "title": "🤍Toro🤍/🖤Kuro🖤 – WhatsApp-Kanal",
+          "originalURL": "https://whatsapp.com/channel/0029VbDBZ5PCMY0FzZde8W1Y",
+          "createdAt": "2026-08-31T18:54:45.591Z",
+          "clicks": 2
+        },
         "lm": {
           "id": "link_7aVl_034DzbTkhirgwdb5TxVoIl",
           "path": "lm",
@@ -986,7 +1020,7 @@
           "title": "🧸✨️🤎 𝙸𝚝𝚜 𝚞𝚜 🤎✨️🧸 – WhatsApp-Kanal",
           "originalURL": "https://whatsapp.com/channel/0029Vb7MJUPF1YlRs1x4nv2p",
           "createdAt": "2026-08-15T19:04:40.913Z",
-          "clicks": 0
+          "clicks": 6
         },
         "wild-and-free": {
           "id": "lnk_7aVl_516OeblPrWgRjFqIPNJpV",
@@ -1008,7 +1042,7 @@
         }
       },
       "statistics": {
-        "clicks": 0,
+        "clicks": 8,
         "source": "batched-link-clicks"
       }
     }

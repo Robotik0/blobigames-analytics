@@ -1,7 +1,7 @@
 {
   "version": "1",
   "archiveVersion": "5",
-  "generatedAt": "2026-08-31T13:49:49.984148Z",
+  "generatedAt": "2026-08-31T22:50:22.046212Z",
   "timezone": "Europe/Zurich",
   "links": {
     "blobigames.short.gy:link_760w_034ExP93RO5pidJhzH7USA": {
@@ -467,6 +467,22 @@
       "title": "Referral TikTok ",
       "createdAt": "2026-08-30T05:30:33.218Z",
       "file": "links/452524354390c3bf7cff52261647495ca4411ec22e13f76bbabf919579ee6a8d.json"
+    },
+    "blobigames.short.gy:link_760w_034GorIPydcpeK97EsUvKR": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034GorIPydcpeK97EsUvKR",
+      "path": "tk",
+      "title": "Referral from Toro Kuro",
+      "createdAt": "2026-08-31T17:48:03.994Z",
+      "file": "links/107b8b56277ed6d5d426df2588fb8040d271c2719883843a3ec805c5243eb1c3.json"
+    },
+    "referral-blobigames.short.gy:link_7aVl_034GqUly5Ireb6QjyrpNc3": {
+      "domain": "referral-blobigames.short.gy",
+      "id": "link_7aVl_034GqUly5Ireb6QjyrpNc3",
+      "path": "toro-kuro",
+      "title": "🤍Toro🤍/🖤Kuro🖤 – WhatsApp-Kanal",
+      "createdAt": "2026-08-31T18:54:45.591Z",
+      "file": "links/8423ceb5c79e72dbddca5ba6abbff8a72847e6f8568e7a88bf6a7bc367863636.json"
     }
   },
   "paths": {
@@ -632,6 +648,12 @@
     ],
     "t": [
       "blobigames.short.gy:link_760w_034FxQ7SGa2vS28FdTNE4m"
+    ],
+    "tk": [
+      "blobigames.short.gy:link_760w_034GorIPydcpeK97EsUvKR"
+    ],
+    "toro-kuro": [
+      "referral-blobigames.short.gy:link_7aVl_034GqUly5Ireb6QjyrpNc3"
     ]
   }
 }
