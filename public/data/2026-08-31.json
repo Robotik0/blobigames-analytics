@@ -2,7 +2,7 @@
   "date": "2026-08-31",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-08-31T05:34:38.528159Z",
+  "generatedAt": "2026-08-31T13:49:47.193540Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -549,7 +549,7 @@
           "title": "Blobfisch Destructor 0.2 DE 3 w Thumbnail",
           "originalURL": "https://blobfisch-destructor.wasmer.app/",
           "createdAt": "2026-08-26T19:17:04.988Z",
-          "clicks": 8
+          "clicks": 17
         },
         "sn": {
           "id": "link_760w_034DvwaEh52e2CG8v2KfaA",
@@ -585,7 +585,7 @@
           "title": "Blobi Road",
           "originalURL": "https://robotik0.github.io/blobi-road/",
           "createdAt": "2026-08-24T17:36:30.881Z",
-          "clicks": 7
+          "clicks": 12
         },
         "flappy-blob": {
           "id": "link_760w_034CpBLPCEOptB011YLQJo",
@@ -594,7 +594,7 @@
           "title": "Flappy Blob 0.2",
           "originalURL": "https://robotik0.github.io/flappy-blob/",
           "createdAt": "2026-08-24T17:35:42.205Z",
-          "clicks": 4
+          "clicks": 8
         },
         "g": {
           "id": "link_760w_034CBqgsJIakEp3jWyJvnx",
@@ -621,7 +621,7 @@
           "title": "Sandboxels - Experiment with Pixels",
           "originalURL": "https://robotik0.github.io/sb/",
           "createdAt": "2026-06-21T10:16:42.668Z",
-          "clicks": 2
+          "clicks": 6
         },
         "s2048": {
           "id": "lnk_760w_1DMBicDpA7JBajCisUmjh",
@@ -639,7 +639,7 @@
           "title": "FNAB Alpha 0.5.6 Lite 2",
           "originalURL": "https://fnab.help-blobigames.workers.dev/",
           "createdAt": "2026-06-20T14:32:10.500Z",
-          "clicks": 9
+          "clicks": 16
         },
         "wf": {
           "id": "lnk_760w_0EwbuluAWFdqnxI1JuV6v",
@@ -666,7 +666,7 @@
           "title": "Blobigames 2: Reimagined",
           "originalURL": "https://blobigames.nicepage.io/",
           "createdAt": "2026-04-17T11:22:14.909Z",
-          "clicks": 64
+          "clicks": 104
         },
         "blob-chat": {
           "id": "lnk_760w_yfR2PkFsHuqQwCwptpy8u",
@@ -702,7 +702,7 @@
           "title": "Blobfisch: Wanderung 1",
           "originalURL": "https://robotik0.github.io/blobfisch-wanderung/",
           "createdAt": "2026-04-09T19:28:09.063Z",
-          "clicks": 2
+          "clicks": 3
         },
         "blobfisch-defence": {
           "id": "lnk_760w_9ZjkaqedFfTqy7E93w3ys",
@@ -711,7 +711,7 @@
           "title": "Blobfisch Defence",
           "originalURL": "https://robotik0.github.io/blobfisch-defence/",
           "createdAt": "2026-04-09T19:23:53.685Z",
-          "clicks": 2
+          "clicks": 3
         },
         "ld": {
           "id": "lnk_760w_YIbc9uvvbh9LvaYAGj7qE",
@@ -720,7 +720,7 @@
           "title": "Level Devil",
           "originalURL": "https://ld.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:38.432Z",
-          "clicks": 3
+          "clicks": 7
         },
         "smh": {
           "id": "lnk_760w_dHIpba7a9ZxoyeIEMutga",
@@ -738,7 +738,7 @@
           "title": "Bullet Bros Unblocked - Play Bullet Bros on BulletBros.io",
           "originalURL": "https://bb.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:01.196Z",
-          "clicks": 3
+          "clicks": 6
         },
         "p": {
           "id": "lnk_760w_Q0lZoAi9uS9FhHH9zX4hi",
@@ -747,7 +747,7 @@
           "title": "Poxel.io | FPS io Game - Play Poxel io Online",
           "originalURL": "https://p.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:22:43.910Z",
-          "clicks": 3
+          "clicks": 10
         },
         "fz": {
           "id": "lnk_760w_h5yTFkNMmX4RQ5XQws06D",
@@ -756,7 +756,7 @@
           "title": "Fortzone Battle Royale",
           "originalURL": "https://fz.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:22:24.040Z",
-          "clicks": 7
+          "clicks": 12
         },
         "s": {
           "id": "lnk_760w_LJn2wn1QdloEGxOAYjy2Q",
@@ -765,7 +765,7 @@
           "title": "Snake.io | Fun Online Slither",
           "originalURL": "https://s.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:22:02.225Z",
-          "clicks": 5
+          "clicks": 7
         },
         "gs": {
           "id": "lnk_760w_GpfQ4fGC1jI6zUBC5em2h",
@@ -810,7 +810,7 @@
           "title": "Hills of Steel - Arcadrome",
           "originalURL": "https://hos.help-blobigames.workers.dev/",
           "createdAt": "2026-03-23T17:04:33.690Z",
-          "clicks": 2
+          "clicks": 3
         },
         "er": {
           "id": "lnk_760w_gij0vVTpUIqfyUgvPo08T",
@@ -819,7 +819,7 @@
           "title": "Escape Road 2 - Arcadrome",
           "originalURL": "https://er.help-blobigames.workers.dev/",
           "createdAt": "2026-03-22T07:23:54.539Z",
-          "clicks": 2
+          "clicks": 4
         },
         "ss": {
           "id": "lnk_760w_Mo7CqgsIKipWFfaivkMbQ",
@@ -828,7 +828,7 @@
           "title": "Subway Surfers Web",
           "originalURL": "https://ss.help-blobigames.workers.dev/",
           "createdAt": "2026-03-22T07:23:14.070Z",
-          "clicks": 7
+          "clicks": 14
         },
         "sbe": {
           "id": "lnk_760w_fFn9Ya4LRsd4x6fFFR499",
@@ -837,7 +837,7 @@
           "title": "Stunt Bike Extreme ",
           "originalURL": "https://storeg223.github.io/g66/class-948/",
           "createdAt": "2026-03-16T16:35:55.281Z",
-          "clicks": 3
+          "clicks": 10
         },
         "blob-gpt": {
           "id": "lnk_760w_K8YQTx3toBBhpfAmrEcWY",
@@ -846,7 +846,7 @@
           "title": "BlobGPT",
           "originalURL": "https://cdn.botpress.cloud/webchat/v3.6/shareable.html?configUrl=https://files.bpcontent.cloud/2026/03/13/12/20260313122133-TM1XEFKH.json",
           "createdAt": "2026-03-13T19:23:23.515Z",
-          "clicks": 3
+          "clicks": 8
         },
         "gd": {
           "id": "lnk_760w_lYlNwbD4LrhUtxNEJaxAx",
@@ -855,7 +855,7 @@
           "title": "Geometry Dash",
           "originalURL": "https://robotik0.github.io/gd/",
           "createdAt": "2026-03-13T19:13:28.395Z",
-          "clicks": 8
+          "clicks": 14
         },
         "mp": {
           "id": "lnk_760w_wo81mXnFywNVJ7Bl6QNH7",
@@ -873,7 +873,7 @@
           "title": "Ragdoll Archers",
           "originalURL": "https://ra.help-blobigames.workers.dev/",
           "createdAt": "2026-03-13T19:09:53.370Z",
-          "clicks": 7
+          "clicks": 9
         },
         "ec": {
           "id": "lnk_760w_mfvsbNakedCom7damsfOD",
@@ -882,7 +882,7 @@
           "title": "Eaglercraft",
           "originalURL": "https://robotik0.github.io/ec/",
           "createdAt": "2026-03-13T19:07:33.291Z",
-          "clicks": 8
+          "clicks": 21
         },
         "blobs-fischen": {
           "id": "lnk_760w_flYtajtsyWMGJluTUqWYm",
@@ -891,11 +891,11 @@
           "title": "Blobs-Fischen",
           "originalURL": "https://robotik0.github.io/blobs-fischen/",
           "createdAt": "2026-03-13T18:55:54.082Z",
-          "clicks": 0
+          "clicks": 2
         }
       },
       "statistics": {
-        "clicks": 169,
+        "clicks": 306,
         "source": "batched-link-clicks"
       }
     },
