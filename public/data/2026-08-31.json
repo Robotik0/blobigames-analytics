@@ -2,7 +2,7 @@
   "date": "2026-08-31",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-09-01T16:40:15.032714Z",
+  "generatedAt": "2026-09-01T21:02:17.362770Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -44,7 +44,7 @@
           "path": "u",
           "displayPath": null,
           "title": "UNDERTALE",
-          "originalURL": "https://undertale-robotikanimation.wasmer.app/",
+          "originalURL": "https://scratchtale.netlify.app/",
           "createdAt": "2026-08-30T15:44:47.445Z"
         },
         {
@@ -124,7 +124,7 @@
           "path": "blobfisch-destructor",
           "displayPath": null,
           "title": "Blobfisch Destructor 0.2 DE 3 w Thumbnail",
-          "originalURL": "https://blobfisch-destructor.wasmer.app/",
+          "originalURL": "https://blobfisch-destructor.netlify.app/",
           "createdAt": "2026-08-26T19:17:04.988Z"
         },
         {
@@ -474,7 +474,7 @@
           "path": "u",
           "displayPath": null,
           "title": "UNDERTALE",
-          "originalURL": "https://undertale-robotikanimation.wasmer.app/",
+          "originalURL": "https://scratchtale.netlify.app/",
           "createdAt": "2026-08-30T15:44:47.445Z",
           "clicks": 0
         },
@@ -564,7 +564,7 @@
           "path": "blobfisch-destructor",
           "displayPath": null,
           "title": "Blobfisch Destructor 0.2 DE 3 w Thumbnail",
-          "originalURL": "https://blobfisch-destructor.wasmer.app/",
+          "originalURL": "https://blobfisch-destructor.netlify.app/",
           "createdAt": "2026-08-26T19:17:04.988Z",
           "clicks": 20
         },

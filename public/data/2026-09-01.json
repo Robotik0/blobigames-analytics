@@ -2,7 +2,7 @@
   "date": "2026-09-01",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-09-01T16:40:19.036987Z",
+  "generatedAt": "2026-09-01T21:02:20.298195Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -44,7 +44,7 @@
           "path": "u",
           "displayPath": null,
           "title": "UNDERTALE",
-          "originalURL": "https://undertale-robotikanimation.wasmer.app/",
+          "originalURL": "https://scratchtale.netlify.app/",
           "createdAt": "2026-08-30T15:44:47.445Z"
         },
         {
@@ -124,7 +124,7 @@
           "path": "blobfisch-destructor",
           "displayPath": null,
           "title": "Blobfisch Destructor 0.2 DE 3 w Thumbnail",
-          "originalURL": "https://blobfisch-destructor.wasmer.app/",
+          "originalURL": "https://blobfisch-destructor.netlify.app/",
           "createdAt": "2026-08-26T19:17:04.988Z"
         },
         {
@@ -449,7 +449,7 @@
           "title": "candyWorldMM",
           "originalURL": "https://cc.help-blobigames.workers.dev/",
           "createdAt": "2026-08-30T15:48:06.445Z",
-          "clicks": 1
+          "clicks": 2
         },
         "dm": {
           "id": "link_760w_034GCX7WF9PUguvXibNCqb",
@@ -458,7 +458,7 @@
           "title": "Drive Mad",
           "originalURL": "https://dm.help-blobigames.workers.dev/",
           "createdAt": "2026-08-30T15:46:22.623Z",
-          "clicks": 2
+          "clicks": 3
         },
         "hk": {
           "id": "link_760w_034GCWqnjmPBXJfkrqAwV7",
@@ -467,16 +467,16 @@
           "title": "Unity WebGL Player | Hollow Knight",
           "originalURL": "https://robotik0.github.io/hk/",
           "createdAt": "2026-08-30T15:46:11.990Z",
-          "clicks": 5
+          "clicks": 6
         },
         "u": {
           "id": "link_760w_034GCUhsHVOCy4lT8qIKQc",
           "path": "u",
           "displayPath": null,
           "title": "UNDERTALE",
-          "originalURL": "https://undertale-robotikanimation.wasmer.app/",
+          "originalURL": "https://scratchtale.netlify.app/",
           "createdAt": "2026-08-30T15:44:47.445Z",
-          "clicks": 2
+          "clicks": 4
         },
         "sabl": {
           "id": "link_760w_034GCTK5BQUkZMcn0M8ByB",
@@ -503,7 +503,7 @@
           "title": "basketball-real-ag",
           "originalURL": "https://br.help-blobigames.workers.dev/",
           "createdAt": "2026-08-30T15:43:22.900Z",
-          "clicks": 4
+          "clicks": 5
         },
         "sr": {
           "id": "link_760w_034GCSEF70fbixUF8thZ5f",
@@ -512,7 +512,7 @@
           "title": "Soccer-REAL-ag",
           "originalURL": "https://sr.help-blobigames.workers.dev/",
           "createdAt": "2026-08-30T15:43:09.731Z",
-          "clicks": 6
+          "clicks": 9
         },
         "slope": {
           "id": "link_760w_034GCRSphJ0RIEUq626gfr",
@@ -564,7 +564,7 @@
           "path": "blobfisch-destructor",
           "displayPath": null,
           "title": "Blobfisch Destructor 0.2 DE 3 w Thumbnail",
-          "originalURL": "https://blobfisch-destructor.wasmer.app/",
+          "originalURL": "https://blobfisch-destructor.netlify.app/",
           "createdAt": "2026-08-26T19:17:04.988Z",
           "clicks": 20
         },
@@ -602,7 +602,7 @@
           "title": "Blobi Road",
           "originalURL": "https://robotik0.github.io/blobi-road/",
           "createdAt": "2026-08-24T17:36:30.881Z",
-          "clicks": 8
+          "clicks": 9
         },
         "flappy-blob": {
           "id": "link_760w_034CpBLPCEOptB011YLQJo",
@@ -611,7 +611,7 @@
           "title": "Flappy Blob 0.2",
           "originalURL": "https://robotik0.github.io/flappy-blob/",
           "createdAt": "2026-08-24T17:35:42.205Z",
-          "clicks": 4
+          "clicks": 5
         },
         "g": {
           "id": "link_760w_034CBqgsJIakEp3jWyJvnx",
@@ -638,7 +638,7 @@
           "title": "Sandboxels - Experiment with Pixels",
           "originalURL": "https://robotik0.github.io/sb/",
           "createdAt": "2026-06-21T10:16:42.668Z",
-          "clicks": 9
+          "clicks": 11
         },
         "s2048": {
           "id": "lnk_760w_1DMBicDpA7JBajCisUmjh",
@@ -656,7 +656,7 @@
           "title": "FNAB Alpha 0.5.6 Lite 2",
           "originalURL": "https://fnab.help-blobigames.workers.dev/",
           "createdAt": "2026-06-20T14:32:10.500Z",
-          "clicks": 5
+          "clicks": 8
         },
         "wf": {
           "id": "lnk_760w_0EwbuluAWFdqnxI1JuV6v",
@@ -683,7 +683,7 @@
           "title": "Blobigames 2: Reimagined",
           "originalURL": "https://blobigames.nicepage.io/",
           "createdAt": "2026-04-17T11:22:14.909Z",
-          "clicks": 41
+          "clicks": 59
         },
         "blob-chat": {
           "id": "lnk_760w_yfR2PkFsHuqQwCwptpy8u",
@@ -728,7 +728,7 @@
           "title": "Blobfisch Defence",
           "originalURL": "https://robotik0.github.io/blobfisch-defence/",
           "createdAt": "2026-04-09T19:23:53.685Z",
-          "clicks": 6
+          "clicks": 7
         },
         "ld": {
           "id": "lnk_760w_YIbc9uvvbh9LvaYAGj7qE",
@@ -737,7 +737,7 @@
           "title": "Level Devil",
           "originalURL": "https://ld.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:38.432Z",
-          "clicks": 2
+          "clicks": 5
         },
         "smh": {
           "id": "lnk_760w_dHIpba7a9ZxoyeIEMutga",
@@ -746,7 +746,7 @@
           "title": "Stickman Hook Game",
           "originalURL": "https://smh.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:20.924Z",
-          "clicks": 8
+          "clicks": 10
         },
         "bb": {
           "id": "lnk_760w_5i2NWHAj49tOY9SCggTvN",
@@ -764,7 +764,7 @@
           "title": "Poxel.io | FPS io Game - Play Poxel io Online",
           "originalURL": "https://p.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:22:43.910Z",
-          "clicks": 2
+          "clicks": 4
         },
         "fz": {
           "id": "lnk_760w_h5yTFkNMmX4RQ5XQws06D",
@@ -782,7 +782,7 @@
           "title": "Snake.io | Fun Online Slither",
           "originalURL": "https://s.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:22:02.225Z",
-          "clicks": 2
+          "clicks": 4
         },
         "gs": {
           "id": "lnk_760w_GpfQ4fGC1jI6zUBC5em2h",
@@ -827,7 +827,7 @@
           "title": "Hills of Steel - Arcadrome",
           "originalURL": "https://hos.help-blobigames.workers.dev/",
           "createdAt": "2026-03-23T17:04:33.690Z",
-          "clicks": 5
+          "clicks": 7
         },
         "er": {
           "id": "lnk_760w_gij0vVTpUIqfyUgvPo08T",
@@ -836,7 +836,7 @@
           "title": "Escape Road 2 - Arcadrome",
           "originalURL": "https://er.help-blobigames.workers.dev/",
           "createdAt": "2026-03-22T07:23:54.539Z",
-          "clicks": 7
+          "clicks": 11
         },
         "ss": {
           "id": "lnk_760w_Mo7CqgsIKipWFfaivkMbQ",
@@ -845,7 +845,7 @@
           "title": "Subway Surfers Web",
           "originalURL": "https://ss.help-blobigames.workers.dev/",
           "createdAt": "2026-03-22T07:23:14.070Z",
-          "clicks": 3
+          "clicks": 7
         },
         "sbe": {
           "id": "lnk_760w_fFn9Ya4LRsd4x6fFFR499",
@@ -854,7 +854,7 @@
           "title": "Stunt Bike Extreme ",
           "originalURL": "https://storeg223.github.io/g66/class-948/",
           "createdAt": "2026-03-16T16:35:55.281Z",
-          "clicks": 5
+          "clicks": 14
         },
         "blob-gpt": {
           "id": "lnk_760w_K8YQTx3toBBhpfAmrEcWY",
@@ -863,7 +863,7 @@
           "title": "BlobGPT",
           "originalURL": "https://cdn.botpress.cloud/webchat/v3.6/shareable.html?configUrl=https://files.bpcontent.cloud/2026/03/13/12/20260313122133-TM1XEFKH.json",
           "createdAt": "2026-03-13T19:23:23.515Z",
-          "clicks": 3
+          "clicks": 7
         },
         "gd": {
           "id": "lnk_760w_lYlNwbD4LrhUtxNEJaxAx",
@@ -890,7 +890,7 @@
           "title": "Ragdoll Archers",
           "originalURL": "https://ra.help-blobigames.workers.dev/",
           "createdAt": "2026-03-13T19:09:53.370Z",
-          "clicks": 4
+          "clicks": 7
         },
         "ec": {
           "id": "lnk_760w_mfvsbNakedCom7damsfOD",
@@ -912,7 +912,7 @@
         }
       },
       "statistics": {
-        "clicks": 188,
+        "clicks": 258,
         "source": "batched-link-clicks"
       }
     },
@@ -1038,11 +1038,11 @@
           "title": "Scoot It! - YouTube",
           "originalURL": "https://www.youtube.com/@ScootIt/",
           "createdAt": "2026-03-25T14:57:33.406Z",
-          "clicks": 0
+          "clicks": 1
         }
       },
       "statistics": {
-        "clicks": 1,
+        "clicks": 2,
         "source": "batched-link-clicks"
       }
     }
