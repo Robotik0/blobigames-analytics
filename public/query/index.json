@@ -1,7 +1,7 @@
 {
   "version": "1",
   "archiveVersion": "5",
-  "generatedAt": "2026-09-04T04:33:08.825595Z",
+  "generatedAt": "2026-09-04T11:17:51.884937Z",
   "timezone": "Europe/Zurich",
   "links": {
     "blobigames.short.gy:link_760w_034ExP93RO5pidJhzH7USA": {
@@ -483,6 +483,14 @@
       "title": "🤍Toro🤍/🖤Kuro🖤 – WhatsApp-Kanal",
       "createdAt": "2026-08-31T18:54:45.591Z",
       "file": "links/8423ceb5c79e72dbddca5ba6abbff8a72847e6f8568e7a88bf6a7bc367863636.json"
+    },
+    "referral-blobigames.short.gy:link_7aVl_034Inldwneua06Ol8Idw15": {
+      "domain": "referral-blobigames.short.gy",
+      "id": "link_7aVl_034Inldwneua06Ol8Idw15",
+      "path": "sn",
+      "title": "Space News – WhatsApp-Kanal",
+      "createdAt": "2026-09-04T05:16:22.378Z",
+      "file": "links/1ff0475b35cfe8047d7f72be4fd3183f849d770ab782129b656fd0c79b4c9a22.json"
     }
   },
   "paths": {
@@ -494,7 +502,8 @@
       "blobigames.short.gy:link_760w_034E0Ldc8dmb9McE9TiARN"
     ],
     "sn": [
-      "blobigames.short.gy:link_760w_034DvwaEh52e2CG8v2KfaA"
+      "blobigames.short.gy:link_760w_034DvwaEh52e2CG8v2KfaA",
+      "referral-blobigames.short.gy:link_7aVl_034Inldwneua06Ol8Idw15"
     ],
     "mmlr": [
       "blobigames.short.gy:link_760w_034DLWlmCLVUY2NqzRZ7p4",

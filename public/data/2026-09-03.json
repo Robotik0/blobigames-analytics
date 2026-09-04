@@ -2,7 +2,7 @@
   "date": "2026-09-03",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-09-04T04:33:02.184646Z",
+  "generatedAt": "2026-09-04T11:17:46.698843Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -920,6 +920,14 @@
       "hostname": "referral-blobigames.short.gy",
       "links": [
         {
+          "id": "link_7aVl_034Inldwneua06Ol8Idw15",
+          "path": "sn",
+          "displayPath": null,
+          "title": "Space News – WhatsApp-Kanal",
+          "originalURL": "https://whatsapp.com/channel/0029VbBrCcV3QxS57MB6AB16",
+          "createdAt": "2026-09-04T05:16:22.378Z"
+        },
+        {
           "id": "link_7aVl_034GqUly5Ireb6QjyrpNc3",
           "path": "toro-kuro",
           "displayPath": null,
@@ -977,6 +985,15 @@
         }
       ],
       "linkClicks": {
+        "sn": {
+          "id": "link_7aVl_034Inldwneua06Ol8Idw15",
+          "path": "sn",
+          "displayPath": null,
+          "title": "Space News – WhatsApp-Kanal",
+          "originalURL": "https://whatsapp.com/channel/0029VbBrCcV3QxS57MB6AB16",
+          "createdAt": "2026-09-04T05:16:22.378Z",
+          "clicks": 0
+        },
         "toro-kuro": {
           "id": "link_7aVl_034GqUly5Ireb6QjyrpNc3",
           "path": "toro-kuro",
