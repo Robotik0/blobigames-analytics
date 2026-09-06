@@ -2,7 +2,7 @@
   "date": "2026-09-06",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-09-06T10:56:08.470251Z",
+  "generatedAt": "2026-09-06T15:28:06.396879Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -512,7 +512,7 @@
           "title": "Soccer-REAL-ag",
           "originalURL": "https://sr.help-blobigames.workers.dev/",
           "createdAt": "2026-08-30T15:43:09.731Z",
-          "clicks": 0
+          "clicks": 1
         },
         "slope": {
           "id": "link_760w_034GCRSphJ0RIEUq626gfr",
@@ -602,7 +602,7 @@
           "title": "Blobi Road",
           "originalURL": "https://robotik0.github.io/blobi-road/",
           "createdAt": "2026-08-24T17:36:30.881Z",
-          "clicks": 4
+          "clicks": 6
         },
         "flappy-blob": {
           "id": "link_760w_034CpBLPCEOptB011YLQJo",
@@ -611,7 +611,7 @@
           "title": "Flappy Blob 0.2",
           "originalURL": "https://robotik0.github.io/flappy-blob/",
           "createdAt": "2026-08-24T17:35:42.205Z",
-          "clicks": 3
+          "clicks": 4
         },
         "g": {
           "id": "link_760w_034CBqgsJIakEp3jWyJvnx",
@@ -656,7 +656,7 @@
           "title": "FNAB Alpha 0.5.6 Lite 2",
           "originalURL": "https://fnab.help-blobigames.workers.dev/",
           "createdAt": "2026-06-20T14:32:10.500Z",
-          "clicks": 4
+          "clicks": 6
         },
         "wf": {
           "id": "lnk_760w_0EwbuluAWFdqnxI1JuV6v",
@@ -665,7 +665,7 @@
           "title": "Referral from Wild&Free",
           "originalURL": "https://blobigames.nicepage.io/",
           "createdAt": "2026-04-21T17:13:28.279Z",
-          "clicks": 0
+          "clicks": 1
         },
         "blob-gpt2": {
           "id": "lnk_760w_ndV6v40ss4MVG9VUFy4pV",
@@ -683,7 +683,7 @@
           "title": "Main Referral from YT",
           "originalURL": "https://blobigames.nicepage.io/",
           "createdAt": "2026-04-17T11:22:14.909Z",
-          "clicks": 68
+          "clicks": 74
         },
         "blob-chat": {
           "id": "lnk_760w_yfR2PkFsHuqQwCwptpy8u",
@@ -737,7 +737,7 @@
           "title": "Level Devil",
           "originalURL": "https://ld.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:38.432Z",
-          "clicks": 1
+          "clicks": 2
         },
         "smh": {
           "id": "lnk_760w_dHIpba7a9ZxoyeIEMutga",
@@ -773,7 +773,7 @@
           "title": "Fortzone Battle Royale",
           "originalURL": "https://fz.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:22:24.040Z",
-          "clicks": 0
+          "clicks": 1
         },
         "s": {
           "id": "lnk_760w_LJn2wn1QdloEGxOAYjy2Q",
@@ -912,7 +912,7 @@
         }
       },
       "statistics": {
-        "clicks": 123,
+        "clicks": 138,
         "source": "batched-link-clicks"
       }
     },
@@ -1000,7 +1000,7 @@
           "title": null,
           "originalURL": "https://www.youtube.com/@blobigames",
           "createdAt": "2026-09-05T16:17:33.499Z",
-          "clicks": 25
+          "clicks": 28
         },
         "sn": {
           "id": "link_7aVl_034Inldwneua06Ol8Idw15",
@@ -1076,7 +1076,7 @@
         }
       },
       "statistics": {
-        "clicks": 25,
+        "clicks": 28,
         "source": "batched-link-clicks"
       }
     }
