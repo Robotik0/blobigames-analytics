@@ -2,11 +2,19 @@
   "date": "2026-09-10",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-09-11T11:20:54.106868Z",
+  "generatedAt": "2026-09-11T16:28:17.237851Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
       "links": [
+        {
+          "id": "link_760w_034MyMrDeLFM4Lf5VvU1ZA",
+          "path": "mg",
+          "displayPath": null,
+          "title": "Referral from Marvel Games",
+          "originalURL": "https://blobigames.nicepage.io",
+          "createdAt": "2026-09-11T12:53:51.115Z"
+        },
         {
           "id": "link_760w_034GorIPydcpeK97EsUvKR",
           "path": "tk",
@@ -433,6 +441,15 @@
         }
       ],
       "linkClicks": {
+        "mg": {
+          "id": "link_760w_034MyMrDeLFM4Lf5VvU1ZA",
+          "path": "mg",
+          "displayPath": null,
+          "title": "Referral from Marvel Games",
+          "originalURL": "https://blobigames.nicepage.io",
+          "createdAt": "2026-09-11T12:53:51.115Z",
+          "clicks": 0
+        },
         "tk": {
           "id": "link_760w_034GorIPydcpeK97EsUvKR",
           "path": "tk",

@@ -1,7 +1,7 @@
 {
   "version": "1",
   "archiveVersion": "5",
-  "generatedAt": "2026-09-11T11:21:00.384355Z",
+  "generatedAt": "2026-09-11T16:28:22.440154Z",
   "timezone": "Europe/Zurich",
   "links": {
     "blobigames.short.gy:link_760w_034ExP93RO5pidJhzH7USA": {
@@ -499,6 +499,14 @@
       "title": null,
       "createdAt": "2026-09-05T16:17:33.499Z",
       "file": "links/c4968397969ced06c601a7cb1d745c1a648dec5b7bf3965c9f1ce4fa7aa17bab.json"
+    },
+    "blobigames.short.gy:link_760w_034MyMrDeLFM4Lf5VvU1ZA": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034MyMrDeLFM4Lf5VvU1ZA",
+      "path": "mg",
+      "title": "Referral from Marvel Games",
+      "createdAt": "2026-09-11T12:53:51.115Z",
+      "file": "links/7be8b4c585de13e80b68326d55262de9d6b16df069374b37d13f0f07b02926ae.json"
     }
   },
   "paths": {
@@ -674,6 +682,9 @@
     ],
     "yt": [
       "referral-blobigames.short.gy:link_7aVl_034JdKgVFNk0YJynT8dN8E"
+    ],
+    "mg": [
+      "blobigames.short.gy:link_760w_034MyMrDeLFM4Lf5VvU1ZA"
     ]
   }
 }
