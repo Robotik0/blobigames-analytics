@@ -2,7 +2,7 @@
   "date": "2026-09-13",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-09-13T16:17:04.199426Z",
+  "generatedAt": "2026-09-13T20:49:53.460866Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -493,7 +493,7 @@
           "title": "UNDERTALE",
           "originalURL": "https://scratchtale.netlify.app/",
           "createdAt": "2026-08-30T15:44:47.445Z",
-          "clicks": 1
+          "clicks": 2
         },
         "sabl": {
           "id": "link_760w_034GCTK5BQUkZMcn0M8ByB",
@@ -511,7 +511,7 @@
           "title": "Blocky Puzzle",
           "originalURL": "https://blbl.help-blobigames.workers.dev/",
           "createdAt": "2026-08-30T15:43:39.673Z",
-          "clicks": 0
+          "clicks": 1
         },
         "br": {
           "id": "link_760w_034GCSYwpGFA98AG4nnqwH",
@@ -520,7 +520,7 @@
           "title": "basketball-real-ag",
           "originalURL": "https://br.help-blobigames.workers.dev/",
           "createdAt": "2026-08-30T15:43:22.900Z",
-          "clicks": 2
+          "clicks": 3
         },
         "sr": {
           "id": "link_760w_034GCSEF70fbixUF8thZ5f",
@@ -664,7 +664,7 @@
           "title": "Snake 2048.io - RocketGames",
           "originalURL": "https://s2048.help-blobigames.workers.dev/",
           "createdAt": "2026-06-21T09:36:50.587Z",
-          "clicks": 0
+          "clicks": 1
         },
         "fnab": {
           "id": "lnk_760w_6X6xY7RBXGWy9goxhZvah",
@@ -673,7 +673,7 @@
           "title": "FNAB Alpha 0.5.6 Lite 2",
           "originalURL": "https://fnab.help-blobigames.workers.dev/",
           "createdAt": "2026-06-20T14:32:10.500Z",
-          "clicks": 3
+          "clicks": 5
         },
         "wf": {
           "id": "lnk_760w_0EwbuluAWFdqnxI1JuV6v",
@@ -700,7 +700,7 @@
           "title": "Main Referral from YT",
           "originalURL": "https://blobigames.nicepage.io/",
           "createdAt": "2026-04-17T11:22:14.909Z",
-          "clicks": 66
+          "clicks": 91
         },
         "blob-chat": {
           "id": "lnk_760w_yfR2PkFsHuqQwCwptpy8u",
@@ -745,7 +745,7 @@
           "title": "Blobfisch Defence",
           "originalURL": "https://robotik0.github.io/blobfisch-defence/",
           "createdAt": "2026-04-09T19:23:53.685Z",
-          "clicks": 1
+          "clicks": 2
         },
         "ld": {
           "id": "lnk_760w_YIbc9uvvbh9LvaYAGj7qE",
@@ -763,7 +763,7 @@
           "title": "Stickman Hook Game",
           "originalURL": "https://smh.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:20.924Z",
-          "clicks": 2
+          "clicks": 3
         },
         "bb": {
           "id": "lnk_760w_5i2NWHAj49tOY9SCggTvN",
@@ -772,7 +772,7 @@
           "title": "Bullet Bros Unblocked - Play Bullet Bros on BulletBros.io",
           "originalURL": "https://bb.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:01.196Z",
-          "clicks": 3
+          "clicks": 4
         },
         "p": {
           "id": "lnk_760w_Q0lZoAi9uS9FhHH9zX4hi",
@@ -925,11 +925,11 @@
           "title": "Blobs-Fischen",
           "originalURL": "https://robotik0.github.io/blobs-fischen/",
           "createdAt": "2026-03-13T18:55:54.082Z",
-          "clicks": 0
+          "clicks": 1
         }
       },
       "statistics": {
-        "clicks": 117,
+        "clicks": 152,
         "source": "batched-link-clicks"
       }
     },
@@ -1017,7 +1017,7 @@
           "title": null,
           "originalURL": "https://www.youtube.com/@blobigames",
           "createdAt": "2026-09-05T16:17:33.499Z",
-          "clicks": 25
+          "clicks": 28
         },
         "sn": {
           "id": "link_7aVl_034Inldwneua06Ol8Idw15",
@@ -1093,7 +1093,7 @@
         }
       },
       "statistics": {
-        "clicks": 26,
+        "clicks": 29,
         "source": "batched-link-clicks"
       }
     }
