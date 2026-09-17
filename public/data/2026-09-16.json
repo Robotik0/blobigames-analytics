@@ -2,7 +2,7 @@
   "date": "2026-09-16",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-09-17T16:59:58.469452Z",
+  "generatedAt": "2026-09-17T21:22:03.302659Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -941,7 +941,7 @@
           "path": "yt",
           "displayPath": null,
           "title": null,
-          "originalURL": "https://www.youtube.com/@blobigames",
+          "originalURL": "https://www.youtube.com/shorts/fWOPVmjl-JQ",
           "createdAt": "2026-09-05T16:17:33.499Z"
         },
         {
@@ -1015,7 +1015,7 @@
           "path": "yt",
           "displayPath": null,
           "title": null,
-          "originalURL": "https://www.youtube.com/@blobigames",
+          "originalURL": "https://www.youtube.com/shorts/fWOPVmjl-JQ",
           "createdAt": "2026-09-05T16:17:33.499Z",
           "clicks": 160
         },
