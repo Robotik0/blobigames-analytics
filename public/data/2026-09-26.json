@@ -2,7 +2,7 @@
   "date": "2026-09-26",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-09-26T04:58:14.557675Z",
+  "generatedAt": "2026-09-26T11:24:54.850516Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -933,7 +933,7 @@
           "title": "Eaglercraft",
           "originalURL": "https://robotik0.github.io/ec/",
           "createdAt": "2026-03-13T19:07:33.291Z",
-          "clicks": 0
+          "clicks": 1
         },
         "blobs-fischen": {
           "id": "lnk_760w_flYtajtsyWMGJluTUqWYm",
@@ -946,7 +946,7 @@
         }
       },
       "statistics": {
-        "clicks": 13,
+        "clicks": 14,
         "source": "batched-link-clicks"
       }
     },
