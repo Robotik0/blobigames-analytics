@@ -2,7 +2,7 @@
   "date": "2026-10-01",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-10-02T05:36:45.477814Z",
+  "generatedAt": "2026-10-02T12:34:21.134136Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -108,7 +108,7 @@
           "path": "slope",
           "displayPath": null,
           "title": "Play Slope 2 Game Online!",
-          "originalURL": "https://slope.help-blobigames.workers.dev/",
+          "originalURL": "https://robotik0.github.io/slope/",
           "createdAt": "2026-08-30T15:42:39.577Z"
         },
         {
@@ -562,7 +562,7 @@
           "path": "slope",
           "displayPath": null,
           "title": "Play Slope 2 Game Online!",
-          "originalURL": "https://slope.help-blobigames.workers.dev/",
+          "originalURL": "https://robotik0.github.io/slope/",
           "createdAt": "2026-08-30T15:42:39.577Z",
           "clicks": 16
         },

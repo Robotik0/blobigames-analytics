@@ -2,7 +2,7 @@
   "date": "2026-10-02",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-10-02T05:36:48.674940Z",
+  "generatedAt": "2026-10-02T12:34:24.615788Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -108,7 +108,7 @@
           "path": "slope",
           "displayPath": null,
           "title": "Play Slope 2 Game Online!",
-          "originalURL": "https://slope.help-blobigames.workers.dev/",
+          "originalURL": "https://robotik0.github.io/slope/",
           "createdAt": "2026-08-30T15:42:39.577Z"
         },
         {
@@ -465,7 +465,7 @@
           "title": "Rreferral Main YT",
           "originalURL": "https://blobigames.nicepage.io",
           "createdAt": "2026-09-23T10:54:24.806Z",
-          "clicks": 8
+          "clicks": 23
         },
         "mg": {
           "id": "link_760w_034MyMrDeLFM4Lf5VvU1ZA",
@@ -501,7 +501,7 @@
           "title": "Drive Mad",
           "originalURL": "https://dm.help-blobigames.workers.dev/",
           "createdAt": "2026-08-30T15:46:22.623Z",
-          "clicks": 0
+          "clicks": 3
         },
         "hk": {
           "id": "link_760w_034GCWqnjmPBXJfkrqAwV7",
@@ -537,7 +537,7 @@
           "title": "Blocky Puzzle",
           "originalURL": "https://blbl.help-blobigames.workers.dev/",
           "createdAt": "2026-08-30T15:43:39.673Z",
-          "clicks": 0
+          "clicks": 2
         },
         "br": {
           "id": "link_760w_034GCSYwpGFA98AG4nnqwH",
@@ -562,9 +562,9 @@
           "path": "slope",
           "displayPath": null,
           "title": "Play Slope 2 Game Online!",
-          "originalURL": "https://slope.help-blobigames.workers.dev/",
+          "originalURL": "https://robotik0.github.io/slope/",
           "createdAt": "2026-08-30T15:42:39.577Z",
-          "clicks": 0
+          "clicks": 1
         },
         "c": {
           "id": "link_760w_034GCPZ2O6GRLjQb8QFLYi",
@@ -609,7 +609,7 @@
           "title": "Blobfisch Destructor 0.2 DE 3 w Thumbnail",
           "originalURL": "https://bd.blobiproxy.workers.dev",
           "createdAt": "2026-08-26T19:17:04.988Z",
-          "clicks": 0
+          "clicks": 1
         },
         "sn": {
           "id": "link_760w_034DvwaEh52e2CG8v2KfaA",
@@ -627,7 +627,7 @@
           "title": "Referral from MM&LR",
           "originalURL": "https://blobigames.nicepage.io",
           "createdAt": "2026-08-25T15:33:43.519Z",
-          "clicks": 0
+          "clicks": 1
         },
         "lm": {
           "id": "link_760w_034DLRTrwJkkwjlO8RdCrH",
@@ -645,7 +645,7 @@
           "title": "Blobi Road",
           "originalURL": "https://robotik0.github.io/blobi-road/",
           "createdAt": "2026-08-24T17:36:30.881Z",
-          "clicks": 0
+          "clicks": 2
         },
         "flappy-blob": {
           "id": "link_760w_034CpBLPCEOptB011YLQJo",
@@ -654,7 +654,7 @@
           "title": "Flappy Blob 0.2",
           "originalURL": "https://robotik0.github.io/flappy-blob/",
           "createdAt": "2026-08-24T17:35:42.205Z",
-          "clicks": 0
+          "clicks": 2
         },
         "g": {
           "id": "link_760w_034CBqgsJIakEp3jWyJvnx",
@@ -681,7 +681,7 @@
           "title": "Sandboxels - Experiment with Pixels",
           "originalURL": "https://robotik0.github.io/sb/",
           "createdAt": "2026-06-21T10:16:42.668Z",
-          "clicks": 0
+          "clicks": 1
         },
         "s2048": {
           "id": "lnk_760w_1DMBicDpA7JBajCisUmjh",
@@ -699,7 +699,7 @@
           "title": "FNAB Alpha 0.5.6 Lite 2",
           "originalURL": "https://fnab.help-blobigames.workers.dev/",
           "createdAt": "2026-06-20T14:32:10.500Z",
-          "clicks": 0
+          "clicks": 1
         },
         "wf": {
           "id": "lnk_760w_0EwbuluAWFdqnxI1JuV6v",
@@ -780,7 +780,7 @@
           "title": "Stickman Hook Game",
           "originalURL": "https://smh.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:20.924Z",
-          "clicks": 0
+          "clicks": 1
         },
         "bb": {
           "id": "lnk_760w_5i2NWHAj49tOY9SCggTvN",
@@ -816,7 +816,7 @@
           "title": "Snake.io | Fun Online Slither",
           "originalURL": "https://s.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:22:02.225Z",
-          "clicks": 0
+          "clicks": 1
         },
         "gs": {
           "id": "lnk_760w_GpfQ4fGC1jI6zUBC5em2h",
@@ -870,7 +870,7 @@
           "title": "Escape Road 2 - Arcadrome",
           "originalURL": "https://er.help-blobigames.workers.dev/",
           "createdAt": "2026-03-22T07:23:54.539Z",
-          "clicks": 0
+          "clicks": 2
         },
         "ss": {
           "id": "lnk_760w_Mo7CqgsIKipWFfaivkMbQ",
@@ -879,7 +879,7 @@
           "title": "Subway Surfers Web",
           "originalURL": "https://ss.help-blobigames.workers.dev/",
           "createdAt": "2026-03-22T07:23:14.070Z",
-          "clicks": 0
+          "clicks": 4
         },
         "sbe": {
           "id": "lnk_760w_fFn9Ya4LRsd4x6fFFR499",
@@ -888,7 +888,7 @@
           "title": "Stunt Bike Extreme ",
           "originalURL": "https://storeg223.github.io/g66/class-948/",
           "createdAt": "2026-03-16T16:35:55.281Z",
-          "clicks": 0
+          "clicks": 3
         },
         "blob-gpt": {
           "id": "lnk_760w_K8YQTx3toBBhpfAmrEcWY",
@@ -946,7 +946,7 @@
         }
       },
       "statistics": {
-        "clicks": 11,
+        "clicks": 51,
         "source": "batched-link-clicks"
       }
     },
@@ -1034,7 +1034,7 @@
           "title": null,
           "originalURL": "https://blobigames.nicepage.io/contact",
           "createdAt": "2026-09-05T16:17:33.499Z",
-          "clicks": 0
+          "clicks": 6
         },
         "sn": {
           "id": "link_7aVl_034Inldwneua06Ol8Idw15",
@@ -1110,7 +1110,7 @@
         }
       },
       "statistics": {
-        "clicks": 0,
+        "clicks": 6,
         "source": "batched-link-clicks"
       }
     }
