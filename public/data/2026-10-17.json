@@ -2,7 +2,7 @@
   "date": "2026-10-17",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-10-17T04:25:09.433127Z",
+  "generatedAt": "2026-10-17T10:43:33.482293Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -465,7 +465,7 @@
           "title": "Rreferral Main YT",
           "originalURL": "https://blobigames.nicepage.io",
           "createdAt": "2026-09-23T10:54:24.806Z",
-          "clicks": 14
+          "clicks": 15
         },
         "mg": {
           "id": "link_760w_034MyMrDeLFM4Lf5VvU1ZA",
@@ -528,7 +528,7 @@
           "title": "Sand Tetris",
           "originalURL": "https://sabl.help-blobigames.workers.dev/",
           "createdAt": "2026-08-30T15:43:52.879Z",
-          "clicks": 0
+          "clicks": 1
         },
         "blbl": {
           "id": "link_760w_034GCSzJrP04USLdF8Clat",
@@ -546,7 +546,7 @@
           "title": "basketball-real-ag",
           "originalURL": "https://br.help-blobigames.workers.dev/",
           "createdAt": "2026-08-30T15:43:22.900Z",
-          "clicks": 2
+          "clicks": 3
         },
         "sr": {
           "id": "link_760w_034GCSEF70fbixUF8thZ5f",
@@ -555,7 +555,7 @@
           "title": "Soccer-REAL-ag",
           "originalURL": "https://sr.help-blobigames.workers.dev/",
           "createdAt": "2026-08-30T15:43:09.731Z",
-          "clicks": 0
+          "clicks": 1
         },
         "slope": {
           "id": "link_760w_034GCRSphJ0RIEUq626gfr",
@@ -933,7 +933,7 @@
           "title": "Eaglercraft",
           "originalURL": "https://robotik0.github.io/ec/",
           "createdAt": "2026-03-13T19:07:33.291Z",
-          "clicks": 2
+          "clicks": 3
         },
         "blobs-fischen": {
           "id": "lnk_760w_flYtajtsyWMGJluTUqWYm",
@@ -946,7 +946,7 @@
         }
       },
       "statistics": {
-        "clicks": 32,
+        "clicks": 37,
         "source": "batched-link-clicks"
       }
     },
