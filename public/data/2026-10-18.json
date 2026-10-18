@@ -2,7 +2,7 @@
   "date": "2026-10-18",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-10-18T15:52:05.360313Z",
+  "generatedAt": "2026-10-18T20:42:35.932975Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -456,7 +456,7 @@
           "title": "Referral 404",
           "originalURL": "https://blobigames.nicepage.io/",
           "createdAt": "2026-09-23T11:06:15.081Z",
-          "clicks": 0
+          "clicks": 2
         },
         "link_760w_034TlVMsJ8rCAPhAYmFLDt": {
           "id": "link_760w_034TlVMsJ8rCAPhAYmFLDt",
@@ -465,7 +465,7 @@
           "title": "Rreferral Main YT",
           "originalURL": "https://blobigames.nicepage.io",
           "createdAt": "2026-09-23T10:54:24.806Z",
-          "clicks": 6
+          "clicks": 9
         },
         "mg": {
           "id": "link_760w_034MyMrDeLFM4Lf5VvU1ZA",
@@ -681,7 +681,7 @@
           "title": "Sandboxels - Experiment with Pixels",
           "originalURL": "https://robotik0.github.io/sb/",
           "createdAt": "2026-06-21T10:16:42.668Z",
-          "clicks": 1
+          "clicks": 3
         },
         "s2048": {
           "id": "lnk_760w_1DMBicDpA7JBajCisUmjh",
@@ -946,7 +946,7 @@
         }
       },
       "statistics": {
-        "clicks": 18,
+        "clicks": 25,
         "source": "batched-link-clicks"
       }
     },
