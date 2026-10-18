@@ -2,7 +2,7 @@
   "date": "2026-10-18",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-10-18T04:33:08.967794Z",
+  "generatedAt": "2026-10-18T11:04:10.904213Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -465,7 +465,7 @@
           "title": "Rreferral Main YT",
           "originalURL": "https://blobigames.nicepage.io",
           "createdAt": "2026-09-23T10:54:24.806Z",
-          "clicks": 4
+          "clicks": 5
         },
         "mg": {
           "id": "link_760w_034MyMrDeLFM4Lf5VvU1ZA",
@@ -946,7 +946,7 @@
         }
       },
       "statistics": {
-        "clicks": 16,
+        "clicks": 17,
         "source": "batched-link-clicks"
       }
     },
@@ -1088,7 +1088,7 @@
           "title": "🧸✨️🤎 𝙸𝚝𝚜 𝚞𝚜 🤎✨️🧸 – WhatsApp-Kanal",
           "originalURL": "https://whatsapp.com/channel/0029Vb7MJUPF1YlRs1x4nv2p",
           "createdAt": "2026-08-15T19:04:40.913Z",
-          "clicks": 1
+          "clicks": 2
         },
         "wild-and-free": {
           "id": "lnk_7aVl_516OeblPrWgRjFqIPNJpV",
@@ -1110,7 +1110,7 @@
         }
       },
       "statistics": {
-        "clicks": 5,
+        "clicks": 6,
         "source": "batched-link-clicks"
       }
     }
