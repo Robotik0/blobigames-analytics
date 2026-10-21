@@ -2,11 +2,19 @@
   "date": "2026-10-20",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-10-21T17:11:52.250164Z",
+  "generatedAt": "2026-10-21T21:42:37.951006Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
       "links": [
+        {
+          "id": "link_760w_034jsO2lJO58ZBfhFqgqY9",
+          "path": "poe",
+          "displayPath": null,
+          "title": "Referral from Poe",
+          "originalURL": "https://blobigames.nicepage.io",
+          "createdAt": "2026-10-21T17:16:59.715Z"
+        },
         {
           "id": "link_760w_034TlnNcBeMmIRwHPCZFzX",
           "path": "*",
@@ -449,6 +457,15 @@
         }
       ],
       "linkClicks": {
+        "poe": {
+          "id": "link_760w_034jsO2lJO58ZBfhFqgqY9",
+          "path": "poe",
+          "displayPath": null,
+          "title": "Referral from Poe",
+          "originalURL": "https://blobigames.nicepage.io",
+          "createdAt": "2026-10-21T17:16:59.715Z",
+          "clicks": 0
+        },
         "*": {
           "id": "link_760w_034TlnNcBeMmIRwHPCZFzX",
           "path": "*",
