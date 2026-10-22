@@ -2,11 +2,19 @@
   "date": "2026-10-21",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-10-22T11:51:52.189056Z",
+  "generatedAt": "2026-10-22T17:10:07.903064Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
       "links": [
+        {
+          "id": "link_760w_034kOwtW2U6QOCw9HSXl4K",
+          "path": "",
+          "displayPath": null,
+          "title": "Referral from YT - Main",
+          "originalURL": "https://blobigames.nicepage.io",
+          "createdAt": "2026-10-22T15:23:50.446Z"
+        },
         {
           "id": "link_760w_034jsO2lJO58ZBfhFqgqY9",
           "path": "poe",
@@ -22,14 +30,6 @@
           "title": "Referral 404",
           "originalURL": "https://blobigames.nicepage.io/",
           "createdAt": "2026-09-23T11:06:15.081Z"
-        },
-        {
-          "id": "link_760w_034TlVMsJ8rCAPhAYmFLDt",
-          "path": "",
-          "displayPath": null,
-          "title": "Rreferral Main YT",
-          "originalURL": "https://blobigames.nicepage.io",
-          "createdAt": "2026-09-23T10:54:24.806Z"
         },
         {
           "id": "link_760w_034MyMrDeLFM4Lf5VvU1ZA",
@@ -457,6 +457,15 @@
         }
       ],
       "linkClicks": {
+        "link_760w_034kOwtW2U6QOCw9HSXl4K": {
+          "id": "link_760w_034kOwtW2U6QOCw9HSXl4K",
+          "path": "",
+          "displayPath": null,
+          "title": "Referral from YT - Main",
+          "originalURL": "https://blobigames.nicepage.io",
+          "createdAt": "2026-10-22T15:23:50.446Z",
+          "clicks": 62
+        },
         "poe": {
           "id": "link_760w_034jsO2lJO58ZBfhFqgqY9",
           "path": "poe",
@@ -474,15 +483,6 @@
           "originalURL": "https://blobigames.nicepage.io/",
           "createdAt": "2026-09-23T11:06:15.081Z",
           "clicks": 4
-        },
-        "link_760w_034TlVMsJ8rCAPhAYmFLDt": {
-          "id": "link_760w_034TlVMsJ8rCAPhAYmFLDt",
-          "path": "",
-          "displayPath": null,
-          "title": "Rreferral Main YT",
-          "originalURL": "https://blobigames.nicepage.io",
-          "createdAt": "2026-09-23T10:54:24.806Z",
-          "clicks": 62
         },
         "mg": {
           "id": "link_760w_034MyMrDeLFM4Lf5VvU1ZA",

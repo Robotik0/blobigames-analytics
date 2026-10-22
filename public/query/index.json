@@ -1,7 +1,7 @@
 {
   "version": "1",
   "archiveVersion": "5",
-  "generatedAt": "2026-10-22T11:51:58.724472Z",
+  "generatedAt": "2026-10-22T17:10:15.659205Z",
   "timezone": "Europe/Zurich",
   "links": {
     "blobigames.short.gy:link_760w_034ExP93RO5pidJhzH7USA": {
@@ -531,6 +531,14 @@
       "title": "Referral from Poe",
       "createdAt": "2026-10-21T17:16:59.715Z",
       "file": "links/e5a83328972607ab3e0c151239892080ce037f40bd4c9c0a63634590df514269.json"
+    },
+    "blobigames.short.gy:link_760w_034kOwtW2U6QOCw9HSXl4K": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034kOwtW2U6QOCw9HSXl4K",
+      "path": "",
+      "title": "Referral from YT - Main",
+      "createdAt": "2026-10-22T15:23:50.446Z",
+      "file": "links/519f8fdc7e8ed11def9b621fc03e0ee02d9f4a2db0b39e16b4fae827790b7888.json"
     }
   },
   "paths": {
