@@ -2,11 +2,19 @@
   "date": "2026-10-21",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-10-22T17:10:07.903064Z",
+  "generatedAt": "2026-10-22T21:35:22.618143Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
       "links": [
+        {
+          "id": "link_760w_034kUOyYAa1l96esDYXWjD",
+          "path": "ft",
+          "displayPath": null,
+          "title": "Unity Web Player | Farm Town Game - Farm Land",
+          "originalURL": "https://robotik0.github.io/ft/",
+          "createdAt": "2026-10-22T19:06:02.231Z"
+        },
         {
           "id": "link_760w_034kOwtW2U6QOCw9HSXl4K",
           "path": "",
@@ -457,6 +465,15 @@
         }
       ],
       "linkClicks": {
+        "ft": {
+          "id": "link_760w_034kUOyYAa1l96esDYXWjD",
+          "path": "ft",
+          "displayPath": null,
+          "title": "Unity Web Player | Farm Town Game - Farm Land",
+          "originalURL": "https://robotik0.github.io/ft/",
+          "createdAt": "2026-10-22T19:06:02.231Z",
+          "clicks": 0
+        },
         "link_760w_034kOwtW2U6QOCw9HSXl4K": {
           "id": "link_760w_034kOwtW2U6QOCw9HSXl4K",
           "path": "",

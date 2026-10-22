@@ -1,7 +1,7 @@
 {
   "version": "1",
   "archiveVersion": "5",
-  "generatedAt": "2026-10-22T17:10:15.659205Z",
+  "generatedAt": "2026-10-22T21:35:30.061646Z",
   "timezone": "Europe/Zurich",
   "links": {
     "blobigames.short.gy:link_760w_034ExP93RO5pidJhzH7USA": {
@@ -532,6 +532,14 @@
       "createdAt": "2026-10-21T17:16:59.715Z",
       "file": "links/e5a83328972607ab3e0c151239892080ce037f40bd4c9c0a63634590df514269.json"
     },
+    "blobigames.short.gy:link_760w_034kUOyYAa1l96esDYXWjD": {
+      "domain": "blobigames.short.gy",
+      "id": "link_760w_034kUOyYAa1l96esDYXWjD",
+      "path": "ft",
+      "title": "Unity Web Player | Farm Town Game - Farm Land",
+      "createdAt": "2026-10-22T19:06:02.231Z",
+      "file": "links/a34f2bedeaeeedb511de6cbd5f05e89896b5c896abd575b18e9de91ccf2fca25.json"
+    },
     "blobigames.short.gy:link_760w_034kOwtW2U6QOCw9HSXl4K": {
       "domain": "blobigames.short.gy",
       "id": "link_760w_034kOwtW2U6QOCw9HSXl4K",
@@ -723,6 +731,9 @@
     ],
     "poe": [
       "blobigames.short.gy:link_760w_034jsO2lJO58ZBfhFqgqY9"
+    ],
+    "ft": [
+      "blobigames.short.gy:link_760w_034kUOyYAa1l96esDYXWjD"
     ]
   }
 }
