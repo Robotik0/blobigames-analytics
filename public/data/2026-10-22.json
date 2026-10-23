@@ -2,7 +2,7 @@
   "date": "2026-10-22",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-10-22T21:35:26.186766Z",
+  "generatedAt": "2026-10-23T04:48:31.616734Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -823,7 +823,7 @@
           "title": "Bullet Bros Unblocked - Play Bullet Bros on BulletBros.io",
           "originalURL": "https://bb.help-blobigames.workers.dev/",
           "createdAt": "2026-04-09T19:23:01.196Z",
-          "clicks": 7
+          "clicks": 10
         },
         "p": {
           "id": "lnk_760w_Q0lZoAi9uS9FhHH9zX4hi",
@@ -859,7 +859,7 @@
           "title": "GunSpin 0.1.4",
           "originalURL": "https://labgstore311.github.io/g5/class-533/",
           "createdAt": "2026-04-08T09:52:51.145Z",
-          "clicks": 6
+          "clicks": 11
         },
         "fnar": {
           "id": "lnk_760w_Kuol0AYjrTSw0XxGr5Iqb",
@@ -931,7 +931,7 @@
           "title": "BlobGPT",
           "originalURL": "https://cdn.botpress.cloud/webchat/v3.6/shareable.html?configUrl=https://files.bpcontent.cloud/2026/03/13/12/20260313122133-TM1XEFKH.json",
           "createdAt": "2026-03-13T19:23:23.515Z",
-          "clicks": 6
+          "clicks": 7
         },
         "gd": {
           "id": "lnk_760w_lYlNwbD4LrhUtxNEJaxAx",
@@ -940,7 +940,7 @@
           "title": "Geometry Dash",
           "originalURL": "https://robotik0.github.io/gd/",
           "createdAt": "2026-03-13T19:13:28.395Z",
-          "clicks": 6
+          "clicks": 10
         },
         "mp": {
           "id": "lnk_760w_wo81mXnFywNVJ7Bl6QNH7",
@@ -967,7 +967,7 @@
           "title": "Eaglercraft",
           "originalURL": "https://robotik0.github.io/ec/",
           "createdAt": "2026-03-13T19:07:33.291Z",
-          "clicks": 10
+          "clicks": 11
         },
         "blobs-fischen": {
           "id": "lnk_760w_flYtajtsyWMGJluTUqWYm",
@@ -980,7 +980,7 @@
         }
       },
       "statistics": {
-        "clicks": 349,
+        "clicks": 363,
         "source": "batched-link-clicks"
       }
     },
@@ -1068,7 +1068,7 @@
           "title": null,
           "originalURL": "https://blobigames.nicepage.io/contact",
           "createdAt": "2026-09-05T16:17:33.499Z",
-          "clicks": 73
+          "clicks": 79
         },
         "sn": {
           "id": "link_7aVl_034Inldwneua06Ol8Idw15",
@@ -1144,7 +1144,7 @@
         }
       },
       "statistics": {
-        "clicks": 76,
+        "clicks": 82,
         "source": "batched-link-clicks"
       }
     }
