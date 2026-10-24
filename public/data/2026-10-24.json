@@ -2,7 +2,7 @@
   "date": "2026-10-24",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-10-24T10:59:23.413315Z",
+  "generatedAt": "2026-10-24T15:56:30.576634Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -481,7 +481,7 @@
           "title": "Referral from YT - Main",
           "originalURL": "https://blobigames.nicepage.io",
           "createdAt": "2026-10-22T15:23:50.446Z",
-          "clicks": 16
+          "clicks": 17
         },
         "poe": {
           "id": "link_760w_034jsO2lJO58ZBfhFqgqY9",
@@ -778,7 +778,7 @@
           "title": "Verteidige den Turm 2",
           "originalURL": "https://robotik0.github.io/verteidige-den-turm/",
           "createdAt": "2026-04-09T19:28:32.724Z",
-          "clicks": 0
+          "clicks": 1
         },
         "blobfisch-wanderung": {
           "id": "lnk_760w_EufD4BDBB6glhKrOWrQES",
@@ -904,7 +904,7 @@
           "title": "Escape Road 2 - Arcadrome",
           "originalURL": "https://er.help-blobigames.workers.dev/",
           "createdAt": "2026-03-22T07:23:54.539Z",
-          "clicks": 1
+          "clicks": 3
         },
         "ss": {
           "id": "lnk_760w_Mo7CqgsIKipWFfaivkMbQ",
@@ -967,7 +967,7 @@
           "title": "Eaglercraft",
           "originalURL": "https://robotik0.github.io/ec/",
           "createdAt": "2026-03-13T19:07:33.291Z",
-          "clicks": 6
+          "clicks": 7
         },
         "blobs-fischen": {
           "id": "lnk_760w_flYtajtsyWMGJluTUqWYm",
@@ -980,7 +980,7 @@
         }
       },
       "statistics": {
-        "clicks": 51,
+        "clicks": 56,
         "source": "batched-link-clicks"
       }
     },
@@ -1122,7 +1122,7 @@
           "title": "🧸✨️🤎 𝙸𝚝𝚜 𝚞𝚜 🤎✨️🧸 – WhatsApp-Kanal",
           "originalURL": "https://whatsapp.com/channel/0029Vb7MJUPF1YlRs1x4nv2p",
           "createdAt": "2026-08-15T19:04:40.913Z",
-          "clicks": 0
+          "clicks": 1
         },
         "wild-and-free": {
           "id": "lnk_7aVl_516OeblPrWgRjFqIPNJpV",
@@ -1144,7 +1144,7 @@
         }
       },
       "statistics": {
-        "clicks": 9,
+        "clicks": 10,
         "source": "batched-link-clicks"
       }
     }
