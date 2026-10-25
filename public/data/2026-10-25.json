@@ -2,7 +2,7 @@
   "date": "2026-10-25",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-10-25T16:18:14.939147Z",
+  "generatedAt": "2026-10-25T20:50:37.620500Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -481,7 +481,7 @@
           "title": "Referral from YT - Main",
           "originalURL": "https://blobigames.nicepage.io",
           "createdAt": "2026-10-22T15:23:50.446Z",
-          "clicks": 15
+          "clicks": 20
         },
         "poe": {
           "id": "link_760w_034jsO2lJO58ZBfhFqgqY9",
@@ -607,7 +607,7 @@
           "title": "Chess Gibbons",
           "originalURL": "https://chess.gibbons.fr/",
           "createdAt": "2026-08-30T15:41:24.656Z",
-          "clicks": 1
+          "clicks": 2
         },
         "blobfisch-survivors": {
           "id": "link_760w_034GAIgdhF23eIKr5pfHI4",
@@ -715,7 +715,7 @@
           "title": "Sandboxels - Experiment with Pixels",
           "originalURL": "https://robotik0.github.io/sb/",
           "createdAt": "2026-06-21T10:16:42.668Z",
-          "clicks": 1
+          "clicks": 3
         },
         "s2048": {
           "id": "lnk_760w_1DMBicDpA7JBajCisUmjh",
@@ -922,7 +922,7 @@
           "title": "Stunt Bike Extreme ",
           "originalURL": "https://storeg223.github.io/g66/class-948/",
           "createdAt": "2026-03-16T16:35:55.281Z",
-          "clicks": 6
+          "clicks": 7
         },
         "blob-gpt": {
           "id": "lnk_760w_K8YQTx3toBBhpfAmrEcWY",
@@ -931,7 +931,7 @@
           "title": "BlobGPT",
           "originalURL": "https://cdn.botpress.cloud/webchat/v3.6/shareable.html?configUrl=https://files.bpcontent.cloud/2026/03/13/12/20260313122133-TM1XEFKH.json",
           "createdAt": "2026-03-13T19:23:23.515Z",
-          "clicks": 0
+          "clicks": 1
         },
         "gd": {
           "id": "lnk_760w_lYlNwbD4LrhUtxNEJaxAx",
@@ -958,7 +958,7 @@
           "title": "Ragdoll Archers",
           "originalURL": "https://ra.help-blobigames.workers.dev/",
           "createdAt": "2026-03-13T19:09:53.370Z",
-          "clicks": 2
+          "clicks": 3
         },
         "ec": {
           "id": "lnk_760w_mfvsbNakedCom7damsfOD",
@@ -980,7 +980,7 @@
         }
       },
       "statistics": {
-        "clicks": 43,
+        "clicks": 54,
         "source": "batched-link-clicks"
       }
     },
