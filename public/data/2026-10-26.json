@@ -2,7 +2,7 @@
   "date": "2026-10-26",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-10-26T22:39:39.711718Z",
+  "generatedAt": "2026-10-27T05:04:05.920114Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -481,7 +481,7 @@
           "title": "Referral from YT - Main",
           "originalURL": "https://blobigames.nicepage.io",
           "createdAt": "2026-10-22T15:23:50.446Z",
-          "clicks": 56
+          "clicks": 58
         },
         "poe": {
           "id": "link_760w_034jsO2lJO58ZBfhFqgqY9",
@@ -980,7 +980,7 @@
         }
       },
       "statistics": {
-        "clicks": 330,
+        "clicks": 332,
         "source": "batched-link-clicks"
       }
     },
