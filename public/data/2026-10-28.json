@@ -2,7 +2,7 @@
   "date": "2026-10-28",
   "archiveVersion": "5",
   "timezone": "Europe/Zurich",
-  "generatedAt": "2026-10-28T22:34:38.812254Z",
+  "generatedAt": "2026-10-29T05:47:57.708852Z",
   "domains": {
     "blobigames.short.gy": {
       "hostname": "blobigames.short.gy",
@@ -571,7 +571,7 @@
           "title": "Blocky Puzzle",
           "originalURL": "https://blbl.help-blobigames.workers.dev/",
           "createdAt": "2026-08-30T15:43:39.673Z",
-          "clicks": 10
+          "clicks": 11
         },
         "br": {
           "id": "link_760w_034GCSYwpGFA98AG4nnqwH",
@@ -980,7 +980,7 @@
         }
       },
       "statistics": {
-        "clicks": 364,
+        "clicks": 365,
         "source": "batched-link-clicks"
       }
     },
